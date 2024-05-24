@@ -1,7 +1,5 @@
-from tkinter import *
-import time
-from time import sleep
 import pygame
+from tkinter import *
 pygame.init()
 win = Tk()
 win.geometry("972x565")
@@ -20,7 +18,7 @@ selection4 = Label(win, bg="gray14", fg="gold", text="", width=5)
 selection5 = Label(win, bg="gray14", fg="gold", text="", width=5)
 selection6 = Label(win, bg="gray14", fg="gold", text="", width=5)
 selection7 = Label(win, bg="gray14", fg="gold", text="", width=5)
-selection8 = Label(win, bg="gray14", fg="gold", text="",width=5)
+selection8 = Label(win, bg="gray14", fg="gold", text="", width=5)
 itw_i = Label(win, text="I", bg="black", fg="gold", font=digitalbard_font, justify="left")
 itw_t = Label(win, text="They", bg="black", fg="gold", font=digitalbard_font, justify="left")
 itw_w = Label(win, text="We", bg="black", fg="gold", font=digitalbard_font, justify="left")
@@ -186,11 +184,13 @@ def letschoose_itw_i():
     selection1.config(text="I")
     cue1("I")
 
+
 def letschoose_itw_t():
     button_boom("itw")
     button_display("ots")
     selection1.config(text="They")
     cue1("They")
+
 
 def letschoose_itw_w():
     button_boom("itw")
@@ -198,11 +198,13 @@ def letschoose_itw_w():
     selection1.config(text="We")
     cue1("We")
 
+
 def letschoose_ots_o():
     button_boom("ots")
     button_display("lwt")
     selection2.config(text="Old")
     cue2("Old")
+
 
 def letschoose_ots_t():
     button_boom("ots")
@@ -210,11 +212,13 @@ def letschoose_ots_t():
     selection2.config(text="Tall")
     cue2("Tall")
 
+
 def letschoose_ots_s():
     button_boom("ots")
     button_display("lwt")
     selection2.config(text="Sad")
     cue2("Sad")
+
 
 def letschoose_lwt_l():
     button_boom("lwt")
@@ -222,98 +226,110 @@ def letschoose_lwt_l():
     selection3.config(text="Leave")
     cue3("Leave")
 
+
 def letschoose_lwt_w():
     button_boom("lwt")
     button_display("jtf")
     selection3.config(text="Watch")
     cue3("Watch")
 
+
 def letschoose_lwt_t():
     button_boom("lwt")
     button_display("jtf")
     selection3.config(text="Trust")
-    cue3("Trust")
+    cue3(choice="Trust")
+
 
 def letschoose_jtf_j():
     button_boom("jtf")
     button_display("tntof")
     selection4.config(text="Johnny")
-    cue4("Johnny")
+    cue4(choice="Johnny")
+
 
 def letschoose_jtf_t():
     button_boom("jtf")
     button_display("tntof")
     selection4.config(text="Timmy")
-    cue4("Timmy")
+    cue4(choice="Timmy")
+
 
 def letschoose_jtf_f():
     button_boom("jtf")
     button_display("tntof")
     selection4.config(text="Frodo")
-    cue4("Frodo")
+    cue4(choice="Frodo")
+
 
 def letschoosetntof_t():
     button_boom("tntof")
     button_display("pbf")
     selection5.config(text="Tomorrow")
-    cue5("Tomorrow")
+    cue5(choice="Tomorrow")
+
 
 def letschoosetntof_nt():
     button_boom("tntof")
     button_display("pbf")
     selection5.config(text="Next Tuesday")
-    cue5("Next Tuesday")
+    cue5(choice="Next Tuesday")
+
 
 def letschoosetntof_of():
     button_boom("tntof")
     button_display("pbf")
     selection5.config(text="On Friday")
-    cue5("On Friday")
+    cue5(choice="On Friday")
+
 
 def letschoosepbf_p():
     button_boom("pbf")
     button_display("lsw")
     selection6.config(text="Pay")
-    cue6("Pay")
+    cue6(choice="Pay")
+
 
 def letschoosepbf_b():
     button_boom("pbf")
     button_display("lsw")
     selection6.config(text="Bell")
-    cue6("Bell")
+    cue6(choice="Bell")
+
 
 def letschoosepbf_f():
     button_boom("pbf")
     button_display("lsw")
     selection6.config(text="Fish")
-    cue6("Fish")
+    cue6(choice="Fish")
+
 
 def letschooselsw_l():
     button_boom("lsw")
     button_display("fcw")
     selection7.config(text="Long")
-    cue7("Long")
+    cue7(choice="Long")
 
 
 def letschooselsw_s():
     button_boom("lsw")
     button_display("fcw")
     selection7.config(text="Short")
-    cue7("Short")
+    cue7(choice="Short")
 
 
 def letschooselsw_w():
     button_boom("lsw")
     button_display("fcw")
     selection7.config(text="Wild")
-    cue7("Wild")
+    cue7(choice="Short")
 
 
 def letschoosefcw_f():
     button_boom("fcw")
     interview()
     selection8.config(text="Foul")
-    cue8("Foul")
+    cue8(choice="Foul")
 
 
 def interview():
@@ -331,7 +347,7 @@ def letschoosefcw_c():
     button_boom("fcw")
     interview()
     selection8.config(text="Cold")
-    cue8("Cold")
+    cue8(choice="Cold")
 
 
 def herewego():
@@ -343,14 +359,21 @@ def herewego():
     selection6.grid(row=6, column=1, padx=10, pady=10, sticky=W)
     selection7.grid(row=7, column=1, padx=10, pady=10, sticky=W)
     selection8.grid(row=8, column=1, padx=10, pady=10, sticky=W)
-    heresyoursong()
-
+    button_heresyoursong.grid(row=9, column=1, padx=10, pady=10, sticky=W)
 
 def letschoosefcw_w():
     button_boom("fcw")
     interview()
     selection8.config(text="Weird")
-    cue8("Weird")
+    cue8(choice="Weird")
+
+
+def isiton():
+    while True:
+        if not play.get_busy():
+            break
+        else:
+            continue
 
 
 def clip(soundfile):
@@ -371,89 +394,185 @@ def clip(soundfile):
             if soundfile == "05":
                 play = pygame.mixer.Sound("interview05.mp3").play()
                 break
-        while True:
-            if not play.get_busy():
-                break
-            else:
-                continue
+        isiton()
+
 
 def cue1(choice):
     if choice == "I":
-    if choice == "We":
+        track01 = "I"
     if choice == "They":
+        track02 = "They"
+    if choice == "We":
+        track03 = "We"
+
+
 def cue2(choice):
-    if choice == "I":
-    if choice == "We":
-    if choice == "They":
-def cue3(choice):
     if choice == "Old":
+        track04 = "Old"
     if choice == "Tall":
+        track05 = pygame.mixer.Sound("tt.mp3")
     if choice == "Sad":
+        track06 = pygame.mixer.Sound("ts.mp3")
 
+
+def cue3(choice):
+    if choice == "Leave":
+        track07 = pygame.mixer.Sound("lher_one.mp3")
+        track06 = pygame.mixer.Sound("lher_two.mp3")
+        track10 = pygame.mixer.Sound("tlher_one.mp3")
+        track11 = pygame.mixer.Sound("lher_one.mp3")
+        track13 = pygame.mixer.Sound("lher_two.mp3")
+        track14 = pygame.mixer.Sound("olher_one.mp3")
+        track16 = pygame.mixer.Sound("lher_three.mp3")
+        track20 = pygame.mixer.Sound("tlher_one.mp3")
+        track22 = pygame.mixer.Sound("lher_one.mp3")
+        track24 = pygame.mixer.Sound("lher_two.mp3")
+        track27 = pygame.mixer.Sound("tlher_one.mp3")
+        track28 = pygame.mixer.Sound("lher_one.mp3")
+        track30 = pygame.mixer.Sound("lher_two.mp3")
+        track31 = pygame.mixer.Sound("olher_one.mp3")
+        track33 = pygame.mixer.Sound("lher_three.mp3")
+        track37 = pygame.mixer.Sound("tlher_one.mp3")
+        track38 = pygame.mixer.Sound("lher_one.mp3")
+        track40 = pygame.mixer.Sound("lher_two.mp3")
+        track41 = pygame.mixer.Sound("olher_one.mp3")
+        track43 = pygame.mixer.Sound("lher_three.mp3")
+        track47 = pygame.mixer.Sound("tlher_one.mp3")
+        track06 = pygame.mixer.Sound("lher_two.mp3")
+        track10 = pygame.mixer.Sound("tlher_one.mp3")
+        track11 = pygame.mixer.Sound("lher_one.mp3")
+        track13 = pygame.mixer.Sound("lher_two.mp3")
+        track14 = pygame.mixer.Sound("olher_one.mp3")
+        track16 = pygame.mixer.Sound("lher_three.mp3")
+        track20 = pygame.mixer.Sound("tlher_one.mp3")
+        track22 = pygame.mixer.Sound("lher_one.mp3")
+        track24 = pygame.mixer.Sound("lher_two.mp3")
+        track27 = pygame.mixer.Sound("tlher_one.mp3")
+        track28 = pygame.mixer.Sound("lher_one.mp3")
+        track30 = pygame.mixer.Sound("lher_two.mp3")
+        track31 = pygame.mixer.Sound("olher_one.mp3")
+        track33 = pygame.mixer.Sound("lher_three.mp3")
+        track37 = pygame.mixer.Sound("tlher_one.mp3")
+        track38 = pygame.mixer.Sound("lher_one.mp3")
+        track40 = pygame.mixer.Sound("lher_two.mp3")
+        track41 = pygame.mixer.Sound("olher_one.mp3")
+        track43 = pygame.mixer.Sound("lher_three.mp3")
+        track47 = pygame.mixer.Sound("tlher_one.mp3")
+    if choice == "Watch":
+        track04 = pygame.mixer.Sound("wher_one.mp3")
+        track06 = pygame.mixer.Sound("wher_two.mp3")
+        track10 = pygame.mixer.Sound("twher_one.mp3")
+        track11 = pygame.mixer.Sound("wher_one.mp3")
+        track13 = pygame.mixer.Sound("wher_two.mp3")
+        track14 = pygame.mixer.Sound("owher_one.mp3")
+        track16 = pygame.mixer.Sound("wher_three.mp3")
+        track20 = pygame.mixer.Sound("twher_one.mp3")
+        track22 = pygame.mixer.Sound("wher_one.mp3")
+        track24 = pygame.mixer.Sound("wher_two.mp3")
+        track27 = pygame.mixer.Sound("twher_one.mp3")
+        track28 = pygame.mixer.Sound("wher_one.mp3")
+        track30 = pygame.mixer.Sound("wher_two.mp3")
+        track31 = pygame.mixer.Sound("owher_one.mp3")
+        track33 = pygame.mixer.Sound("wher_three.mp3")
+        track37 = pygame.mixer.Sound("twher_one.mp3")
+        track38 = pygame.mixer.Sound("wher_one.mp3")
+        track40 = pygame.mixer.Sound("wher_two.mp3")
+        track41 = pygame.mixer.Sound("owher_one.mp3")
+        track43 = pygame.mixer.Sound("wher_three.mp3")
+        track47 = pygame.mixer.Sound("twher_one.mp3")
+    if choice == "Trust":
+        track04 = pygame.mixer.Sound("trher_one.mp3")
+        track06 = pygame.mixer.Sound("trher_two.mp3")
+        track10 = pygame.mixer.Sound("ttrher_one.mp3")
+        track11 = pygame.mixer.Sound("trher_one.mp3")
+        track13 = pygame.mixer.Sound("trher_two.mp3")
+        track14 = pygame.mixer.Sound("otrher_one.mp3")
+        track16 = pygame.mixer.Sound("trher_three.mp3")
+        track20 = pygame.mixer.Sound("ttrher_one.mp3")
+        track22 = pygame.mixer.Sound("trher_one.mp3")
+        track24 = pygame.mixer.Sound("trher_two.mp3")
+        track27 = pygame.mixer.Sound("ttrher_one.mp3")
+        track28 = pygame.mixer.Sound("trher_one.mp3")
+        track30 = pygame.mixer.Sound("trher_two.mp3")
+        track31 = pygame.mixer.Sound("otrher_one.mp3")
+        track33 = pygame.mixer.Sound("trher_three.mp3")
+        track37 = pygame.mixer.Sound("ttrher_one.mp3")
+        track38 = pygame.mixer.Sound("trher_one.mp3")
+        track40 = pygame.mixer.Sound("trher_two.mp3")
+        track41 = pygame.mixer.Sound("otrher_one.mp3")
+        track43 = pygame.mixer.Sound("trher_three.mp3")
+        track47 = pygame.mixer.Sound("ttrher_one.mp3")
 def cue4(choice):
-    if choice == "Leave":
-    if choice == "Watch":
-    if choice == "Trust":
-
-def cue5(choice):
     if choice == "Johnny":
+        track05 = pygame.mixer.Sound("johnny_one.mp3")
+        track12 = pygame.mixer.Sound("johnny_one.mp3")
+        track15 = pygame.mixer.Sound("johnny_two.mp3")
+        track23 = pygame.mixer.Sound("johnny_one.mp3")
+        track29 = pygame.mixer.Sound("johnny_one.mp3")
+        track32 = pygame.mixer.Sound("johnny_two.mp3")
+        track39 = pygame.mixer.Sound("johnny_one.mp3")
+        track42 = pygame.mixer.Sound("johnny_one.mp3")
     if choice == "Timmy":
+        track05 = pygame.mixer.Sound("timmy_one.mp3")
+        track12 = pygame.mixer.Sound("timmy_one.mp3")
+        track15 = pygame.mixer.Sound("timmy_two.mp3")
+        track23 = pygame.mixer.Sound("timmy_one.mp3")
+        track29 = pygame.mixer.Sound("timmy_one.mp3")
+        track32 = pygame.mixer.Sound("timmy_two.mp3")
+        track39 = pygame.mixer.Sound("timmy_one.mp3")
+        track42 = pygame.mixer.Sound("timmy_one.mp3")
     if choice == "Frodo":
-
+        track05 = pygame.mixer.Sound("frodo_one.mp3")
+        track12 = pygame.mixer.Sound("frodo_one.mp3")
+        track15 = pygame.mixer.Sound("frodo_two.mp3")
+        track23 = pygame.mixer.Sound("frodo_one.mp3")
+        track29 = pygame.mixer.Sound("frodo_one.mp3")
+        track32 = pygame.mixer.Sound("frodo_two.mp3")
+        track39 = pygame.mixer.Sound("frodo_one.mp3")
+        track42 = pygame.mixer.Sound("frodo_one.mp3")
 def cue5(choice):
-    if choice == "Leave":
-    if choice == "Watch":
-    if choice == "Trust":
-
-def cue6(choice):
     if choice == "Tomorrow":
+        track07 = pygame.mixer.Sound("tyw.mp3")
     if choice == "Next Tuesday":
+        track07 = pygame.mixer.Sound("ntyw.mp3")
     if choice == "On Friday":
+        track07 = pygame.mixer.Sound("ofyw.mp3")
 
-def cue7(choice):
-    if choice == "Leave":
-    if choice == "Watch":
-    if choice == "Trust":
-
-def cue8(choice):
-    if choice == "Leave":
-    if choice == "Watch":
-    if choice == "Trust":
-def cue9(choice):
-    if choice == "Johnny":
-    if choice == "Timmy":
-    if choice == "Frodo":
-
-def cue10(choice):
-    if choice == "Leave":
-    if choice == "Watch":
-    if choice == "Trust":
-def cue11(choice):
-    if choice == "Leave":
-    if choice == "Watch":
-    if choice == "Trust":
-def cue12(choice):
-    if choice == "Johnny":
-    if choice == "Timmy":
-    if choice == "Frodo":
-
-        def cue10(choice):
-            if choice == "Leave":
-                if choice == "Watch":
-                    if choice == "Trust":
-def cue4(choice):
-
-def cue5(choice):
 
 def cue6(choice):
+    if choice == "Pay":
+        track08 = pygame.mixer.Sound("getyp.mp3")
+    if choice == "Bell":
+        track08 = pygame.mixer.Sound("getyb.mp3")
+    if choice == "Fish":
+        track08 = pygame.mixer.Sound("getyf.mp3")
+
 
 def cue7(choice):
+    if choice == "Long":
+        track17 = pygame.mixer.Sound("ftvil.mp3")
+        track34 = pygame.mixer.Sound("ftvil.mp3")
+        track44 = pygame.mixer.Sound("ftvil.mp3")
+    if choice == "Short":
+        track17 = pygame.mixer.Sound("ftvis.mp3")
+        track34 = pygame.mixer.Sound("ftvis.mp3")
+        track44 = pygame.mixer.Sound("ftvis.mp3")
+    if choice == "Wild":
+        track17 = pygame.mixer.Sound("ftviw.mp3")
+        track34 = pygame.mixer.Sound("ftviw.mp3")
+        track44 = pygame.mixer.Sound("ftviw.mp3")
 
 def cue8(choice):
+    if choice == "Foul":
+        track21 = pygame.mixer.Sound("otwwfatsrh.mp3")
+    if choice == "Cold":
+        track21 = pygame.mixer.Sound("otwwcatsrh.mp3")
+    if choice == "Weird":
+        track21 = pygame.mixer.Sound("otwwwatsrh.mp3")
+
 
 def heresyoursong():
-    while True:
-
+    line1 = track01.play
 
 
 button_itw_i = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="1", command=letschoose_itw_i)
@@ -468,7 +587,7 @@ button_lwt_t = Button(win, bg="forest green", fg="black", font=digitalbard_font,
 button_jtf_j = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="1", command=letschoose_jtf_j)
 button_jtf_t = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="2", command=letschoose_jtf_t)
 button_jtf_f = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="3", command=letschoose_jtf_f)
-button_tntof_t = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="1", 
+button_tntof_t = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="1",
                         command=letschoosetntof_t)
 button_tntof_nt = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="2",
                          command=letschoosetntof_nt)
@@ -483,6 +602,7 @@ button_lsw_w = Button(win, bg="forest green", fg="black", font=digitalbard_font,
 button_fcw_f = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="1", command=letschoosefcw_f)
 button_fcw_c = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="2", command=letschoosefcw_c)
 button_fcw_w = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="3", command=letschoosefcw_w)
+button_heresyoursong = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="Click to hear your customized song", command=heresyoursong)
 # print("Photo by Kostiantyn Klymovets: https://www.pexels.com/photo/man-playing-lute-on-urban-steps-12831481/")
 pygame.mixer.music.load("scarborough_fair.mp3")
 pygame.mixer.music.play(-1)
