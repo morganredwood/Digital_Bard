@@ -909,221 +909,221 @@ def part(number, track):
             play = pygame.mixer.Sound("timmy_one.mp3").play()
         if track == "13":
             play = pygame.mixer.Sound("frodo_one.mp3").play()
-        if track == "":
+        if track == "14":
             play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "":
+        if track == "15":
             play = pygame.mixer.Sound("wher_two.mp3").play()
-        if track == "":
+        if track == "16":
             play = pygame.mixer.Sound("trher_two.mp3").play()
-        if track == "":
+        if track == "17":
             play = pygame.mixer.Sound("tyw.mp3").play()
-        if track == "":
+        if track == "18":
             play = pygame.mixer.Sound("ntyw.mp3").play()
-        if track == "":
+        if track == "19":
             play = pygame.mixer.Sound("ofyw.mp3").play()
-        if track == "":
+        if track == "20":
             play = pygame.mixer.Sound("getyp.mp3").play()
-        if track == "":
+        if track == "21":
             play = pygame.mixer.Sound("getyb.mp3").play()
-        if track == "":
+        if track == "22":
             play = pygame.mixer.Sound("getyf.mp3").play()
-        if track == "":
+        if track == "23":
             play = pygame.mixer.Sound("aitfu.mp3").play()
-        if track == "":
+        if track == "24":
             play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "":
+        if track == "25":
             play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "":
+        if track == "26":
             play = pygame.mixer.Sound("ttrher_one.mp3").play()
-        if track == "":
+        if track == "27":
             play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "":
+        if track == "28":
             play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "":
+        if track == "29":
             play = pygame.mixer.Sound("trher_one.mp3").play()
-        if track == "":
+        if track == "30":
             play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "":
+        if track == "31":
             play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "":
+        if track == "32":
             play = pygame.mixer.Sound("frodo_one.mp3").play()
-        if track == "":
+        if track == "33":
             play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "":
+        if track == "34":
             play = pygame.mixer.Sound("wher_two.mp3.").play()
-        if track == "":
+        if track == "35":
             play = pygame.mixer.Sound("trher_two.mp3").play()
-        if track == "":
+        if track == "36":
             play = pygame.mixer.Sound("olher_one.mp3").play()
-        if track == "":
+        if track == "37":
             play = pygame.mixer.Sound("owher_one.mp3").play()
-        if track == "":
+        if track == "38":
             play = pygame.mixer.Sound("otrher_one.mp3").play()
-        if track == "":
+        if track == "39":
             play = pygame.mixer.Sound("johnny_two.mp3").play()
-        if track == "":
+        if track == "40":
             play = pygame.mixer.Sound("timmy_two.mp3").play()
-        if track == "":
+        if track == "41":
             play = pygame.mixer.Sound("frodo_two.mp3").play()
-        if track == "":
+        if track == "42":
             play = pygame.mixer.Sound("lher_three.mp3").play()
-        if track == "":
+        if track == "43":
             play = pygame.mixer.Sound("wher_three.mp3").play()
-        if track == "":
+        if track == "44":
             play = pygame.mixer.Sound("trher_three.mp3").play()
-        if track == "":
+        if track == "45":
             play = pygame.mixer.Sound("ftvil.mp3").play()
-        if track == "":
+        if track == "46":
             play = pygame.mixer.Sound("ftvis.mp3").play()
-        if track == "":
+        if track == "47":
             play = pygame.mixer.Sound("ftviw.mp3").play()
-        if track == "":
+        if track == "48":
             play = pygame.mixer.Sound("atwdb.mp3").play()
-        if track == "":
+        if track == "49":
             play = pygame.mixer.Sound("aitfu.mp3").play()
-        if track == "":
+        if track == "50":
             play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "":
+        if track == "51":
             play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "":
+        if track == "52":
             play = pygame.mixer.Sound("ttrher_one.mp3").play()
-        if track == "":
+        if track == "53":
             play = pygame.mixer.Sound("otwwfatsrh.mp3").play()
-        if track == "":
+        if track == "54":
             play = pygame.mixer.Sound("otwwcatsrh.mp3").play()
-        if track == "":
+        if track == "55":
             play = pygame.mixer.Sound("otwwwatsrh.mp3").play()
-        if track == "":
+        if track == "56":
             play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "":
+        if track == "57":
             play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "":
+        if track == "58":
             play = pygame.mixer.Sound("trher_one.mp3").play()
-        if track == "":
+        if track == "59":
             play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "":
+        if track == "60":
             play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "":
+        if track == "61":
             play = pygame.mixer.Sound("frodo_one.mp3").play()
-        if track == "":
+        if track == "62":
             play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "":
+        if track == "63":
             play = pygame.mixer.Sound("wher_two.mp3").play()
-        if track == "":
+        if track == "64":
             play = pygame.mixer.Sound("trher_two.mp3").play()
-        if track == "":
+        if track == "65":
             play = pygame.mixer.Sound("ssiganwb.mp3").play()
-        if track == "":
+        if track == "66":
             play = pygame.mixer.Sound("aitfu.mp3").play()
-        if track == "":
+        if track == "67":
             play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "":
+        if track == "68":
             play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "":
+        if track == "69":
             play = pygame.mixer.Sound("ttrher_one.mp3").play()
-        if track == "":
+        if track == "70":
             play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "":
+        if track == "71":
             play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "":
+        if track == "72":
             play = pygame.mixer.Sound("trher_one.mp3").play()
-        if track == "":
+        if track == "73":
             play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "":
+        if track == "74":
             play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "":
+        if track == "75":
             play = pygame.mixer.Sound("frodo_one.mp3").play()
-        if track == "":
+        if track == "76":
             play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "":
+        if track == "77":
             play = pygame.mixer.Sound("wher_two.mp3").play()
-        if track == "":
+        if track == "78":
             play = pygame.mixer.Sound("trher_two.mp3").play()
-        if track == "":
+        if track == "79":
             play = pygame.mixer.Sound("olher_one.mp3").play()
-        if track == "":
+        if track == "80":
             play = pygame.mixer.Sound("owher_one.mp3").play()
-        if track == "":
+        if track == "81":
             play = pygame.mixer.Sound("otrher_one.mp3").play()
-        if track == "":
+        if track == "82":
             play = pygame.mixer.Sound("johnny_two.mp3").play()
-        if track == "":
+        if track == "83":
             play = pygame.mixer.Sound("timmy_two.mp3").play()
-        if track == "":
+        if track == "84":
             play = pygame.mixer.Sound("frodo_one.mp3").play()
-        if track == "":
+        if track == "85":
             play = pygame.mixer.Sound("lher_three.mp3").play()
-        if track == "":
+        if track == "86":
             play = pygame.mixer.Sound("wher_three.mp3").play()
-        if track == "":
+        if track == "87":
             play = pygame.mixer.Sound("trher_three.mp3").play()
-        if track == "":
+        if track == "88":
             play = pygame.mixer.Sound("ftvil.mp3").play()
-        if track == "":
+        if track == "89":
             play = pygame.mixer.Sound("ftvis.mp3").play()
-        if track == "":
+        if track == "90":
             play = pygame.mixer.Sound("ftviw.mp3").play()
-        if track == "":
+        if track == "91":
             play = pygame.mixer.Sound("atwdb.mp3").play()
-        if track == "":
+        if track == "92":
             play = pygame.mixer.Sound("aitfu.mp3").play()
-        if track == "":
+        if track == "93":
             play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "":
+        if track == "94":
             play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "":
+        if track == "95":
             play = pygame.mixer.Sound("ttrher_one.mp3").play()
-        if track == "":
+        if track == "96":
             play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "":
+        if track == "97":
             play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "":
+        if track == "98":
             play = pygame.mixer.Sound("trher_one.mp3").play()
-        if track == "":
+        if track == "99":
             play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "":
+        if track == "100":
             play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "":
+        if track == "101":
             play = pygame.mixer.Sound("frodo_one.mp3").play()
-        if track == "":
+        if track == "102":
             play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "":
+        if track == "103":
             play = pygame.mixer.Sound("wher_two.mp3").play()
-        if track == "":
+        if track == "104":
             play = pygame.mixer.Sound("trher_two.mp3").play()
-        if track == "":
+        if track == "105":
             play = pygame.mixer.Sound("olher_one.mp3").play()
-        if track == "":
+        if track == "106":
             play = pygame.mixer.Sound("owher_one.mp3").play()
-        if track == "":
+        if track == "107":
             play = pygame.mixer.Sound("otrher_one.mp3").play()
-        if track == "":
+        if track == "108":
             play = pygame.mixer.Sound("johnny_two.mp3").play()
-        if track == "":
+        if track == "109":
             play = pygame.mixer.Sound("timmy_two.mp3").play()
-        if track == "":
+        if track == "110":
             play = pygame.mixer.Sound("frodo_two.mp3").play()
-        if track == "":
+        if track == "111":
             play = pygame.mixer.Sound("lher_three.mp3").play()
-        if track == "":
+        if track == "112":
             play = pygame.mixer.Sound("wher_three.mp3").play()
-        if track == "":
+        if track == "113":
             play = pygame.mixer.Sound("trher_three.mp3").play()
-        if track == "":
+        if track == "114":
             play = pygame.mixer.Sound("ftvil.mp3").play()
-        if track == "":
+        if track == "115":
             play = pygame.mixer.Sound("ftvis.mp3").play()
-        if track == "":
+        if track == "116":
             play = pygame.mixer.Sound("ftviw.mp3").play()
-        if track == "":
+        if track == "117":
             play = pygame.mixer.Sound("atwdb.mp3").play()
-        if track == "":
+        if track == "118":
             play = pygame.mixer.Sound("aitfu.mp3").play()
-        if track == "":
+        if track == "119":
             play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "":
+        if track == "120":
             play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "":
+        if track == "121":
             play = pygame.mixer.Sound("ttrher_one.mp3").play()
 
 
@@ -1135,131 +1135,414 @@ def playlist(track1, track2, track3, track4, track5, track6, track7, track8, tra
     pygame.mixer.music.unload()
     while True:
         if track1 == "I thought I heard":
-            part(number="1", track="1")
+            part(number="", track="1")
+            break
         if track1 == "They thought they heard":
-            track("2")
+            part(number="", track="2")
+            break
         if track1 == "We thought we heard":
-            track("3")
+            part(number="", track="3")
+            break
     while True:
         if track2 == "The Old":
+            part(number="", track="4")
+            break
         if track2 == "The Tall":
+            part(number="", track="5")
+            break
         if track2 == "The Sad":
+            part(number="", track="6")
+            break
     while True:
         if track3 == "Man say":
+            part(number="", track="7")
+            break
     while True:
         if track4 == "Leave her":
+            part(number="", track="8")
+            break
         if track4 == "Watch her":
+            part(number="", track="9")
+            break
         if track4 == "Trust her":
+            part(number="", track="10")
+            break
     while True:
         if track5 == "Johnny":
+            part(number="", track="11")
+            break
         if track5 == "Timmy":
+            part(number="", track="12")
+            break
         if track5 == "Frodo":
+            part(number="", track="13")
+            break
     while True:
         if track6 == "Leave her":
+            part(number="", track="14")
+            break
         if track6 == "Watch her":
+            part(number="", track="15")
+            break
         if track6 == "Trust her":
+            part(number="", track="16")
+            break
     while True:
         if track7 == "Tomorrow, ye will":
+            part(number="", track="17")
+            break
         if track7 == "Next Tuesday, ye will":
+            part(number="", track="18")
+            break
         if track7 == "On Friday, ye will":
+            part(number="", track="19")
+            break
     while True:
         if track8 == "Get your pay":
+            part(number="", track="20")
+            break
         if track8 == "Get your bell":
+            part(number="", track="21")
+            break
         if track8 == "Get your fish":
+            part(number="", track="22")
+            break
     while True:
         if track9 == "And it's time for us":
+            part(number="", track="23")
+            break
     while True:
         if track10 == "To leave her":
+            part(number="", track="24")
+            break
         if track10 == "To watch her":
+            part(number="", track="25")
+            break
         if track10 == "To trust her":
+            part(number="", track="26")
+            break
     while True:
         if track11 == "Leave her":
+            part(number="", track="27")
+            break
         if track11 == "Watch her":
+            part(number="", track="28")
+            break
         if track11 == "Trust her":
+            part(number="", track="29")
+            break
     while True:
         if track12 == "Johnny":
+            part(number="", track="30")
+            break
         if track12 == "Timmy":
+            part(number="", track="31")
+            break
         if track12 == "Frodo":
+            part(number="", track="32")
+            break
     while True:
         if track13 == "Leave her":
+            part(number="", track="33")
+            break
         if track13 == "Watch her":
+            part(number="", track="34")
+            break
         if track13 == "Trust her":
+            part(number="", track="35")
+            break
     while True:
         if track14 == "Oh, leave her":
+            part(number="", track="36")
+            break
         if track14 == "Oh, watch her":
+            part(number="", track="37")
+            break
         if track14 == "Oh, trust her":
+            part(number="", track="38")
+            break
     while True:
         if track15 == "Johnny":
+            part(number="", track="39")
+            break
         if track15 == "Timmy":
+            part(number="", track="40")
+            break
         if track15 == "Frodo":
+            part(number="", track="41")
+            break
     while True:
         if track16 == "Leave her":
+            part(number="", track="42")
+            break
         if track16 == "Watch her":
+            part(number="", track="43")
+            break
         if track16 == "Trust her":
+            part(number="", track="44")
+            break
     while True:
         if track17 == "For the voyage is long":
+            part(number="", track="45")
+            break
+        if track17 == "For the voyage is short":
+            part(number="", track="46")
+            break
+        if track18 == "For the voyage is wild":
+            part(number="", track="47")
+            break
     while True:
         if track18 == "And the winds don't blow":
+            part(number="", track="48")
+            break
     while True:
         if track19 == "And it's time for us":
+            part(number="", track="49")
+            break
     while True:
         if track20 == "To leave her":
+            part(number="", track="50")
+            break
+        if track20 == "To watch her":
+            part(number="", track="51")
+            break
+        if track20 == "To trust her":
+            part(number="", track="52")
+            break
     while True:
-        if track21 == "Oh, the wind was foul, and the sea ran high"
+        if track21 == "Oh, the wind was foul, and the sea ran high":
+            part(number="", track="53")
+            break
+        if track21 == "Oh, the wind was cold, and the sea ran high":
+            part(number="", track="54")
+            break
+        if track21 == "Oh, the wind was weird, and the sea ran high":
+            part(number="", track="55")
+            break
     while True:
-        if track22 == "Leave her"
+        if track22 == "Leave her":
+            part(number="", track="56")
+            break
+        if track22 == "Watch her":
+            part(number="", track="57")
+            break
+        if track22 == "Trust her":
+            part(number="", track="58")
+            break
     while True:
-        if track23 == "Johnny"
+        if track23 == "Johnny":
+            part(number="", track="59")
+            break
+        if track23 == "Timmy":
+            part(number="", track="60")
+            break
+        if track23 == "Frodo":
+            part(number="", track="61")
+            break
     while True:
-        if track24 == "Leave her"
+        if track24 == "Leave her":
+            part(number="", track="62")
+            break
+        if track24 == "Watch her":
+            part(number="", track="63")
+            break
+        if track24 == "Trust her":
+            part(number="", track="64")
+            break
     while True:
-        if track25 == "She shipped it green, and none went by"
+        if track25 == "She shipped it green, and none went by":
+            part(number="", track="65")
+            break
     while True:
-        if track26 == "And it's time for us"
+        if track26 == "And it's time for us":
+            part(number="", track="66")
+            break
     while True:
-        if track27 == "To leave her"
+        if track27 == "To leave her":
+            part(number="", track="67")
+            break
+        if track27 == "To watch her":
+            part(number="", track="68")
+            break
+        if track27 == "To trust her":
+            part(number="", track="69")
+            break
     while True:
-        if track28 == "Leave her"
+        if track28 == "Leave her":
+            part(number="", track="70")
+            break
+        if track28 == "Watch her":
+            part(number="", track="71")
+            break
+        if track28 == "Trust her":
+            part(number="", track="72")
+            break
     while True:
-        if track29 == "Johnny"
+        if track29 == "Johnny":
+            part(number="", track="73")
+            break
+        if track29 == "Timmy":
+            part(number="", track="74")
+            break
+        if track29 == "Frodo":
+            part(number="", track="75")
+            break
     while True:
-        if track30 == "Leave her"
+        if track30 == "Leave her":
+            part(number="", track="76")
+            break
+        if track30 == "Watch her":
+            part(number="", track="77")
+            break
+        if track30 == "Trust her":
+            part(number="", track="78")
+            break
     while True:
-        if track31 == "Oh, leave her"
+        if track31 == "Oh, leave her":
+            part(number="", track="79")
+            break
+        if track31 == "Oh, watch her":
+            part(number="", track="80")
+            break
+        if track31 == "Oh, trust her":
+            part(number="", track="81")
+            break
     while True:
-        if track32 == "Johnny"
+        if track32 == "Johnny":
+            part(number="", track="82")
+            break
+        if track32 == "Timmy":
+            part(number="", track="83")
+            break
+        if track32 == "Frodo":
+            part(number="", track="84")
+            break
     while True:
-        if track33 == "Leave her"
+        if track33 == "Leave her":
+            part(number="", track="85")
+            break
+        if track33 == "Watch her":
+            part(number="", track="86")
+            break
+        if track33 == "Trust her":
+            part(number="", track="87")
+            break
     while True:
-        if track34 == "For the voyage is long"
+        if track34 == "For the voyage is long":
+            part(number="", track="88")
+            break
+        if track34 == "For the voyage is short":
+            part(number="", track="89")
+            break
+        if track34 == "For the voyage is wild":
+            part(number="", track="90")
+            break
     while True:
-        if track35 == "And the winds don't blow"
+        if track35 == "And the winds don't blow":
+            part(number="", track="91")
+            break
     while True:
-        if track36 == "And it's time for us"
+        if track36 == "And it's time for us":
+            part(number="", track="92")
+            break
     while True:
-        if track37 == "To leave her"
+        if track37 == "To leave her":
+            part(number="", track="93")
+            break
+        if track37 == "To watch her":
+            part(number="", track="94")
+            break
+        if track37 == "To trust her":
+            part(number="", track="95")
+            break
     while True:
-        if track38 == "Leave her"
+        if track38 == "Leave her":
+            part(number="", track="96")
+            break
+        if track38 == "Watch her":
+            part(number="", track="97")
+            break
+        if track38 == "Trust her":
+            part(number="", track="98")
+            break
     while True:
-        if track39 == "Johnny"
+        if track39 == "Johnny":
+            part(number="", track="99")
+            break
+        if track39 == "Timmy":
+            part(number="", track="100")
+            break
+        if track39 == "Frodo":
+            part(number="", track="101")
+            break
     while True:
         if track40 == "Leave her":
+            part(number="", track="102")
+            break
+        if track40 == "Watch her":
+            part(number="", track="103")
+            break
+        if track40 == "Trust her":
+            part(number="", track="104")
+            break
     while True:
-        if track41 == "Oh, leave her"
+        if track41 == "Oh, leave her":
+            part(number="", track="105")
+            break
+        if track41 == "Oh, watch her":
+            part(number="", track="106")
+            break
+        if track41 == "Oh, trust her":
+            part(number="", track="107")
+            break
     while True:
-        if track42 == "Johnny"
+        if track42 == "Johnny":
+            part(number="", track="108")
+            break
+        if track42 == "Timmy":
+            part(number="", track="109")
+            break
+        if track42 == "Frodo":
+            part(number="", track="110")
+            break
     while True:
-        if track43 == "Leave her"
+        if track43 == "Leave her":
+            part(number="", track="111")
+            break
+        if track43 == "Watch her":
+            part(number="", track="112")
+            break
+        if track43 == "Trust her":
+            part(number="", track="113")
+            break
     while True:
-        if track44 == "For the voyage is long"
+        if track44 == "For the voyage is long":
+            part(number="", track="114")
+            break
+        if track44 == "For the voyage is short":
+            part(number="", track="115")
+            break
+        if track44 == "For the voyage is wild":
+            part(number="", track="116")
+            break
     while True:
-        if track45 == "And the winds don't blow"
+        if track45 == "And the winds don't blow":
+            part(number="", track="117")
+            break
     while True:
-        if track46 == "And it's time for us"
+        if track46 == "And it's time for us":
+            part(number="", track="118")
+            break
     while True:
-        if track47 == "To leave her"
-
-
+        if track47 == "To leave her":
+            part(number="", track="119")
+            break
+        if track47 == "To watch her":
+            part(number="", track="120")
+            break
+        if track47 == "To trust her":
+            part(number="", track="121")
+            break
 button_itw_i = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="1", command=letschoose_itw_i)
 button_itw_t = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="2", command=letschoose_itw_t)
 button_itw_w = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="3", command=letschoose_itw_w)
