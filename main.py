@@ -679,150 +679,412 @@ def cuethevideo():
 
 def gimme_my_song():
     # This actually plays the song
-    pass
+    pygame.mixer.music.play()
 
 
+#   I thought I heard
 def dj1(tracknumber):
+    pygame.mixer.music.unload()
+    if tracknumber == "1":
+        pygame.mixer.music.load("itih.mp3")
+    if tracknumber == "2":
+        pygame.mixer.music.load("ttth.mp3")
+    if tracknumber == "3":
+        pygame.mixer.music.load("wtwh.mp3")
 
 
+#   The Old Man say
 def dj2(tracknumber):
+    if tracknumber == "4":
+        pygame.mixer.music.queue("to.mp3")
+    if tracknumber == "5":
+        pygame.mixer.music.queue("tt.mp3")
+    if tracknumber == "6":
+        pygame.mixer.music.queue("ts.mp3")
 
 
 def dj3(tracknumber):
+    if tracknumber == "7":
+        pygame.mixer.music.queue("ms.mp3")
 
 
+#   Leave her, Johnny, leave her
 def dj4(tracknumber):
-
-
-def dj4(tracknumber):
+    if tracknumber == "8":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if tracknumber == "9":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if tracknumber == "10":
+        pygame.mixer.music.queue("trher_one.mp3")
 
 
 def dj5(tracknumber):
+    if tracknumber == "11":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if tracknumber == "12":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if tracknumber == "13":
+        pygame.mixer.music.queue("frodo_one.mp3")
 
 
 def dj6(tracknumber):
+    if tracknumber == "14":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if tracknumber == "15":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if tracknumber == "16":
+        pygame.mixer.music.queue("trher_two.mp3")
 
 
+#   Tomorrow, ye will get your pay
 def dj7(tracknumber):
+    if tracknumber == "17":
+        pygame.mixer.music.queue("tyw.mp3")
+    if tracknumber == "18":
+        pygame.mixer.music.queue("ntyw.mp3")
+    if tracknumber == "19":
+        pygame.mixer.music.queue("ofyw.mp3")
 
 
 def dj8(tracknumber):
+    if tracknumber == "20":
+        pygame.mixer.music.queue("getyp.mp3")
+    if tracknumber == "21":
+        pygame.mixer.music.queue("getyb.mp3")
+    if tracknumber == "22":
+        pygame.mixer.music.queue("getyf.mp3")
 
 
+#   And it's time for us to leave her
 def dj9(tracknumber):
+    if tracknumber == "23":
+        pygame.mixer.music.queue("aitfu.mp3")
 
 
 def dj10(tracknumber):
+    if tracknumber == "24":
+        pygame.mixer.music.queue("tlher_one.mp3")
+    if tracknumber == "25":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if tracknumber == "26":
+        pygame.mixer.music.queue("ttrher_one.mp3")
 
 
+#   Leave her, Johnny, leave her
 def dj11(tracknumber):
+    if tracknumber == "27":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if tracknumber == "28":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if tracknumber == "29":
+        pygame.mixer.music.queue("trher_one.mp3")
+
 
 def dj12(tracknumber):
+    if tracknumber == "30":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if tracknumber == "31":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if tracknumber == "32":
+        pygame.mixer.music.queue("frodo_one.mp3")
 
 
 def dj13(tracknumber):
+    if tracknumber == "33":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if tracknumber == "34":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if tracknumber == "35":
+        pygame.mixer.music.queue("trher_two.mp3")
 
 
+#   Oh, leave her, Johnny, leave her
 def dj14(tracknumber):
+    if tracknumber == "36":
+        pygame.mixer.music.queue("olher_one.mp3")
+    if tracknumber == "37":
+        pygame.mixer.music.queue("olher_one.mp3")
+    if tracknumber == "38":
+        pygame.mixer.music.queue("olher_one.mp3")
 
 
 def dj15(tracknumber):
+    if tracknumber == "39":
+        pygame.mixer.music.queue("johnny_two.mp3")
+    if tracknumber == "40":
+        pygame.mixer.music.queue("timmy_two.mp3")
+    if tracknumber == "41":
+        pygame.mixer.music.queue("frodo_two.mp3")
 
 
 def dj16(tracknumber):
+    if tracknumber == "42":
+        pygame.mixer.music.queue("lher_three.mp3")
+    if tracknumber == "43":
+        pygame.mixer.music.queue("wher_three.mp3")
+    if tracknumber == "44":
+        pygame.mixer.music.queue("trher_three.mp3")
 
 
+#   For the voyage is long, and the winds don't blow
 def dj17(tracknumber):
+    if tracknumber == "45":
+        pygame.mixer.music.queue("ftvil.mp3")
+    if tracknumber == "46":
+        pygame.mixer.music.queue("ftvis.mp3")
+    if tracknumber == "47":
+        pygame.mixer.music.queue("ftviw.mp3")
 
 
 def dj18(tracknumber):
+    if tracknumber == "48":
+        pygame.mixer.music.queue("atwdb.mp3")
 
 
+#   And it's time for us to leave her
 def dj19(tracknumber):
+    if tracknumber == "49":
+        pygame.mixer.music.queue("aitfu.mp3")
 
 
 def dj20(tracknumber):
+    if tracknumber == "50":
+        pygame.mixer.music.queue("tlher_one.mp3 ")
+    if tracknumber == "51":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if tracknumber == "52":
+        pygame.mixer.music.queue("ttrher_one.mp3")
 
 
+#   Oh, the wind was foul, and the sea ran high
 def dj21(tracknumber):
+    if tracknumber == "53":
+        pygame.mixer.music.queue("otwwfatsrh.mp3")
+    if tracknumber == "54":
+        pygame.mixer.music.queue("otwwcatsrh.mp3")
+    if tracknumber == "55":
+        pygame.mixer.music.queue("otwwwatsrh.mp3")
 
 
+#   Leave her, Johnny, leave her
 def dj22(tracknumber):
+    if tracknumber == "56":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if tracknumber == "57":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if tracknumber == "58":
+        pygame.mixer.music.queue("trher_one.mp3")
 
 
 def dj23(tracknumber):
+    if tracknumber == "59":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if tracknumber == "60":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if tracknumber == "61":
+        pygame.mixer.music.queue("frodo_one.mp3")
 
 
 def dj24(tracknumber):
+    if tracknumber == "62":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if tracknumber == "63":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if tracknumber == "64":
+        pygame.mixer.music.queue("trher_two.mp3")
 
 
+#   She shipped it green, and none went by
 def dj25(tracknumber):
+    if tracknumber == "65":
+        pygame.mixer.music.queue("ssiganwb.mp3")
+#   And it's time for us to leave her
 
 
 def dj26(tracknumber):
+    if tracknumber == "66":
+        pygame.mixer.music.queue("aitfu.mp3")
 
 
 def dj27(tracknumber):
+    if tracknumber == "67":
+        pygame.mixer.music.queue("tlher_one.mp3")
+    if tracknumber == "68":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if tracknumber == "69":
+        pygame.mixer.music.queue("ttrher_one.mp3")
 
 
+#   Leave her, Johnny, leave her
 def dj28(tracknumber):
+    if tracknumber == "70":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if tracknumber == "71":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if tracknumber == "72":
+        pygame.mixer.music.queue("trher_one.mp3")
 
 
 def dj29(tracknumber):
+    if tracknumber == "73":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if tracknumber == "74":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if tracknumber == "75":
+        pygame.mixer.music.queue("frodo_one.mp3")
 
 
 def dj30(tracknumber):
+    if tracknumber == "76":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if tracknumber == "77":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if tracknumber == "78":
+        pygame.mixer.music.queue("trher_two.mp3")
 
 
+#   Oh, leave her, Johnny, leave her
 def dj31(tracknumber):
+    if tracknumber == "79":
+        pygame.mixer.music.queue("olher_one.mp3")
+    if tracknumber == "80":
+        pygame.mixer.music.queue("owher_one.mp3")
+    if tracknumber == "81":
+        pygame.mixer.music.queue("otrher_one.mp3")
 
 
 def dj32(tracknumber):
+    if tracknumber == "82":
+        pygame.mixer.music.queue("johnny_two.mp3")
+    if tracknumber == "83":
+        pygame.mixer.music.queue("timmy_two.mp3")
+    if tracknumber == "84":
+        pygame.mixer.music.queue("frodo_two.mp3")
 
 
 def dj33(tracknumber):
+    if tracknumber == "85":
+        pygame.mixer.music.queue("lher_three.mp3")
+    if tracknumber == "86":
+        pygame.mixer.music.queue("wher_three.mp3")
+    if tracknumber == "87":
+        pygame.mixer.music.queue("trher_three.mp3")
 
 
+#   For the voyage is long, and the winds don't blow
 def dj34(tracknumber):
+    if tracknumber == "88":
+        pygame.mixer.music.queue("ftvil.mp3")
+    if tracknumber == "89":
+        pygame.mixer.music.queue("ftvis.mp3")
+    if tracknumber == "90":
+        pygame.mixer.music.queue("ftviw.mp3")
 
 
 def dj35(tracknumber):
+    if tracknumber == "91":
+        pygame.mixer.music.queue("atwdb.mp3")
 
 
+#   And it's time for us to leave her
 def dj36(tracknumber):
+    if tracknumber == "92":
+        pygame.mixer.music.queue("aitfu.mp3")
 
 
 def dj37(tracknumber):
+    if tracknumber == "93":
+        pygame.mixer.music.queue("tlher_one.mp3 ")
+    if tracknumber == "94":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if tracknumber == "95":
+        pygame.mixer.music.queue("ttrher_one.mp3")
 
 
+#   Leave her, Johnny, leave her
 def dj38(tracknumber):
+    if tracknumber == "96":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if tracknumber == "97":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if tracknumber == "98":
+        pygame.mixer.music.queue("trher_one.mp3")
 
 
 def dj39(tracknumber):
+    if tracknumber == "99":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if tracknumber == "100":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if tracknumber == "101":
+        pygame.mixer.music.queue("frodo_one.mp3")
 
 
 def dj40(tracknumber):
+    if tracknumber == "102":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if tracknumber == "103":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if tracknumber == "104":
+        pygame.mixer.music.queue("trher_two.mp3")
 
 
+#   Oh, leave her, Johnny, leave her
 def dj41(tracknumber):
+    if tracknumber == "105":
+        pygame.mixer.music.queue("olher_one.mp3")
+    if tracknumber == "106":
+        pygame.mixer.music.queue("owher_one.mp3")
+    if tracknumber == "107":
+        pygame.mixer.music.queue("otrher_one.mp3")
 
 
 def dj42(tracknumber):
+    if tracknumber == "108":
+        pygame.mixer.music.queue("johnny_two.mp3")
+    if tracknumber == "109":
+        pygame.mixer.music.queue("timmy_two.mp3")
+    if tracknumber == "110":
+        pygame.mixer.music.queue("frodo_two.mp3")
 
 
 def dj43(tracknumber):
+    if tracknumber == "111":
+        pygame.mixer.music.queue("lher_three.mp3")
+    if tracknumber == "112":
+        pygame.mixer.music.queue("wher_three.mp3")
+    if tracknumber == "113":
+        pygame.mixer.music.queue("trher_three.mp3")
 
 
+#   For the voyage is long, and the winds don't blow
 def dj44(tracknumber):
+    if tracknumber == "114":
+        pygame.mixer.music.queue("ftvil.mp3")
+    if tracknumber == "115":
+        pygame.mixer.music.queue("ftvis.mp3")
+    if tracknumber == "116":
+        pygame.mixer.music.queue("ftviw.mp3")
 
 
 def dj45(tracknumber):
+    if tracknumber == "117":
+        pygame.mixer.music.queue("atwdb.mp3")
 
 
+#   And it's time for us to leave her
 def dj46(tracknumber):
+    if tracknumber == "118":
+        pygame.mixer.music.queue("aitfu.mp3")
 
 
 def dj47(tracknumber):
+    if tracknumber == "119":
+        pygame.mixer.music.queue("tlher_one.mp3")
+    if tracknumber == "120":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if tracknumber == "121":
+        pygame.mixer.music.queue("ttrher_one.mp3")
 
 
 def playlist(pl):
@@ -887,188 +1149,187 @@ def playlist(pl):
     if pl == "Johnny":
         dj12("30")
     if pl == "Timmy":
-
+        dj12("31")
     if pl == "Frodo":
-
+        dj12("32")
     if pl == "Leave her":
-
+        dj13("33")
     if pl == "Watch her":
-
+        dj13("34")
     if pl == "Trust her":
-
+        dj13("35")
     if pl == "Oh, leave her":
-
+        dj14("36")
     if pl == "Oh, watch her":
-
+        dj14("37")
     if pl == "Oh, trust her":
-
+        dj14("38")
     if pl == "Johnny":
-
+        dj15("39")
     if pl == "Timmy":
-
+        dj15("40")
     if pl == "Frodo":
-
+        dj15("41")
     if pl == "Leave her":
-
+        dj16("42")
     if pl == "Watch her":
-
+        dj16("43")
     if pl == "Trust her":
-
+        dj16("44")
     if pl == "For the voyage is long":
-
+        dj17("45")
     if pl == "For the voyage is short":
-
+        dj17("46")
     if pl == "For the voyage is wild":
-
+        dj17("47")
     if pl == "And the winds don't blow":
-
+        dj18("48")
     if pl == "And it's time for us":
-
+        dj19("49")
     if pl == "To leave her":
-
+        dj20("50")
     if pl == "To watch her":
-
+        dj20("51")
     if pl == "To trust her":
-
+        dj20("52")
     if pl == "Oh, the wind was foul, and the sea ran high":
-
+        dj21("53")
     if pl == "Oh, the wind was cold, and the sea ran high":
-
+        dj21("54")
     if pl == "Oh, the wind was weird, and the sea ran high":
-
+        dj21("55")
     if pl == "Leave her":
-
+        dj22("56")
     if pl == "Watch her":
-
+        dj22("57")
     if pl == "Trust her":
-
+        dj22("58")
     if pl == "Johnny":
-
+        dj23("59")
     if pl == "Timmy":
-
+        dj23("60")
     if pl == "Frodo":
-
+        dj23("61")
     if pl == "Leave her":
-
+        dj24("62")
     if pl == "Watch her":
-
+        dj24("63")
     if pl == "Trust her":
-
+        dj24("64")
     if pl == "She shipped it green, and none went by":
-
+        dj25("65")
     if pl == "And it's time for us":
-
+        dj26("66")
     if pl == "To leave her":
-
+        dj27("67")
     if pl == "To watch her":
-
+        dj27("68")
     if pl == "To trust her":
-
+        dj27("69")
     if pl == "Leave her":
-
+        dj28("70")
     if pl == "Watch her":
-
+        dj28("71")
     if pl == "Trust her":
-
+        dj28("72")
     if pl == "Johnny":
-
+        dj29("73")
     if pl == "Timmy":
-
+        dj29("74")
     if pl == "Frodo":
-
+        dj29("75")
     if pl == "Leave her":
-
+        dj30("76")
     if pl == "Watch her":
-
+        dj30("77")
     if pl == "Trust her":
-
+        dj30("78")
     if pl == "Oh, leave her":
-
+        dj31("79")
     if pl == "Oh, watch her":
-
+        dj31("80")
     if pl == "Oh, trust her":
-
+        dj31("81")
     if pl == "Johnny":
-
+        dj32("82")
     if pl == "Timmy":
-
+        dj32("83")
     if pl == "Frodo":
-
+        dj32("84")
     if pl == "Leave her":
-
+        dj33("85")
     if pl == "Watch her":
-
+        dj33("86")
     if pl == "Trust her":
-
+        dj33("87")
     if pl == "For the voyage is long":
-
+        dj34("88")
     if pl == "For the voyage is short":
-
+        dj34("89")
     if pl == "For the voyage is wild":
-
+        dj34("90")
     if pl == "And the winds don't blow":
-
+        dj35("91")
     if pl == "And it's time for us":
-
+        dj36("92")
     if pl == "To leave her":
-
+        dj37("93")
     if pl == "To watch her":
-
+        dj37("94")
     if pl == "To trust her":
-
+        dj37("95")
     if pl == "Leave her":
-
+        dj38("96")
     if pl == "Watch her":
-
+        dj38("97")
     if pl == "Trust her":
-
+        dj38("98")
     if pl == "Johnny":
-
+        dj39("99")
     if pl == "Timmy":
-
+        dj39("100")
     if pl == "Frodo":
-
+        dj39("101")
     if pl == "Leave her":
-
+        dj40("102")
     if pl == "Watch her":
-
+        dj40("103")
     if pl == "Trust her":
-
+        dj40("104")
     if pl == "Oh, leave her":
-
+        dj41("105")
     if pl == "Oh, watch her":
-
+        dj41("106")
     if pl == "Oh, trust her":
-
+        dj41("107")
     if pl == "Johnny":
-
+        dj42("108")
     if pl == "Timmy":
-
+        dj42("109")
     if pl == "Frodo":
-
+        dj42("110")
     if pl == "Leave her":
-
+        dj43("111")
     if pl == "Watch her":
-
+        dj43("112")
     if pl == "Trust her":
-
+        dj43("113")
     if pl == "For the voyage is long":
-
+        dj44("114")
     if pl == "For the voyage is short":
-
+        dj44("115")
     if pl == "For the voyage is wild":
-
+        dj44("116")
     if pl == "And the winds don't blow":
-
+        dj45("117")
     if pl == "And it's time for us":
-
+        dj46("118")
     if pl == "To leave her":
-
+        dj47("119")
     if pl == "To watch her":
-
+        dj47("120")
     if pl == "To trust her":
-
-
+        dj47("121")
 
 
 button_itw_i = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="1", command=letschoose_itw_i)
