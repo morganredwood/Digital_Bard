@@ -711,93 +711,93 @@ def spinitnow22(track):
 
 
 def spinitnow23(track):
-            pygame.mixer.music.queue("johnny_one.mp3")
-            pygame.mixer.music.queue("timmy_one.mp3")
-            pygame.mixer.music.queue("frodo_one.mp3")
+      59      pygame.mixer.music.queue("johnny_one.mp3")
+       60     pygame.mixer.music.queue("timmy_one.mp3")
+      61      pygame.mixer.music.queue("frodo_one.mp3")
 def spinitnow24(track):
-            pygame.mixer.music.queue("lher_two.mp3")
-            pygame.mixer.music.queue("wher_two.mp3")
-            pygame.mixer.music.queue("trher_two.mp3")
+      62      pygame.mixer.music.queue("lher_two.mp3")
+       63     pygame.mixer.music.queue("wher_two.mp3")
+      64      pygame.mixer.music.queue("trher_two.mp3")
 def spinitnow25(track):
-            pygame.mixer.music.queue("ssiganwb.mp3")
+       65     pygame.mixer.music.queue("ssiganwb.mp3")
 def spinitnow26(track):
-            pygame.mixer.music.queue("aitfu.mp3")
+       66     pygame.mixer.music.queue("aitfu.mp3")
 def spinitnow27(track):
-            pygame.mixer.music.queue("tlher_one.mp3")
-            pygame.mixer.music.queue("twher_one.mp3")
-            pygame.mixer.music.queue("ttrher_one.mp3")
+      67      pygame.mixer.music.queue("tlher_one.mp3")
+       68     pygame.mixer.music.queue("twher_one.mp3")
+       69     pygame.mixer.music.queue("ttrher_one.mp3")
 def spinitnow28(track):
-            pygame.mixer.music.queue("lher_one.mp3")
-            pygame.mixer.music.queue("wher_one.mp3")
-            pygame.mixer.music.queue("trher_one.mp3")
+      70      pygame.mixer.music.queue("lher_one.mp3")
+        71    pygame.mixer.music.queue("wher_one.mp3")
+        72    pygame.mixer.music.queue("trher_one.mp3")
 def spinitnow29(track):
-            pygame.mixer.music.queue("johnny_one.mp3")
-            pygame.mixer.music.queue("timmy_one.mp3")
-            pygame.mixer.music.queue("frodo_one.mp3")
+      73      pygame.mixer.music.queue("johnny_one.mp3")
+       74     pygame.mixer.music.queue("timmy_one.mp3")
+        75    pygame.mixer.music.queue("frodo_one.mp3")
 def spinitnow30(track):
-            pygame.mixer.music.queue("lher_two.mp3")
-            pygame.mixer.music.queue("wher_two.mp3")
-            pygame.mixer.music.queue("trher_two.mp3")
+      76      pygame.mixer.music.queue("lher_two.mp3")
+       77     pygame.mixer.music.queue("wher_two.mp3")
+       78     pygame.mixer.music.queue("trher_two.mp3")
 def spinitnow31(track):
-            pygame.mixer.music.queue("olher_one.mp3")
-            pygame.mixer.music.queue("owher_one.mp3")
-            pygame.mixer.music.queue("otrher_one.mp3")
+      79      pygame.mixer.music.queue("olher_one.mp3")
+       80     pygame.mixer.music.queue("owher_one.mp3")
+       81     pygame.mixer.music.queue("otrher_one.mp3")
 def spinitnow32(track):
-            pygame.mixer.music.queue("johnny_two.mp3")
-            pygame.mixer.music.queue("timmy_two.mp3")
-            pygame.mixer.music.queue("frodo_two.mp3")
+      82      pygame.mixer.music.queue("johnny_two.mp3")
+      83      pygame.mixer.music.queue("timmy_two.mp3")
+      84      pygame.mixer.music.queue("frodo_two.mp3")
 def spinitnow33(track):
-            pygame.mixer.music.queue("lher_three.mp3")
-            pygame.mixer.music.queue("wher_three.mp3")
-            pygame.mixer.music.queue("trher_three.mp3")
+      85      pygame.mixer.music.queue("lher_three.mp3")
+      86      pygame.mixer.music.queue("wher_three.mp3")
+      87      pygame.mixer.music.queue("trher_three.mp3")
 def spinitnow34(track):
-            pygame.mixer.music.queue("ftvil.mp3")
-            pygame.mixer.music.queue("ftvis.mp3")
-            pygame.mixer.music.queue("ftviw.mp3")
+      88      pygame.mixer.music.queue("ftvil.mp3")
+      89      pygame.mixer.music.queue("ftvis.mp3")
+      90      pygame.mixer.music.queue("ftviw.mp3")
 def spinitnow35(track):
-            pygame.mixer.music.queue("atwdb.mp3")
+       91     pygame.mixer.music.queue("atwdb.mp3")
 def spinitnow36(track):
-            pygame.mixer.music.queue("aitfu.mp3")
+        92    pygame.mixer.music.queue("aitfu.mp3")
 def spinitnow37(track):
-            pygame.mixer.music.queue("tlher_one.mp3 ")
-            pygame.mixer.music.queue("twher_one.mp3")
-            pygame.mixer.music.queue("ttrher_one.mp3")
+       93     pygame.mixer.music.queue("tlher_one.mp3 ")
+        94    pygame.mixer.music.queue("twher_one.mp3")
+       95     pygame.mixer.music.queue("ttrher_one.mp3")
 def spinitnow38(track):
-            pygame.mixer.music.queue("lher_one.mp3")
-            pygame.mixer.music.queue("wher_one.mp3")
-            pygame.mixer.music.queue("trher_one.mp3")
+      96      pygame.mixer.music.queue("lher_one.mp3")
+      97      pygame.mixer.music.queue("wher_one.mp3")
+       98     pygame.mixer.music.queue("trher_one.mp3")
 def spinitnow39(track):
-            pygame.mixer.music.queue("johnny_one.mp3")
-            pygame.mixer.music.queue("timmy_one.mp3")
-            pygame.mixer.music.queue("frodo_one.mp3")
+     99       pygame.mixer.music.queue("johnny_one.mp3")
+      100      pygame.mixer.music.queue("timmy_one.mp3")
+     101       pygame.mixer.music.queue("frodo_one.mp3")
 def spinitnow40(track):
-            pygame.mixer.music.queue("lher_two.mp3")
-            pygame.mixer.music.queue("wher_two.mp3")
-            pygame.mixer.music.queue("trher_two.mp3")
+     102       pygame.mixer.music.queue("lher_two.mp3")
+      103      pygame.mixer.music.queue("wher_two.mp3")
+      104      pygame.mixer.music.queue("trher_two.mp3")
 def spinitnow41(track):
-            pygame.mixer.music.queue("olher_one.mp3")
-            pygame.mixer.music.queue("owher_one.mp3")
-            pygame.mixer.music.queue("otrher_one.mp3")
+    105        pygame.mixer.music.queue("olher_one.mp3")
+      106      pygame.mixer.music.queue("owher_one.mp3")
+     107       pygame.mixer.music.queue("otrher_one.mp3")
 def spinitnow42(track):
-            pygame.mixer.music.queue("johnny_two.mp3")
-            pygame.mixer.music.queue("timmy_two.mp3")
-            pygame.mixer.music.queue("frodo_two.mp3")
+   108         pygame.mixer.music.queue("johnny_two.mp3")
+     109       pygame.mixer.music.queue("timmy_two.mp3")
+    110        pygame.mixer.music.queue("frodo_two.mp3")
 def spinitnow43(track):
-            pygame.mixer.music.queue("lher_three.mp3")
-            pygame.mixer.music.queue("wher_three.mp3")
-            pygame.mixer.music.queue("trher_three.mp3")
+    111        pygame.mixer.music.queue("lher_three.mp3")
+   112         pygame.mixer.music.queue("wher_three.mp3")
+  113        pygame.mixer.music.queue("trher_three.mp3")
 def spinitnow44(track):
-            pygame.mixer.music.queue("ftvil.mp3")
-            pygame.mixer.music.queue("ftvis.mp3")
-            pygame.mixer.music.queue("ftviw.mp3")
+ 114           pygame.mixer.music.queue("ftvil.mp3")
+ 115           pygame.mixer.music.queue("ftvis.mp3")
+ 116           pygame.mixer.music.queue("ftviw.mp3")
 def spinitnow45(track):
-            pygame.mixer.music.queue("atwdb.mp3")
+117            pygame.mixer.music.queue("atwdb.mp3")
 def spinitnow46(track):
     while True:
-            pygame.mixer.music.queue("aitfu.mp3")
+ 118           pygame.mixer.music.queue("aitfu.mp3")
 def spinitnow47(track):
     while True:
-            if pygame.mixer.music.queue("tlher_one.mp3")
+119            if pygame.mixer.music.queue("tlher_one.mp3")
                 pygame.mixer.music.queue("twher_one.mp3")
                 pygame.mixer.music.queue("ttrher_one.mp3")
 
