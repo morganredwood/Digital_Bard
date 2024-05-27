@@ -48,6 +48,10 @@ fcw_c = Label(win, text="cold", bg="black", fg="gold", font=digitalbard_font, ju
 fcw_w = Label(win, text="weird", bg="black", fg="gold", font=digitalbard_font, justify="left")
 
 
+def gimme_my_song():
+    button_gimme_my_song.destroy()
+
+
 def instructions():
     start.destroy()
     pygame.mixer.music.fadeout(1000)
@@ -378,6 +382,7 @@ def interview():
             break
         else:
             continue
+    button_gimme_my_song.grid(row=1, column=1, padx=10, pady=10, sticky=W)
 
 
 def letschoosefcw_c():
@@ -387,7 +392,7 @@ def letschoosefcw_c():
     herewego()
 
 
-def herewego():
+def herewego(track=None):
     header1.config(text="Here are the selections you made:")
     header1.grid(row=1, column=0, padx=10, pady=10, sticky=W)
     selection1.grid(row=3, column=1, padx=10, pady=10, sticky=W)
@@ -456,29 +461,21 @@ def letschoosefcw_w():
 
 
 def spinitnow1(track):
-    while True:
-        if track == "1":
-            pygame.mixer.music.load("itih.mp3")
-            break
-        if track == "2":
-            pygame.mixer.music.load("ttth.mp3")
-            break
-        if track == "3":
-            pygame.mixer.music.load("wtwh.mp3")
-            break
+    if track == "1":
+        pygame.mixer.music.load("itih.mp3")
+    if track == "2":
+        pygame.mixer.music.load("ttth.mp3")
+    if track == "3":
+        pygame.mixer.music.load("wtwh.mp3")
 
 
 def spinitnow2(track):
-    while True:
-        if track == "4":
-           pygame.mixer.music.queue("to.mp3")
-           break
-        if track == "5":
-            pygame.mixer.music.queue("tt.mp3")
-            break
-        if track == "6":
-            pygame.mixer.music.load("ts.mp3")
-            break
+    if track == "4":
+        pygame.mixer.music.queue("to.mp3")
+    if track == "5":
+        pygame.mixer.music.queue("tt.mp3")
+    if track == "6":
+        pygame.mixer.music.load("ts.mp3")
 
 
 def spinitnow3(track):
@@ -487,319 +484,363 @@ def spinitnow3(track):
 
 
 def spinitnow4(track):
-    while True:
-        if track == "8":
-            pygame.mixer.music.queue("lher_one.mp3")
-            break
-        if track == "9":
-            pygame.mixer.music.queue("wher_one.mp3")
-            break
-        if track == "10":
-            pygame.mixer.music.queue("trher_one.mp3")
-            break
+    if track == "8":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if track == "9":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if track == "10":
+        pygame.mixer.music.queue("trher_one.mp3")
+
 
 def spinitnow5(track):
-    while True:
-        if track == "11":
-            pygame.mixer.music.queue("johnny_one.mp3")
-            break
-        if track == "12":
-            pygame.mixer.music.queue("timmy_one.mp3")
-            break
-        if track == "13":
-            pygame.mixer.music.queue("frodo_one.mp3")
-            break
+    if track == "11":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if track == "12":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if track == "13":
+        pygame.mixer.music.queue("frodo_one.mp3")
 
 
 def spinitnow6(track):
-    while True:
-        if track == "14":
-            pygame.mixer.music.queue("lher_two.mp3")
-        if track == "15":
-            pygame.mixer.music.queue("wher_two.mp3")
-            break
-        if track == "16":
-            pygame.mixer.music.queue("trher_two.mp3")
-            break
+    if track == "14":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if track == "15":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if track == "16":
+        pygame.mixer.music.queue("trher_two.mp3")
 
 
 def spinitnow7(track):
-    while True:
-        if track == "17":
-            pygame.mixer.music.queue("tyw.mp3")
-            break
-        if track == "18":
-            pygame.mixer.music.queue("ntyw.mp3")
-            break
-        if track == "19":
-            pygame.mixer.music.queue("ofyw.mp3")
-            break
+    if track == "17":
+        pygame.mixer.music.queue("tyw.mp3")
+    if track == "18":
+        pygame.mixer.music.queue("ntyw.mp3")
+    if track == "19":
+        pygame.mixer.music.queue("ofyw.mp3")
 
 
 def spinitnow8(track):
-    while True:
-        if track == "20":
-            pygame.mixer.music.queue("getyp.mp3")
-            break
-        if track == "21":
-            pygame.mixer.music.queue("getyb.mp3")
-            break
-        if track == "22":
-            pygame.mixer.music.queue("getyf.mp3")
-            break
+    if track == "20":
+        pygame.mixer.music.queue("getyp.mp3")
+    if track == "21":
+        pygame.mixer.music.queue("getyb.mp3")
+    if track == "22":
+        pygame.mixer.music.queue("getyf.mp3")
 
 
 def spinitnow9(track):
-    while True:
-        if track == "23":
-            pygame.mixer.music.queue("aitfu.mp3")
-            break
+    if track == "23":
+        pygame.mixer.music.queue("aitfu.mp3")
 
 
 def spinitnow10(track):
-    while True:
-        if track == "24":
-            pygame.mixer.music.queue("tlher_one.mp3")
-            break
-        if track == "25":
-            pygame.mixer.music.queue("twher_one.mp3")
-            break
-        if track == "26":
-            pygame.mixer.music.queue("ttrher_one.mp3")
+    if track == "24":
+        pygame.mixer.music.queue("tlher_one.mp3")
+    if track == "25":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if track == "26":
+        pygame.mixer.music.queue("ttrher_one.mp3")
+
+
 def spinitnow11(track):
-    while True:
-        if track == "27":
-            pygame.mixer.music.queue("lher_one.mp3")
-            break
-        if track == "28": 
-            pygame.mixer.music.queue("wher_one.mp3")
-            break
-        if track == "29":   
-            pygame.mixer.music.queue("trher_one.mp3")
-            break
+    if track == "27":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if track == "28":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if track == "29":
+        pygame.mixer.music.queue("trher_one.mp3")
 
 
 def spinitnow12(track):
-    while True:  
-        if track == "30":
-            pygame.mixer.music.queue("johnny_one.mp3")
-            break 
-        if track == "31":  
-            pygame.mixer.music.queue("timmy_one.mp3")
-            break
-        if track == "32":  
-            pygame.mixer.music.queue("frodo_one.mp3")
-            break
+    if track == "30":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if track == "31":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if track == "32":
+        pygame.mixer.music.queue("frodo_one.mp3")
 
 
 def spinitnow13(track):
-    while True: 
-        if track == "33":
-            pygame.mixer.music.queue("lher_two.mp3")
-            break
-        if track == "34":
-            pygame.mixer.music.queue("wher_two.mp3")
-            break
-        if track == "35":
-            pygame.mixer.music.queue("trher_two.mp3")
-            break
+    if track == "33":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if track == "34":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if track == "35":
+        pygame.mixer.music.queue("trher_two.mp3")
 
 
 def spinitnow14(track):
-    while True:
-        if track == "36":
-            pygame.mixer.music.queue("olher_one.mp3")
-            break
-        if track == "37":
-            pygame.mixer.music.queue("olher_one.mp3")
-            break
-        if track == "38":
-            pygame.mixer.music.queue("olher_one.mp3")
-            break
+    if track == "36":
+        pygame.mixer.music.queue("olher_one.mp3")
+    if track == "37":
+        pygame.mixer.music.queue("olher_one.mp3")
+    if track == "38":
+        pygame.mixer.music.queue("olher_one.mp3")
 
 
 def spinitnow15(track):
-    while True:
-        if track == "39":
-            pygame.mixer.music.queue("johnny_two.mp3")
-            break
-        if track == "40":
-            pygame.mixer.music.queue("timmy_two.mp3")
-            break
-        if track == "41":
-            pygame.mixer.music.queue("frodo_two.mp3")
-            break 
+    if track == "39":
+        pygame.mixer.music.queue("johnny_two.mp3")
+    if track == "40":
+        pygame.mixer.music.queue("timmy_two.mp3")
+    if track == "41":
+        pygame.mixer.music.queue("frodo_two.mp3")
 
 
 def spinitnow16(track):
-    while True:
-        if track == "42":
-            pygame.mixer.music.queue("lher_three.mp3")
-            break
-        if track == "43":
-            pygame.mixer.music.queue("wher_three.mp3")
-            break
-        if track == "44":
-            pygame.mixer.music.queue("trher_three.mp3")
-            break
+    if track == "42":
+        pygame.mixer.music.queue("lher_three.mp3")
+    if track == "43":
+        pygame.mixer.music.queue("wher_three.mp3")
+    if track == "44":
+        pygame.mixer.music.queue("trher_three.mp3")
 
 
 def spinitnow17(track):
-    while True:
-        if track == "45":
-            pygame.mixer.music.queue("ftvil.mp3")
-            break 
-        if track == "46":
-            pygame.mixer.music.queue("ftvis.mp3")
-            break
-        if track == "47":
-            pygame.mixer.music.queue("ftviw.mp3")
-            break
+    if track == "45":
+        pygame.mixer.music.queue("ftvil.mp3")
+    if track == "46":
+        pygame.mixer.music.queue("ftvis.mp3")
+    if track == "47":
+        pygame.mixer.music.queue("ftviw.mp3")
 
 
 def spinitnow18(track):
-    while True:
-        if track == "48":
-            pygame.mixer.music.queue("atwdb.mp3")
-            break
+    if track == "48":
+        pygame.mixer.music.queue("atwdb.mp3")
 
 
 def spinitnow19(track):
-    while True:
-        if track == "49":
-            pygame.mixer.music.queue("aitfu.mp3")
-            break
+    if track == "49":
+        pygame.mixer.music.queue("aitfu.mp3")
 
 
 def spinitnow20(track):
-    while True:
-        if track == "50":
-            pygame.mixer.music.queue("tlher_one.mp3 ")
-            break
-        if track == "51":  
-            pygame.mixer.music.queue("twher_one.mp3")
-            break
-        if track == "52":
-            pygame.mixer.music.queue("ttrher_one.mp3")
-            break
+    if track == "50":
+        pygame.mixer.music.queue("tlher_one.mp3 ")
+    if track == "51":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if track == "52":
+        pygame.mixer.music.queue("ttrher_one.mp3")
 
 
 def spinitnow21(track):
-    while True:
-        if track == "53":
-            pygame.mixer.music.queue("otwwfatsrh.mp3")
-            break
-        if track == "54":   
-            pygame.mixer.music.queue("otwwcatsrh.mp3")
-            break
-        if track == "55":   
-            pygame.mixer.music.queue("otwwwatsrh.mp3")
-            break
+    if track == "53":
+        pygame.mixer.music.queue("otwwfatsrh.mp3")
+    if track == "54":
+        pygame.mixer.music.queue("otwwcatsrh.mp3")
+    if track == "55":
+        pygame.mixer.music.queue("otwwwatsrh.mp3")
 
 
 def spinitnow22(track):
-    while True:
-        if track == "56":
-            pygame.mixer.music.queue("lher_one.mp3")
-            break
-        if track == "57":
-            pygame.mixer.music.queue("wher_one.mp3")
-            break
-        if track == "58":  
-            pygame.mixer.music.queue("trher_one.mp3")
-            break
+    if track == "56":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if track == "57":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if track == "58":
+        pygame.mixer.music.queue("trher_one.mp3")
 
 
 def spinitnow23(track):
-      59      pygame.mixer.music.queue("johnny_one.mp3")
-       60     pygame.mixer.music.queue("timmy_one.mp3")
-      61      pygame.mixer.music.queue("frodo_one.mp3")
+    if track == "59":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if track == "60":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if track == "61":
+        pygame.mixer.music.queue("frodo_one.mp3")
+
+
 def spinitnow24(track):
-      62      pygame.mixer.music.queue("lher_two.mp3")
-       63     pygame.mixer.music.queue("wher_two.mp3")
-      64      pygame.mixer.music.queue("trher_two.mp3")
+    if track == "62":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if track == "63":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if track == "64":
+        pygame.mixer.music.queue("trher_two.mp3")
+
+
 def spinitnow25(track):
-       65     pygame.mixer.music.queue("ssiganwb.mp3")
+    if track == "65":
+        pygame.mixer.music.queue("ssiganwb.mp3")
+
+
 def spinitnow26(track):
-       66     pygame.mixer.music.queue("aitfu.mp3")
+    if track == "66":
+        pygame.mixer.music.queue("aitfu.mp3")
+
+
 def spinitnow27(track):
-      67      pygame.mixer.music.queue("tlher_one.mp3")
-       68     pygame.mixer.music.queue("twher_one.mp3")
-       69     pygame.mixer.music.queue("ttrher_one.mp3")
+    if track == "67":
+        pygame.mixer.music.queue("tlher_one.mp3")
+    if track == "68":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if track == "69":
+        pygame.mixer.music.queue("ttrher_one.mp3")
+
+
 def spinitnow28(track):
-      70      pygame.mixer.music.queue("lher_one.mp3")
-        71    pygame.mixer.music.queue("wher_one.mp3")
-        72    pygame.mixer.music.queue("trher_one.mp3")
+    if track == "70":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if track == "71":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if track == "72":
+        pygame.mixer.music.queue("trher_one.mp3")
+
+
 def spinitnow29(track):
-      73      pygame.mixer.music.queue("johnny_one.mp3")
-       74     pygame.mixer.music.queue("timmy_one.mp3")
-        75    pygame.mixer.music.queue("frodo_one.mp3")
+    if track == "73":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if track == "74":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if track == "75":
+        pygame.mixer.music.queue("frodo_one.mp3")
+
+
 def spinitnow30(track):
-      76      pygame.mixer.music.queue("lher_two.mp3")
-       77     pygame.mixer.music.queue("wher_two.mp3")
-       78     pygame.mixer.music.queue("trher_two.mp3")
+    if track == "76":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if track == "77":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if track == "78":
+        pygame.mixer.music.queue("trher_two.mp3")
+
+
 def spinitnow31(track):
-      79      pygame.mixer.music.queue("olher_one.mp3")
-       80     pygame.mixer.music.queue("owher_one.mp3")
-       81     pygame.mixer.music.queue("otrher_one.mp3")
+    if track == "79":
+        pygame.mixer.music.queue("olher_one.mp3")
+    if track == "80":
+        pygame.mixer.music.queue("owher_one.mp3")
+    if track == "81":
+        pygame.mixer.music.queue("otrher_one.mp3")
+
+
 def spinitnow32(track):
-      82      pygame.mixer.music.queue("johnny_two.mp3")
-      83      pygame.mixer.music.queue("timmy_two.mp3")
-      84      pygame.mixer.music.queue("frodo_two.mp3")
+    if track == "82":
+        pygame.mixer.music.queue("johnny_two.mp3")
+    if track == "83":
+        pygame.mixer.music.queue("timmy_two.mp3")
+    if track == "84":
+        pygame.mixer.music.queue("frodo_two.mp3")
+
+
 def spinitnow33(track):
-      85      pygame.mixer.music.queue("lher_three.mp3")
-      86      pygame.mixer.music.queue("wher_three.mp3")
-      87      pygame.mixer.music.queue("trher_three.mp3")
+    if track == "85":
+        pygame.mixer.music.queue("lher_three.mp3")
+    if track == "86":
+        pygame.mixer.music.queue("wher_three.mp3")
+    if track == "87":
+        pygame.mixer.music.queue("trher_three.mp3")
+
+
 def spinitnow34(track):
-      88      pygame.mixer.music.queue("ftvil.mp3")
-      89      pygame.mixer.music.queue("ftvis.mp3")
-      90      pygame.mixer.music.queue("ftviw.mp3")
+    if track == "88":
+        pygame.mixer.music.queue("ftvil.mp3")
+    if track == "89":
+        pygame.mixer.music.queue("ftvis.mp3")
+    if track == "90":
+        pygame.mixer.music.queue("ftviw.mp3")
+
+
 def spinitnow35(track):
-       91     pygame.mixer.music.queue("atwdb.mp3")
+    if track == "91":
+        pygame.mixer.music.queue("atwdb.mp3")
+
+
 def spinitnow36(track):
-        92    pygame.mixer.music.queue("aitfu.mp3")
+    if track == "92":
+        pygame.mixer.music.queue("aitfu.mp3")
+
+
 def spinitnow37(track):
-       93     pygame.mixer.music.queue("tlher_one.mp3 ")
-        94    pygame.mixer.music.queue("twher_one.mp3")
-       95     pygame.mixer.music.queue("ttrher_one.mp3")
+    if track == "93":
+        pygame.mixer.music.queue("tlher_one.mp3 ")
+    if track == "94":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if track == "95":
+        pygame.mixer.music.queue("ttrher_one.mp3")
+
+
 def spinitnow38(track):
-      96      pygame.mixer.music.queue("lher_one.mp3")
-      97      pygame.mixer.music.queue("wher_one.mp3")
-       98     pygame.mixer.music.queue("trher_one.mp3")
+    if track == "96":
+        pygame.mixer.music.queue("lher_one.mp3")
+    if track == "97":
+        pygame.mixer.music.queue("wher_one.mp3")
+    if track == "98":
+        pygame.mixer.music.queue("trher_one.mp3")
+
+
 def spinitnow39(track):
-     99       pygame.mixer.music.queue("johnny_one.mp3")
-      100      pygame.mixer.music.queue("timmy_one.mp3")
-     101       pygame.mixer.music.queue("frodo_one.mp3")
+    if track == "99":
+        pygame.mixer.music.queue("johnny_one.mp3")
+    if track == "100":
+        pygame.mixer.music.queue("timmy_one.mp3")
+    if track == "101":
+        pygame.mixer.music.queue("frodo_one.mp3")
+
+
 def spinitnow40(track):
-     102       pygame.mixer.music.queue("lher_two.mp3")
-      103      pygame.mixer.music.queue("wher_two.mp3")
-      104      pygame.mixer.music.queue("trher_two.mp3")
+    if track == "102":
+        pygame.mixer.music.queue("lher_two.mp3")
+    if track == "103":
+        pygame.mixer.music.queue("wher_two.mp3")
+    if track == "104":
+        pygame.mixer.music.queue("trher_two.mp3")
+
+
 def spinitnow41(track):
-    105        pygame.mixer.music.queue("olher_one.mp3")
-      106      pygame.mixer.music.queue("owher_one.mp3")
-     107       pygame.mixer.music.queue("otrher_one.mp3")
+    if track == "105":
+        pygame.mixer.music.queue("olher_one.mp3")
+    if track == "106":
+        pygame.mixer.music.queue("owher_one.mp3")
+    if track == "107":
+        pygame.mixer.music.queue("otrher_one.mp3")
+
+
 def spinitnow42(track):
-   108         pygame.mixer.music.queue("johnny_two.mp3")
-     109       pygame.mixer.music.queue("timmy_two.mp3")
-    110        pygame.mixer.music.queue("frodo_two.mp3")
+    if track == "108":
+        pygame.mixer.music.queue("johnny_two.mp3")
+    if track == "109":
+        pygame.mixer.music.queue("timmy_two.mp3")
+    if track == "110":
+        pygame.mixer.music.queue("frodo_two.mp3")
+
+
 def spinitnow43(track):
-    111        pygame.mixer.music.queue("lher_three.mp3")
-   112         pygame.mixer.music.queue("wher_three.mp3")
-  113        pygame.mixer.music.queue("trher_three.mp3")
+    if track == "111":
+        pygame.mixer.music.queue("lher_three.mp3")
+    if track == "112":
+        pygame.mixer.music.queue("wher_three.mp3")
+    if track == "113":
+        pygame.mixer.music.queue("trher_three.mp3")
+
+
 def spinitnow44(track):
- 114           pygame.mixer.music.queue("ftvil.mp3")
- 115           pygame.mixer.music.queue("ftvis.mp3")
- 116           pygame.mixer.music.queue("ftviw.mp3")
+    if track == "114":
+        pygame.mixer.music.queue("ftvil.mp3")
+    if track == "115":
+        pygame.mixer.music.queue("ftvis.mp3")
+    if track == "116":
+        pygame.mixer.music.queue("ftviw.mp3")
+
+
 def spinitnow45(track):
-117            pygame.mixer.music.queue("atwdb.mp3")
+    if track == "117":
+        pygame.mixer.music.queue("atwdb.mp3")
+
+
 def spinitnow46(track):
-    while True:
- 118           pygame.mixer.music.queue("aitfu.mp3")
+    if track == "118":
+        pygame.mixer.music.queue("aitfu.mp3")
+
+
 def spinitnow47(track):
-    while True:
-119            if pygame.mixer.music.queue("tlher_one.mp3")
-                pygame.mixer.music.queue("twher_one.mp3")
-                pygame.mixer.music.queue("ttrher_one.mp3")
+    if track == "119":
+        pygame.mixer.music.queue("tlher_one.mp3")
+    if track == "120":
+        pygame.mixer.music.queue("twher_one.mp3")
+    if track == "121":
+        pygame.mixer.music.queue("ttrher_one.mp3")
 
 
 def cue1(choice):
@@ -914,7 +955,6 @@ def dj1(tracknumber):
             break
         if tracknumber == "3":
             break
-    spinitnow1(print(tracknumber))
 
 
 #   The Old Man say
@@ -926,12 +966,11 @@ def dj2(tracknumber):
             break
         if tracknumber == "6":
             break
-    spinitnow2(print(tracknumber))
 
 
 def dj3(tracknumber):
     if tracknumber == "7":
-    spinitnow3(print(tracknumber))
+        print(tracknumber)
 
 
 #   Leave her, Johnny, leave her
@@ -943,7 +982,6 @@ def dj4(tracknumber):
             break
         if tracknumber == "10":
             break
-    spinitnow1(print(tracknumber))
 
 
 def dj5(tracknumber):
@@ -954,7 +992,6 @@ def dj5(tracknumber):
             break
         if tracknumber == "13":
             break
-    spinitnow5(print(tracknumber))
 
 
 def dj6(tracknumber):
@@ -965,7 +1002,6 @@ def dj6(tracknumber):
             break
         if tracknumber == "16":
             break
-    spinitnow6(print(tracknumber))
 
 
 #   Tomorrow, ye will get your pay
@@ -977,7 +1013,6 @@ def dj7(tracknumber):
             break
         if tracknumber == "19":
             break
-    spinitnow7(print(tracknumber))
 
 
 def dj8(tracknumber):
@@ -988,14 +1023,12 @@ def dj8(tracknumber):
             break
         if tracknumber == "22":
             break
-    spinitnow8(print(tracknumber))
 
 
 def dj9(tracknumber):
     while True:
         if tracknumber == "23":
             break
-    spinitnow9(print(tracknumber))
 
 
 def dj10(tracknumber):
@@ -1006,7 +1039,6 @@ def dj10(tracknumber):
             break
         if tracknumber == "26":
             break
-    spinitnow10(print(tracknumber))
 
 
 def dj11(tracknumber):
@@ -1017,7 +1049,6 @@ def dj11(tracknumber):
             break
         if tracknumber == "29":
             break
-    spinitnow11(print(tracknumber))
 
 
 def dj12(tracknumber):
@@ -1028,7 +1059,6 @@ def dj12(tracknumber):
             break
         if tracknumber == "32":
             break
-    spinitnow12(print(tracknumber))
 
 
 def dj13(tracknumber):
@@ -1039,7 +1069,6 @@ def dj13(tracknumber):
             break
         if tracknumber == "35":
             break
-    spinitnow13(print(tracknumber))
 
 
 def dj14(tracknumber):
@@ -1050,7 +1079,6 @@ def dj14(tracknumber):
             break
         if tracknumber == "38":
             break
-    spinitnow14(print(tracknumber))
 
 
 def dj15(tracknumber):
@@ -1061,7 +1089,6 @@ def dj15(tracknumber):
             break
         if tracknumber == "41":
             break
-    spinitnow15(print(tracknumber))
 
 
 def dj16(tracknumber):
@@ -1072,7 +1099,6 @@ def dj16(tracknumber):
             break
         if tracknumber == "44":
             break
-    spinitnow16(print(tracknumber))
 
 
 #   For the voyage is long, and the winds don't blow
@@ -1084,31 +1110,28 @@ def dj17(tracknumber):
             break
         if tracknumber == "47":
             break
-    spinitnow17(print(tracknumber))
 
 
 def dj18(tracknumber):
     while True:
         if tracknumber == "48":
             break
-    spinitnow18(print(tracknumber))
 
-#   And it's time for us to leave her
+
 def dj19(tracknumber):
     while True:
         if tracknumber == "49":
             break
-    spinitnow19(print(tracknumber))
 
 
 def dj20(tracknumber):
     while True:
         if tracknumber == "50":
+            break
         if tracknumber == "51":
             break
         if tracknumber == "52":
             break
-    spinitnow20(print(tracknumber))
 #   Oh, the wind was foul, and the sea ran high
 
 
@@ -1120,7 +1143,6 @@ def dj21(tracknumber):
             break
         if tracknumber == "55":
             break
-    spinitnow21(print(tracknumber))
 
 
 #   Leave her, Johnny, leave her
@@ -1132,7 +1154,6 @@ def dj22(tracknumber):
             break
         if tracknumber == "58":
             break
-    spinitnow22(print(tracknumber))
 
 
 def dj23(tracknumber):
@@ -1143,7 +1164,6 @@ def dj23(tracknumber):
             break
         if tracknumber == "61":
             break
-    spinitnow23(print(tracknumber))
 
 
 def dj24(tracknumber):
@@ -1154,7 +1174,7 @@ def dj24(tracknumber):
             break
         if tracknumber == "64":
             break
-    spinitnow24(print(tracknumber))
+    spinitnow24(tracknumber)
 #   She shipped it green, and none went by
 
 
@@ -1163,14 +1183,13 @@ def dj25(tracknumber):
         if tracknumber == "65":
             break
 #   And it's time for us to leave her
-    spinitnow25(print(tracknumber))
 
 
 def dj26(tracknumber):
     while True:
         if tracknumber == "66":
             break
-    spinitnow26(print(tracknumber))
+
 
 def dj27(tracknumber):
     while True:
@@ -1180,7 +1199,6 @@ def dj27(tracknumber):
             break
         if tracknumber == "69":
             break
-    spinitnow27(print(tracknumber))
 
 
 #   Leave her, Johnny, leave her
@@ -1192,7 +1210,6 @@ def dj28(tracknumber):
             break
         if tracknumber == "72":
             break
-    spinitnow28(print(tracknumber))
 
 
 def dj29(tracknumber):
@@ -1203,7 +1220,6 @@ def dj29(tracknumber):
             break
         if tracknumber == "75":
             break
-    spinitnow29(print(tracknumber))
 
 
 def dj30(tracknumber):
@@ -1214,7 +1230,6 @@ def dj30(tracknumber):
             break
         if tracknumber == "78":
             break
-    spinitnow30(print(tracknumber))
 
 
 #   Oh, leave her, Johnny, leave her
@@ -1226,7 +1241,6 @@ def dj31(tracknumber):
             break
         if tracknumber == "81":
             break
-    spinitnow31(print(tracknumber))
 
 
 def dj32(tracknumber):
@@ -1237,7 +1251,6 @@ def dj32(tracknumber):
             break
         if tracknumber == "84":
             break
-    spinitnow32(print(tracknumber))
 
 
 def dj33(tracknumber):
@@ -1248,7 +1261,6 @@ def dj33(tracknumber):
             break
         if tracknumber == "87":
             break
-    spinitnow33(print(tracknumber))
 
 
 #   For the voyage is long, and the winds don't blow
@@ -1260,14 +1272,12 @@ def dj34(tracknumber):
             break
         if tracknumber == "90":
             break
-    spinitnow34(print(tracknumber))
 
 
 def dj35(tracknumber):
     while True:
         if tracknumber == "91":
             break
-    spinitnow35(print(tracknumber))
 
 
 #   And it's time for us to leave her
@@ -1275,16 +1285,16 @@ def dj36(tracknumber):
     while True:
         if tracknumber == "92":
             break
-    spinitnow36(print(tracknumber))
+
 
 def dj37(tracknumber):
     while True:
         if tracknumber == "93":
+            break
         if tracknumber == "94":
             break
         if tracknumber == "95":
             break
-    spinitnow37(print(tracknumber))
 
 
 #   Leave her, Johnny, leave her
@@ -1296,7 +1306,6 @@ def dj38(tracknumber):
             break
         if tracknumber == "98":
             break
-    spinitnow38(print(tracknumber))
 
 
 def dj39(tracknumber):
@@ -1307,7 +1316,6 @@ def dj39(tracknumber):
             break
         if tracknumber == "101":
             break
-    spinitnow39(print(tracknumber))
 
 
 def dj40(tracknumber):
@@ -1318,7 +1326,6 @@ def dj40(tracknumber):
             break
         if tracknumber == "104":
             break
-    spinitnow40(print(tracknumber))
 
 
 #   Oh, leave her, Johnny, leave her
@@ -1330,7 +1337,6 @@ def dj41(tracknumber):
             break
         if tracknumber == "107":
             break
-    spinitnow41(print(tracknumber))
 
 
 def dj42(tracknumber):
@@ -1341,7 +1347,6 @@ def dj42(tracknumber):
             break
         if tracknumber == "110":
             break
-    spinitnow42(print(tracknumber))
 
 
 def dj43(tracknumber):
@@ -1352,7 +1357,6 @@ def dj43(tracknumber):
             break
         if tracknumber == "113":
             break
-    spinitnow43(print(tracknumber))
 
 
 #   For the voyage is long, and the winds don't blow
@@ -1364,14 +1368,12 @@ def dj44(tracknumber):
             break
         if tracknumber == "116":
             break
-    spinitnow44(print(tracknumber))
 
 
 def dj45(tracknumber):
     while True:
         if tracknumber == "117":
             break
-    spinitnow45(print(tracknumber))
 
 
 #   And it's time for us to leave her
@@ -1379,7 +1381,6 @@ def dj46(tracknumber):
     while True:
         if tracknumber == "118":
             break
-    spinitnow46(print(tracknumber))
 
 
 def dj47(tracknumber):
@@ -1390,7 +1391,6 @@ def dj47(tracknumber):
             break
         if tracknumber == "121":
             break
-    spinitnow47(print(tracknumber))
 
 
 def playlist(pl):
@@ -1837,6 +1837,8 @@ button_heresyoursong = Button(win, bg="forest green", fg="black", font=digitalba
                               command=heresyourlist)
 button_continueonemore = Button(win, bg="forest green", fg="black", font=digitalbard_font, text="Continue",
                                 command=cuethevideo)
+button_gimme_my_song = Button(win, bg="forest green", fg="black", font=digitalbard_font,
+                              text="Listen to your customized song", command=gimme_my_song)
 # print("Photo by Kostiantyn Klymovets: https://www.pexels.com/photo/man-playing-lute-on-urban-steps-12831481/")
 digitalbard_messages = Label(win, bg="black", text="", font=digitalbard_font, fg="gold")
 pygame.mixer.music.load("scarborough_fair.mp3")
