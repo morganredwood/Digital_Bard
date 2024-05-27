@@ -1,4 +1,6 @@
 import pygame
+import moviepy
+from moviepy.editor import *
 from tkinter import *
 pygame.init()
 win = Tk()
@@ -803,134 +805,283 @@ def playlist47(track):
         bigfinale("To watch her")
 
 
-def bigfinale(track="I thought I heard",
-              track="They they they heard",
-              track ="We thought we heard",
-              track="The Old",
-              track="The Tall",
-              track="The Sad",
-              track="Man say",
-              track="Leave her 1",
-              track="Watch her 1",
-              track="Trust her 1",
-              track="Johnny 1",
-              track="Timmy 1",
-              track="Frodo 1",
-              track="Leave her 2",
-              track="Watch her 2",
-              track="Trust her 2",
-              track="Tomorrow, ye will",
-              track="Next Tuesday, ye will",
-              track="On Friday, ye will",
-              track="Get your pay",
-              track="Get your bell",
-              track="Get your fish",
-              track="And it's time for us",
-              track="To leave her",
-              track="To watch her",
-              track="To trust her",
-              track="Oh, leave her",
-              track="Oh, watch her",
-              track="Oh, trust her",
-              track="For the voyage is long",
-              track="For the voyage is short",
-              track="For the voyage is wild",
-              track="Oh, the wind was foul, and the sea ran high",
-              track="Oh, the wind was cold, and the sea ran high",
-              track="Oh, the wind was weird, and the sea ran high",
-              track="She shipped it green, and none went by"):
+def bigfinale(track):
     if track == "I thought I heard":
         part("1")
     if track == "They thought they heard":
         part("2")
-    if track
+    if track == "We thought we heard":
+        part("3")
+    if track == "The Old":
+        part("4")
+    if track == "The Tall":
+        part("5")
+    if track == "The Sad":
+        part("6")
+    if track == "Man say":
+        part("7")
+    if track == "Leave her 1":
+        part("8")
+        part("26")
+        part("56")
+        part("70")
+        part("96")
+    if track == "Watch her 1":
+        part("9")
+        part("27")
+        part("57")
+        part("71")
+        part("97")
+    if track == "Trust her 1":
+        part("10")
+        part("28")
+        part("58")
+        part("72")
+        part("98")
+    if track == "Johnny 1":
+        part("11")
+        part("29")
+        part("59")
+        part("73")
+        part("99")
+    if track == "Timmy 1":
+        part("12")
+        part("30")
+        part("60")
+        part("74")
+        part("100")
+    if track == "Frodo 1":
+        part("31")
+        part("61")
+        part("75")
+        part("101")
+    if track == "Leave her 2":
+        part("13")
+        part("32")
+        part("62")
+        part("76")
+        part("102")
+    if track == "Watch her 2":
+        part("14")
+        part("33")
+        part("63")
+        part("77")
+        part("103")
+    if track == "Trust her 2":
+        part("15")
+        part("34")
+        part("64")
+        part("78")
+        part("104")
+    if track == "Tomorrow, ye will":
+        part("16")
+    if track == "Next Tuesday, ye will":
+        part("17")
+    if track == "On Friday, ye will":
+        part("18")
+    if track == "Get your pay":
+        part("19")
+    if track == "Get your bell":
+        part("20")
+    if track == "Get your fish":
+        part("21")
+    if track == "And it's time for us":
+        part("22")
+        part("48")
+        part("66")
+        part("92")
+        part("118")
+    if track == "To leave her":
+        part("23")
+        part("49")
+        part("67")
+        part("93")
+        part("119")
+    if track == "To watch her":
+        part("24")
+        part("50")
+        part("68")
+        part("94")
+        part("120")
+    if track == "To trust her":
+        part("25")
+        part("51")
+        part("69")
+        part("95")
+        part("121")
+    if track == "Oh, leave her":
+        part("36")
+        part("66")
+        part("74")
+        part("97")
+    if track == "Oh, watch her":
+        part("37")
+        part("67")
+        part("75")
+        part("98")
+    if track == "Oh, trust her":
+        part("38")
+        part("68")
+        part("76")
+        part("99")
+    if track == "Johnny 2":
+        part("39")
+        part("69")
+        part("77")
+        part("100")
+    if track == "Timmy 2":
+        part("40")
+        part("70")
+        part("78")
+        part("101")
+    if track == "Frodo 2":
+        part("41")
+        part("71")
+        part("79")
+        part("102")
+    if track == "Leave her 3":
+        part("42")
+        part("72")
+        part("80")
+        part("103")
+    if track == "Watch her 3":
+        part("43")
+        part("73")
+        part("81")
+        part("104")
+    if track == "Trust her 3":
+        part("44")
+        part("74")
+        part("82")
+        part("105")
+    if track == "For the voyage is long, and the winds don't blow":
+        part("45")
+        part("75")
+        part("83")
+        part("106")
+    if track == "Oh, the wind was foul, and the sea ran high":
+        part("50")
+    if track == "Oh, the wind was cold, and the sea ran high":
+        part("51")
+    if track == "Oh, the wind was weird, and the sea ran high":
+        part("52")
+    if track == "She shipped it green, and none went by":
+        part("62")
+
 
 def part(track):
-    if part == "1":
-        pygame.mixer.music.load("itih.mp3")
-        pygame.mixer.music.play()
-    if part == "2":
-        pygame.mixer.music.load("ttth.mp3")
-        pygame.mixer.music.play()
-    if part == "3":
-        pygame.mixer.music.load("wtwh.mp3")
-        pygame.mixer.music.play()
-    if part == "4":
-        pygame.mixer.music.queue("to.mp3")
-    if part == "5":
-        pygame.mixer.music.queue("tt.mp3")
-    if part == "6":
-        pygame.mixer.music.load("ts.mp3")
-    if part == "7":
-        pygame.mixer.music.queue("ms.mp3")
-    if part == "8":
-        pygame.mixer.music.queue("lher_one.mp3")
-    if part == "9":
-        pygame.mixer.music.queue("wher_one.mp3")
-    if part == "10":
-        pygame.mixer.music.queue("trher_one.mp3")
-    if part == "11":
-        pygame.mixer.music.queue("johnny_one.mp3")
-    if part == "12":
-        pygame.mixer.music.queue("timmy_one.mp3")
-    if part == "13":
-        pygame.mixer.music.queue("frodo_one.mp3")            
+    while True:
+        if part == "1":
+            pygame.mixer.music.load("itih.mp3")
+            pygame.mixer.music.play()
+            break
+        if part == "2":
+            pygame.mixer.music.load("ttth.mp3")
+            pygame.mixer.music.play()
+            break
+        if part == "3":
+            pygame.mixer.music.load("wtwh.mp3")
+            pygame.mixer.music.play()
+            break
+    while True:
+        if part == "4":
+            pygame.mixer.music.queue("to.mp3")
+            break
+        if part == "5":
+            pygame.mixer.music.queue("tt.mp3")
+            break
+        if part == "6":
+            pygame.mixer.music.load("ts.mp3")
+            break
+        if part == "7":
+            pygame.mixer.music.queue("ms.mp3")
+            break
+    while True:
+        if part == "8":
+            pygame.mixer.music.queue("lher_one.mp3")
+            break
+        if part == "9":
+            pygame.mixer.music.queue("wher_one.mp3")
+            break
+        if part == "10":
+            pygame.mixer.music.queue("trher_one.mp3")
+            break
+    while True:
+        if part == "11":
+            pygame.mixer.music.queue("johnny_one.mp3")
+        if part == "12":
+            pygame.mixer.music.queue("timmy_one.mp3")
+        if part == "13":
+            pygame.mixer.music.queue("frodo_one.mp3")
+    while True:
     if part == "14":
         pygame.mixer.music.queue("lher_two.mp3")            
     if part == "15":
         pygame.mixer.music.queue("wher_two.mp3")            
     if part == "16":
         pygame.mixer.music.queue("trher_two.mp3")            
+    while True:
     if track == "Tomorrow, ye will":
         pygame.mixer.music.queue("tyw.mp3")            
+
     if track == "Next Tuesday, ye will":
         pygame.mixer.music.queue("ntyw.mp3")            
     if track == "On Friday, ye will":
         pygame.mixer.music.queue("ofyw.mp3")            
+    while True:
     if track == "Get your pay":
         pygame.mixer.music.queue("getyp.mp3")            
     if track == "Get your bell":
         pygame.mixer.music.queue("getyb.mp3")            
     if track == "Get your fish":
         pygame.mixer.music.queue("getyf.mp3")            
+    while True:
     if track == "And it's time for us":
         pygame.mixer.music.queue("aitfu.mp3")            
+    while True:
     if track == "To leave her":
         pygame.mixer.music.queue("tlher_one.mp3")            
     if track == "To watch her":
         pygame.mixer.music.queue("twher_one.mp3")            
     if track == "To trust her":
         pygame.mixer.music.queue("ttrher_one.mp3")            
+    while True:
     if track == "Leave her 1":
         pygame.mixer.music.queue("lher_one.mp3")
     if track == "Watch her 1":
         pygame.mixer.music.queue("wher_one.mp3")
     if track == "Trust her 1":
         pygame.mixer.music.queue("trher_one.mp3")            
+    while True:
     if track == "Johnny 1":
         pygame.mixer.music.queue("johnny_one.mp3")            
     if track == "Timmy 1":
         pygame.mixer.music.queue("timmy_one.mp3")            
     if track == "Frodo 1":
         pygame.mixer.music.queue("frodo_one.mp3")            
+    while True:
     if track == "Leave her 2":
         pygame.mixer.music.queue("lher_two.mp3")            
     if track == "Watch her 2":
         pygame.mixer.music.queue("wher_two.mp3")            
     if track == "Trust her 2":
         pygame.mixer.music.queue("trher_two.mp3")            
+    while True:
     if track == "Oh, leave her":
         pygame.mixer.music.queue("olher_one.mp3")            
     if track == "Oh, watch her":
         pygame.mixer.music.queue("olher_one.mp3")            
     if track == "Oh, trust her":
         pygame.mixer.music.queue("olher_one.mp3")            
+    while True:
+
     if track == "Johnny 2":
         pygame.mixer.music.queue("johnny_two.mp3")            
     if track == "Timmy 2":
         pygame.mixer.music.queue("timmy_two.mp3")            
     if track == "Frodo 2":
         pygame.mixer.music.queue("frodo_two.mp3")            
+    while True:
     if track == "Leave her 3":
         pygame.mixer.music.queue("lher_three.mp3")            
     if track == "Watch her 3":
@@ -1217,6 +1368,8 @@ button_gimme_my_song = Button(win, bg="forest green", fg="black", font=digitalba
                               text="Listen to your customized song", command=gimme_my_song)
 # print("Photo by Kostiantyn Klymovets: https://www.pexels.com/photo/man-playing-lute-on-urban-steps-12831481/")
 digitalbard_messages = Label(win, bg="black", text="", font=digitalbard_font, fg="gold")
+clip = VideoFileClip("DigitalBard.avi")
+clip.ipython_display(width=280, height=320)
 pygame.mixer.music.load("scarborough_fair.mp3")
 pygame.mixer.music.play(-1)
 digitalbard_messages.config(text="Welcome to your free trial of Digital Bard.")
