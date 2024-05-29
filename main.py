@@ -227,6 +227,65 @@ def choice_tntof_nt_button_clicked():
     textline2.config(text="")
 
 
+def choice_tntof_of_button_clicked():
+    choice_goodbye("tntof")
+    choice_hello("pbf")
+    textline1.config(text="Group 6")
+    textline2.config(text="")
+
+
+def choice_pbf_p_button_clicked():
+    choice_goodbye("pbf")
+    choice_hello("lsw")
+    textline1.config(text="Group 7")
+    textline2.conig(text="")
+
+
+def choice_pbf_b_button_clicked():
+    choice_goodbye("pbf")
+    choice_hello("lsw")
+    textline1.config(text="Group 7")
+    textline2.config(text="")
+
+
+def choice_pbf_f_button_clicked():
+    choice_goodbye("pbf")
+    choice_hello("lsw")
+    textline1.config(text="Group 7")
+    textline2.config(text="")
+
+
+def choice_lsw_l_button_clicked():
+    choice_goodbye("lsw")
+    choice_hello("fcw")
+    textline1.config(text="Group 8")
+    textline.config(text="")
+
+
+def choice_lsw_s_button_clicked():
+    choice_goodbye("lsw")
+    choice_hello("fcw")
+    textline1.config(text="Group 8")
+    textline.config(text="")
+
+
+def choice_lsw_w_button_clicked():
+    choice_goodbye("lsw")
+    choice_hello("fcw")
+    textline1.config(text="Group 8")
+    textline.config(text="")
+
+
+def choice_fcw_f_button_clicked():
+    choice_goodbye("fcw")
+
+
+def choice_fcw_c_button_clicked():
+    choice_goodbye("fcw")
+
+
+def choice_fcw_w_button_clicked():
+    choice_goodbye("fcw")
 
 
 def continue_button4_clicked():
@@ -262,9 +321,12 @@ choicelwt_w_button = Button(window, text="Watch", bg="gainsboro", fg="black", fo
                             command=choicelwt_w_button_clicked)
 choicelwt_t_button = Button(window, text="Trust", bg="gainsboro", fg="black", font=fancyfont, width=12,
                             command=choicelwt_t_button_clicked)
-choicepbf_p_button = Button(window, text="")
-choicepbf_b_button =
-choicepbf_f_button =
+choicepbf_p_button = Button(window, text="Pay", bg="gainsboro", fg="black", font=fancyfont,
+                           command=choicepbf_p_button_clicked)
+choicepbf_b_button = Button(window, text="Bell", bg="gainsboro", fg="black", font=fancyfont,
+                            command=choicepbf_b_button_clicked)
+choicepbf_f_button = Button(window, text="Fish", bg="gainsboro", fg="black", font=fancyfont,
+                            command=choicepbf_f_button_clicked)
 choicelsw_l_button =
 choicelsw_s_button =
 choicelsw_w_button =
