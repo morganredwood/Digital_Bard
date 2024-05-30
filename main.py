@@ -63,14 +63,14 @@ def continue_button1_clicked():
     textline2.grid(row=2, column=1, padx=20, pady=20)
     pygame.mixer.music.load("scarborough_fair.mp3")
     pygame.mixer.music.play(-1)
-    continue_button2.grid(row=3, column=1, padx=10, pady=20)
+    continue_button2.grid(row=3, column=1, padx=20, pady=20)
 
 
 def continue_button2_clicked():
     continue_button2.destroy()
     textline1.config(text="You will have a total of eight lyric choices to make.")
     textline2.config(text="Choose one item from each group of three.")
-    continue_button3.grid(row=3, column=1, padx=10, pady=20)
+    continue_button3.grid(row=3, column=1, padx=20, pady=20)
 
 
 def continue_button3_clicked():
@@ -163,7 +163,8 @@ def choiceitw_t_button_clicked():
     choice_hello("ots")
     textline1.config(text="Group 2")
     textline2.config(text="")
-    playlist("1","2")
+    playlist("1",  "2")
+
 
 def choiceitw_w_button_clicked():
     choice_goodbye("itw")
@@ -172,12 +173,14 @@ def choiceitw_w_button_clicked():
     textline2.config(text="")
     playlist("1", "3")
 
+
 def choiceots_o_button_clicked():
     choice_goodbye("ots")
     choice_hello("lwt")
     textline1.config(text="Group 3")
     textline2.config(text="")
     playlist("2", "4")
+
 
 def choiceots_t_button_clicked():
     choice_goodbye("ots")
@@ -186,12 +189,14 @@ def choiceots_t_button_clicked():
     textline2.config(text="")
     playlist("2", "5")
 
+
 def choiceots_s_button_clicked():
     choice_goodbye("ots")
     choice_hello("lwt")
     textline1.config(text="Group 3")
     textline2.config(text="")
     playlist("2", "6")
+
 
 def choicelwt_l_button_clicked():
     choice_goodbye("lwt")
@@ -202,6 +207,7 @@ def choicelwt_l_button_clicked():
     playlist("3", "14")
     playlist("3", "33")
 
+
 def choicelwt_w_button_clicked():
     choice_goodbye("lwt")
     choice_hello("jtf")
@@ -210,6 +216,7 @@ def choicelwt_w_button_clicked():
     playlist("3", "9")
     playlist("3", "15")
     playlist("3", "34")
+
 
 def choicelwt_t_button_clicked():
     choice_goodbye("lwt")
@@ -220,6 +227,7 @@ def choicelwt_t_button_clicked():
     playlist("3", "16")
     playlist("3", "35")
 
+
 def choicejtf_j_button_clicked():
     choice_goodbye("jtf")
     choice_hello("tntof")
@@ -227,6 +235,7 @@ def choicejtf_j_button_clicked():
     textline2.config(text="")
     playlist("4", "11")
     playlist("4", "30")
+
 
 def choicejtf_t_button_clicked():
     choice_goodbye("jtf")
@@ -236,6 +245,7 @@ def choicejtf_t_button_clicked():
     playlist("4", "12")
     playlist("4", "31")
 
+
 def choicejtf_f_button_clicked():
     choice_goodbye("jtf")
     choice_hello("tntof")
@@ -244,12 +254,14 @@ def choicejtf_f_button_clicked():
     playlist("4", "13")
     playlist("4", "32")
 
+
 def choicetntof_t_button_clicked():
     choice_goodbye("tntof")
     choice_hello("pbf")
     textline1.config(text="Group 6")
     textline2.config(text="")
     playlist("5", "17")
+
 
 def choicetntof_nt_button_clicked():
     choice_goodbye("tntof")
@@ -258,12 +270,14 @@ def choicetntof_nt_button_clicked():
     textline2.config(text="")
     playlist("5", "18")
 
+
 def choicetntof_of_button_clicked():
     choice_goodbye("tntof")
     choice_hello("pbf")
     textline1.config(text="Group 6")
     textline2.config(text="")
     playlist("5", "19")
+
 
 def choicepbf_p_button_clicked():
     choice_goodbye("pbf")
@@ -272,12 +286,14 @@ def choicepbf_p_button_clicked():
     textline2.config(text="")
     playlist("6", "20")
 
+
 def choicepbf_b_button_clicked():
     choice_goodbye("pbf")
     choice_hello("lsw")
     textline1.config(text="Group 7")
     textline2.config(text="")
     playlist("6", "21")
+
 
 def choicepbf_f_button_clicked():
     choice_goodbye("pbf")
@@ -286,12 +302,14 @@ def choicepbf_f_button_clicked():
     textline2.config(text="")
     playlist("6", "22")
 
+
 def choicelsw_l_button_clicked():
     choice_goodbye("lsw")
     choice_hello("fcw")
     textline1.config(text="Group 8")
     textline2.config(text="")
     playlist("7", "36")
+
 
 def choicelsw_s_button_clicked():
     choice_goodbye("lsw")
@@ -300,6 +318,7 @@ def choicelsw_s_button_clicked():
     textline2.config(text="")
     playlist("7", "37")
 
+
 def choicelsw_w_button_clicked():
     choice_goodbye("lsw")
     choice_hello("fcw")
@@ -307,11 +326,13 @@ def choicelsw_w_button_clicked():
     textline2.config(text="")
     playlist("7", "38")
 
+
 def choicefcw_f_button_clicked():
     choice_goodbye("fcw")
     textline1.config(text="")
     textline2.config(text="")
     playlist("8", "40")
+    continue_button4.grid(row=3, column=1, padx=20, pady=20)
 
 
 def choicefcw_c_button_clicked():
@@ -319,6 +340,7 @@ def choicefcw_c_button_clicked():
     textline1.config(text="")
     textline2.config(text="")
     playlist("8", "41")
+    continue_button4.grid(row=3, column=1, padx=20, pady=20)
 
 
 def choicefcw_w_button_clicked():
@@ -326,6 +348,7 @@ def choicefcw_w_button_clicked():
     textline1.config(text="")
     textline1.config(text="")
     playlist("8", "42")
+    continue_button4.grid(row=3, column=1, padx=20, pady=20)
 
 
 def continue_button4_clicked():
@@ -377,6 +400,345 @@ def continue_button4_clicked():
     spinit("45", "")
     spinit("46", "")
     spinit("47", "")
+    
+    
+def spinit(cue, track):
+    #   I thought I heard
+    if cue == "1":
+        if track == "1":
+            play = pygame.mixer.Sound("itih.mp3").play()
+        if track == "2":
+            play = pygame.mixer.Sound("ttth.mp3").play()
+        if track == "3":
+            play = pygame.mixer.Sound("wtwh.mp3").play()
+        #   The Old
+    if cue == "2":
+        if track == "4":
+            play = pygame.mixer.Sound("to.mp3").play()
+        if track == "5":
+            play = pygame.mixer.Sound("tt.mp3").play()
+        if track == "6":
+            play = pygame.mixer.Sound("ts.mp3").play()
+        #   Man say
+    if cue == "3":
+        if track == "7":
+            play = pygame.mixer.Sound("ms.mp3").play()
+        #   Leave her
+    if cue == "4":
+        if track == "8":
+            play = pygame.mixer.Sound("lher_one.mp3").play()
+        if track == "9":
+            play = pygame.mixer.Sound("wher_one.mp3").play()
+        if track == "10":
+            play = pygame.mixer.Sound("trher_one.mp3").play()
+        #   Johnny
+    if cue == "5":
+        if track == "11":
+            play = pygame.mixer.Sound("johnny_one.mp3").play()
+        if track == "12":
+            play = pygame.mixer.Sound("timmy_one.mp3").play()
+        if track == "13":
+            play = pygame.mixer.Sound("frodo_one.mp3").play()
+        #   Leave her
+    if cue == "6":
+        if track == "14":
+            play = pygame.mixer.Sound("lher_two.mp3").play()
+        if track == "15":
+            play = pygame.mixer.Sound('wher_two.mp3').play()
+        if track == "16":
+            play = pygame.mixer.Sound("trher_two.mp3").play()
+        #   Tomorrow, ye will
+    if cue == "7":
+        if track == "17":
+            play = pygame.mixer.Sound("tyw.mp3").play()
+        if track == "18":
+            play = pygame.mixer.Sound("ntyw.mp3").play()
+        if track == "19":
+            play = pygame.mixer.Sound("ofyw.mp3").play()
+        #   Get your pay
+    if cue == "8":
+        if track == "20":
+            play = pygame.mixer.Sound("getyp.mp3").play()
+        if track == "21":
+            play = pygame.mixer.Sound("getyb.mp3").play()
+        if track == "22":
+            play = pygame.mixer.Sound("getyf.mp3").play()
+        #   And it's time for us
+    if cue == "9":
+        if track == "23":
+            play = pygame.mixer.Sound("aitfu.mp3").play()
+        #   To leave her
+    if cue == "10":
+        if track == "24":
+            play = pygame.mixer.Sound("tlher_one.mp3").play()
+        if track == "25":
+            play = pygame.mixer.Sound("twher_one.mp3").play()
+        if track == "26":
+            play = pygame.mixer.Sound("ttrher_one.mp3").play()
+        #   Leave her
+    if cue == "11":
+        if track == "27":
+            play = pygame.mixer.Sound("lher_one.mp3").play()
+        if track == "28":
+            play = pygame.mixer.Sound("wher_one.mp3").play()
+        if track == "29":
+            play = pygame.mixer.Sound("trher_one.mp3").play()
+        #   Johnny
+    if cue == "12":
+        if track == "30":
+            play = pygame.mixer.Sound("johnny_one.mp3").play()
+        if track == "31":
+            play = pygame.mixer.Sound("timmy_one.mp3").play()
+        if track == "32":
+            play = pygame.mixer.Sound("frodo_one.mp3").play()
+        #   Leave her
+    if cue == "13":
+        if track == "33":
+            play = pygame.mixer.Sound("lher_two.mp3").play()
+        if track == "34":
+            play = pygame.mixer.Sound("wher_two.mp3").play()
+        if track == "35":
+            play = pygame.mixer.Sound("trher_two.mp3").play()
+        #   Oh, leave her
+    if cue == "14":
+        if track == "36":
+            play = pygame.mixer.Sound("olher_one.mp3").play()
+        if track == "37":
+            play = pygame.mixer.Sound("owher_one.mp3").play()
+        if track == "38":
+            play = pygame.mixer.Sound("otrher_one.mp3").play()
+        #   Johnny
+    if cue == "15":
+        if track == "39":
+            play = pygame.mixer.Sound("johnny_one.mp3").play()
+        if track == "40":
+            play = pygame.mixer.Sound("timmy_one.mp3").play()
+        if track == "41":
+            play = pygame.mixer.Sound("frodo_one.mp3").play()
+        #   Leave her
+    if cue == "16":
+        if track == "42":
+            play = pygame.mixer.Sound("lher_three.mp3").play()
+        if track == "43":
+            play = pygame.mixer.Sound("wher_three.mp3").play()
+        if track == "44":
+            play = pygame.mixer.Sound("trher_three.mp3").play()
+        #   For the voyage is long
+    if cue == "17":
+        if track == "45":
+            play = pygame.mixer.Sound("ftvil.mp3").play()
+        if track == "46":
+            play = pygame.mixer.Sound("ftvis.mp3").play()
+        if track == "47":
+            play = pygame.mixer.Sound("ftviw.mp3").play()
+        #   And the winds don't blow
+    if cue == "18":
+        if track == "48":
+            play = pygame.mixer.Sound("atwdb.mp3").play()
+        #   And it's time for us
+    if cue == "19":
+        if track == "49":
+            play = pygame.mixer.Sound("aitfu.mp3").play()
+        #   To leave her
+    if cue == "20":
+        if track == "50":
+            play = pygame.mixer.Sound("tlher_one.mp3").play()
+        if track == "51":
+            play = pygame.mixer.Sound("twher_one.mp3").play()
+        if track == "52":
+            play = pygame.mixer.Sound("ttrher_one.mp3").play()
+        #   Oh, the wind was wild, and the sea ran high
+    if cue == "21":
+        if track == "53":
+            play = pygame.mixer.Sound("otwwwatsrh.mp3").play()
+        if track == "54":
+            play = pygame.mixer.Sound("otwwcatsrh.mp3").play()
+        if track == "55":
+            play = pygame.mixer.Sound("otwwcatsrh.mp3").play()
+        #   Leave her
+    if cue == "22":
+        if track == "56":
+            play = pygame.mixer.Sound("lher_one.mp3").play()
+        if track == "57":
+            play = pygame.mixer.Sound("wher_one.mp3").play()
+        if track == "58":
+            play = pygame.mixer.Sound("trher_one.mp3").play()
+        #   Johnny
+    if cue == "23":
+        if track == "59":
+            play = pygame.mixer.Sound("johnny_one.mp3").play()
+        if track == "60":
+            play = pygame.mixer.Sound("timmy_one.mp3").play()
+        if track == "61":
+            play = pygame.mixer.Sound("frodo_one.mp3").play()
+        #   Leave her
+    if cue == "24":
+        if track == "62":
+            play = pygame.mixer.Sound("lher_two.mp3").play()
+        if track == "63":
+            play = pygame.mixer.Sound("wher_two.mp3").play()
+        if track == "64":
+            play = pygame.mixer.Sound("trher_two.mp3").play()
+        #   She shipped it green, and none went by
+    if cue == "25":
+        if track == "65":
+            play = pygame.mixer.Sound("ssiganwb.mp3").play()
+        #   And it's time for us
+    if cue == "26":
+        if track == "66":
+            play = pygame.mixer.Sound("aitfu.mp3").play()
+        #   To leave her
+    if cue == "27":
+        if track == "67":
+            play = pygame.mixer.Sound("tlher_one.mp3").play()
+        if track == "68":
+            play = pygame.mixer.Sound("twher_one.mp3").play()
+        if track == "69":
+            play = pygame.mixer.Sound("ttrher_one.mp3").play()
+        #   Leave her
+    if cue == "28":
+        if track == "70":
+            play = pygame.mixer.Sound("lher_one.mp3").play()
+        if track == "71":
+            play = pygame.mixer.Sound("wher_one.mp3").play()
+        if track == "72":
+            play = pygame.mixer.Sound("trher_one.mp3").play()
+        #   Johnny
+    if cue == "29":
+        if track == "73":
+            play = pygame.mixer.Sound("johnny_one.mp3").play()
+        if track == "74":
+            play = pygame.mixer.Sound("timmy_one.mp3").play()
+        if track == "75":
+            play = pygame.mixer.Sound("frodo_one.mp3").play()
+        #   Leave her
+    if cue == "30":
+        if track == "76":
+            play = pygame.mixer.Sound("lher_two.mp3").play()
+        if track == "77":
+            play = pygame.mixer.Sound("wher_two.mp3").play()
+        if track == "78":
+            play = pygame.mixer.Sound("trher_two.mp3").play()
+        #   Oh, leave her
+    if cue == "31":
+        if track == "79":
+            play = pygame.mixer.Sound("olher_one.mp3").play()
+        if track == "80":
+            play = pygame.mixer.Sound("owher_one.mp3").play()
+        if track == "81":
+            play = pygame.mixer.Sound("otrher_one.mp3").play()
+        #   Johnny
+    if cue == "32":
+        if track == "82":
+            play = pygame.mixer.Sound("johnny_two.mp3").play()
+        if track == "83":
+            play = pygame.mixer.Sound("timmy_two.mp3").play()
+        if track == "84":
+            play = pygame.mixer.Sound("frodo_two.mp3").play()
+        #   Leave her
+    if cue == "33":
+        if track == "85":
+            play = pygame.mixer.Sound("lher_three.mp3").play()
+        if track == "86":
+            play = pygame.mixer.Sound("wher_three.mp3").play()
+        if track == "87":
+            play = pygame.mixer.Sound("trher_three.mp3").play()
+        #   For the voyage is long
+    if cue == "34":
+        if track == "88":
+            play = pygame.mixer.Sound("ftvil.mp3").play()
+        if track == "89":
+            play = pygame.mixer.Sound("ftvis.mp3").play()
+        if track == "90":
+            play = pygame.mixer.Sound("ftviw.mp3").play()
+        #   And the winds don't blow
+    if cue == "35":
+        if track == "91":
+            play = pygame.mixer.Sound("atwdb.mp3").play()
+        #   And it's time for us
+    if cue == "36":
+        if track == "92":
+            play = pygame.mixer.Sound("aitfu.mp3").play()
+        #   To leave her
+    if cue == "37":
+        if track == "93":
+            play = pygame.mixer.Sound("tlher_one.mp3").play()
+        if track == "94":
+            play = pygame.mixer.Sound("twher_one.mp3").play()
+        if track == "95":
+            play = pygame.mixer.Sound("ttrher_one.mp3").play()
+        #   Leave her
+    if cue == "38":
+        if track == "96":
+            play = pygame.mixer.Sound("lher_one.mp3").play()
+        if track == "97":
+            play = pygame.mixer.Sound("wher_one.mp3").play()
+        if track == "98":
+            play = pygame.mixer.Sound("trher_one.mp3").play()
+        #   Johnny
+    if cue == "39":
+        if track == "99":
+            play = pygame.mixer.Sound("johnny_one.mp3").play()
+        if track == "100":
+            play = pygame.mixer.Sound("timmy_one.mp3").play()
+        if track == "101":
+            play = pygame.mixer.Sound("frodo_one.mp3").play()
+        #   Leave her
+    if cue == "40":
+        if track == "102":
+            play = pygame.mixer.Sound("lher_two.mp3").play()
+        if track == "103":
+            play = pygame.mixer.Sound("wher_two.mp3").play()
+        if track == "104":
+            play = pygame.mixer.Sound("trher_two.mp3").play()
+        #   Oh, leave her
+    if cue == "41":
+        if track == "105":
+            play = pygame.mixer.Sound("olher_one.mp3").play()
+        if track == "106":
+            play = pygame.mixer.Sound("owher_one.mp3").play()
+        if track == "107":
+            play = pygame.mixer.Sound("otrher_one.mp3").play()
+        #   Johnny
+    if cue == "42":
+        if track == "108":
+            play = pygame.mixer.Sound("johnny_two.mp3").play()
+        if track == "109":
+            play = pygame.mixer.Sound("timmy_two.mp3").play()
+        if track == "110":
+            play = pygame.mixer.Sound("frodo_two.mp3").play()
+        #   Leave her
+    if cue == "43":
+        if track == "111":
+            play = pygame.mixer.Sound("lher_three.mp3").play()
+        if track == "112":
+            play = pygame.mixer.Sound("wher_three.mp3").play()
+        if track == "113":
+            play = pygame.mixer.Sound("trher_three.mp3").play()
+        #   For the voyage is long
+    if cue == "44":
+        if track == "114":
+            play = pygame.mixer.Sound("ftvil.mp3").play()
+        if track == "115":
+            play = pygame.mixer.Sound("ftvis.mp3").play()
+        if track == "116":
+            play = pygame.mixer.Sound("ftviw.mp3").play()
+        #   And the winds don't blow
+    if cue == "45":
+        if track == "117":
+            play = pygame.mixer.Sound("atwdb.mp3").play()
+        #   And it's time for us
+    if cue == "46":
+        if track == "118":
+            play = pygame.mixer.Sound("aitfu.mp3").play()
+        #   To leave her
+    if cue == "47":
+        if track == "119":
+            play = pygame.mixer.Sound("tlher_one.mp3").play()
+        if track == "120":
+            play = pygame.mixer.Sound("twher_one.mp3").play()
+        if track == "121":
+            play = pygame.mixer.Sound("ttrher_one.mp3").play()
 
 
 def playlist(cue, track):
@@ -963,345 +1325,6 @@ def cueit(maintrack, subtrack):
             spinit("47", "121")
                     
                     
-def spinit(cue, track):
-    #   I thought I heard
-    if cue == "1":
-        if track == "1":
-            play = pygame.mixer.Sound("itih.mp3").play()
-        if track == "2":
-            play = pygame.mixer.Sound("ttth.mp3").play()
-        if track == "3":
-            play = pygame.mixer.Sound("wtwh.mp3").play()
-    #   The Old
-    if cue == "2":
-        if track == "4":
-            play = pygame.mixer.Sound("to.mp3").play()
-        if track == "5":
-            play = pygame.mixer.Sound("tt.mp3").play()
-        if track == "6":
-            play = pygame.mixer.Sound("ts.mp3").play()
-    #   Man say
-    if cue == "3":
-        if track == "7":
-            play = pygame.mixer.Sound("ms.mp3").play()
-    #   Leave her
-    if cue == "4":
-        if track == "8":
-            play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "9":
-            play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "10":
-            play = pygame.mixer.Sound("trher_one.mp3").play()
-    #   Johnny
-    if cue == "5":
-        if track == "11":
-            play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "12":
-            play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "13":
-            play = pygame.mixer.Sound("frodo_one.mp3").play()
-    #   Leave her
-    if cue == "6":
-        if track == "14":
-            play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "15":
-            play = pygame.mixer.Sound('wher_two.mp3').play()
-        if track == "16":
-            play = pygame.mixer.Sound("trher_two.mp3").play()
-    #   Tomorrow, ye will
-    if cue == "7":
-        if track == "17":
-            play = pygame.mixer.Sound("tyw.mp3").play()
-        if track == "18":
-            play = pygame.mixer.Sound("ntyw.mp3").play()
-        if track == "19":
-            play = pygame.mixer.Sound("ofyw.mp3").play()
-    #   Get your pay
-    if cue == "8":
-        if track == "20":
-            play = pygame.mixer.Sound("getyp.mp3").play()
-        if track == "21":
-            play = pygame.mixer.Sound("getyb.mp3").play()
-        if track == "22":
-            play = pygame.mixer.Sound("getyf.mp3").play()
-    #   And it's time for us
-    if cue == "9":
-        if track == "23":
-            play = pygame.mixer.Sound("aitfu.mp3").play()
-    #   To leave her
-    if cue == "10":
-        if track == "24":
-            play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "25":
-            play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "26":
-            play = pygame.mixer.Sound("ttrher_one.mp3").play()
-    #   Leave her
-    if cue == "11":
-        if track == "27":
-            play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "28":
-            play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "29":
-            play = pygame.mixer.Sound("trher_one.mp3").play()
-    #   Johnny
-    if cue == "12":
-        if track == "30":
-            play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "31":
-            play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "32":
-            play = pygame.mixer.Sound("frodo_one.mp3").play()
-    #   Leave her
-    if cue == "13":
-        if track == "33":
-            play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "34":
-            play = pygame.mixer.Sound("wher_two.mp3").play()
-        if track == "35":
-            play = pygame.mixer.Sound("trher_two.mp3").play()
-    #   Oh, leave her
-    if cue == "14":
-        if track == "36":
-            play = pygame.mixer.Sound("olher_one.mp3").play()
-        if track == "37":
-            play = pygame.mixer.Sound("owher_one.mp3").play()
-        if track == "38":
-            play = pygame.mixer.Sound("otrher_one.mp3").play()
-    #   Johnny
-    if cue == "15":
-        if track == "39":
-            play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "40":
-            play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "41":
-            play = pygame.mixer.Sound("frodo_one.mp3").play()
-    #   Leave her
-    if cue == "16":
-        if track == "42":
-            play = pygame.mixer.Sound("lher_three.mp3").play()
-        if track == "43":
-            play = pygame.mixer.Sound("wher_three.mp3").play()
-        if track == "44":
-            play = pygame.mixer.Sound("trher_three.mp3").play()
-    #   For the voyage is long
-    if cue == "17":
-        if track == "45":
-            play = pygame.mixer.Sound("ftvil.mp3").play()
-        if track == "46":
-            play = pygame.mixer.Sound("ftvis.mp3").play()
-        if track == "47":
-            play = pygame.mixer.Sound("ftviw.mp3").play()
-    #   And the winds don't blow
-    if cue == "18":
-        if track == "48":
-            play = pygame.mixer.Sound("atwdb.mp3").play()
-    #   And it's time for us
-    if cue == "19":
-        if track == "49":
-            play = pygame.mixer.Sound("aitfu.mp3").play()
-    #   To leave her
-    if cue == "20":
-        if track == "50":
-            play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "51":
-            play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "52":
-            play = pygame.mixer.Sound("ttrher_one.mp3").play()
-    #   Oh, the wind was wild, and the sea ran high
-    if cue == "21":
-        if track == "53":
-            play = pygame.mixer.Sound("otwwwatsrh.mp3").play()
-        if track == "54":
-            play = pygame.mixer.Sound("otwwcatsrh.mp3").play()
-        if track == "55":
-            play = pygame.mixer.Sound("otwwcatsrh.mp3").play()
-    #   Leave her
-    if cue == "22":
-        if track == "56":
-            play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "57":
-            play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "58":
-            play = pygame.mixer.Sound("trher_one.mp3").play()
-    #   Johnny
-    if cue == "23":
-        if track == "59":
-            play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "60":
-            play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "61":
-            play = pygame.mixer.Sound("frodo_one.mp3").play()
-    #   Leave her
-    if cue == "24":
-        if track == "62":
-            play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "63":
-            play = pygame.mixer.Sound("wher_two.mp3").play()
-        if track == "64":
-            play = pygame.mixer.Sound("trher_two.mp3").play()
-    #   She shipped it green, and none went by
-    if cue == "25":
-        if track == "65":
-            play = pygame.mixer.Sound("ssiganwb.mp3").play()
-    #   And it's time for us
-    if cue == "26":
-        if track == "66":
-            play = pygame.mixer.Sound("aitfu.mp3").play()
-    #   To leave her
-    if cue == "27":
-        if track == "67":
-            play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "68":
-            play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "69":
-            play = pygame.mixer.Sound("ttrher_one.mp3").play()
-    #   Leave her
-    if cue == "28":
-        if track == "70":
-            play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "71":
-            play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "72":
-            play = pygame.mixer.Sound("trher_one.mp3").play()
-    #   Johnny
-    if cue == "29":
-        if track == "73":
-            play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "74":
-            play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "75":
-            play = pygame.mixer.Sound("frodo_one.mp3").play()
-    #   Leave her
-    if cue == "30":
-        if track == "76":
-            play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "77":
-            play = pygame.mixer.Sound("wher_two.mp3").play()
-        if track == "78":
-            play = pygame.mixer.Sound("trher_two.mp3").play()
-    #   Oh, leave her
-    if cue == "31":
-        if track == "79":
-            play = pygame.mixer.Sound("olher_one.mp3").play()
-        if track == "80":
-            play = pygame.mixer.Sound("owher_one.mp3").play()
-        if track == "81":
-            play = pygame.mixer.Sound("otrher_one.mp3").play()
-    #   Johnny
-    if cue == "32":
-        if track == "82":
-            play = pygame.mixer.Sound("johnny_two.mp3").play()
-        if track == "83":
-            play = pygame.mixer.Sound("timmy_two.mp3").play()
-        if track == "84":
-            play = pygame.mixer.Sound("frodo_two.mp3").play()
-    #   Leave her
-    if cue == "33":
-        if track == "85":
-            play = pygame.mixer.Sound("lher_three.mp3").play()
-        if track == "86":
-            play = pygame.mixer.Sound("wher_three.mp3").play()
-        if track == "87":
-            play = pygame.mixer.Sound("trher_three.mp3").play()
-    #   For the voyage is long
-    if cue == "34":
-        if track == "88":
-            play = pygame.mixer.Sound("ftvil.mp3").play()
-        if track == "89":
-            play = pygame.mixer.Sound("ftvis.mp3").play()
-        if track == "90":
-            play = pygame.mixer.Sound("ftviw.mp3").play()
-    #   And the winds don't blow
-    if cue == "35":
-        if track == "91":
-            play = pygame.mixer.Sound("atwdb.mp3").play()
-    #   And it's time for us
-    if cue == "36":
-        if track == "92":
-            play = pygame.mixer.Sound("aitfu.mp3").play()
-    #   To leave her
-    if cue == "37":
-        if track == "93":
-            play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "94":
-            play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "95":
-            play = pygame.mixer.Sound("ttrher_one.mp3").play()
-    #   Leave her
-    if cue == "38":
-        if track == "96":
-            play = pygame.mixer.Sound("lher_one.mp3").play()
-        if track == "97":
-            play = pygame.mixer.Sound("wher_one.mp3").play()
-        if track == "98":
-            play = pygame.mixer.Sound("trher_one.mp3").play()
-    #   Johnny
-    if cue == "39":
-        if track == "99":
-            play = pygame.mixer.Sound("johnny_one.mp3").play()
-        if track == "100":
-            play = pygame.mixer.Sound("timmy_one.mp3").play()
-        if track == "101":
-            play = pygame.mixer.Sound("frodo_one.mp3").play()
-    #   Leave her
-    if cue == "40":
-        if track == "102":
-            play = pygame.mixer.Sound("lher_two.mp3").play()
-        if track == "103":
-            play = pygame.mixer.Sound("wher_two.mp3").play()
-        if track == "104":
-            play = pygame.mixer.Sound("trher_two.mp3").play()
-    #   Oh, leave her
-    if cue == "41":
-        if track == "105":
-            play = pygame.mixer.Sound("olher_one.mp3").play()
-        if track == "106":
-            play = pygame.mixer.Sound("owher_one.mp3").play()
-        if track == "107":
-            play = pygame.mixer.Sound("otrher_one.mp3").play()
-    #   Johnny
-    if cue == "42":
-        if track == "108":
-            play = pygame.mixer.Sound("johnny_two.mp3").play()
-        if track == "109":
-            play = pygame.mixer.Sound("timmy_two.mp3").play()
-        if track == "110":
-            play = pygame.mixer.Sound("frodo_two.mp3").play()
-    #   Leave her
-    if cue == "43":
-        if track == "111":
-            play = pygame.mixer.Sound("lher_three.mp3").play()
-        if track == "112":
-            play = pygame.mixer.Sound("wher_three.mp3").play()
-        if track == "113":
-            play = pygame.mixer.Sound("trher_three.mp3").play()
-    #   For the voyage is long
-    if cue == "44":
-        if track == "114":
-            play = pygame.mixer.Sound("ftvil.mp3").play()
-        if track == "115":
-            play = pygame.mixer.Sound("ftvis.mp3").play()
-        if track == "116":
-            play = pygame.mixer.Sound("ftviw.mp3").play()
-    #   And the winds don't blow
-    if cue == "45":
-        if track == "117":
-            play = pygame.mixer.Sound("atwdb.mp3").play()
-    #   And it's time for us
-    if cue == "46":
-        if track == "118":
-            play = pygame.mixer.Sound("aitfu.mp3").play()
-    #   To leave her
-    if cue == "47":
-        if track == "119":
-            play = pygame.mixer.Sound("tlher_one.mp3").play()
-        if track == "120":
-            play = pygame.mixer.Sound("twher_one.mp3").play()
-        if track == "121":
-            play = pygame.mixer.Sound("ttrher_one.mp3").play()
-
-
 #   THE BUTTON LIBRARY
 start_button = Button(window, text="Start", bg="gainsboro", fg="black", font=fancyfont, width=8,
                       command=start_button_clicked)
