@@ -3,7 +3,8 @@ import pygame
 from tkinter import *
 import tkinter as tk
 pygame.init()
-fancyfont = ("Lucida Calligraphy", 20)
+fancyfont_header = ("Lucida Calligraphy", 20)
+fancyfont_main = ("Courier New", 16)
 #   SETTING UP THE GUI
 window = tk.Tk()
 width = window.winfo_screenwidth()
@@ -18,18 +19,24 @@ lex_image_display = Label(window, image=lex, bg="black")
 guido = PhotoImage(file="GuidovanRossum.png")
 guido_image_display = Label(window, image=guido, bg="black")
 #   TEXT DISPLAY AREAS
-textline1 = Label(window, text="", bg="black", fg="gold", font=fancyfont)
-textline2 = Label(window, text="", bg="black", fg="gold", font=fancyfont)
-choice1_option = Label(window, text="I", bg="gray14", fg="gold", font=fancyfont, width=8)
-choice2_option = Label(window, text="They", bg="gray14", fg="gold", font=fancyfont, width=8)
-choice3_option = Label(window, text="We", bg="gray14", fg="gold", font=fancyfont, width=8)
+textline1 = Label(window, text="", bg="black", fg="gold", font=fancyfont_header)
+textline2 = Label(window, text="", bg="black", fg="gold", font=fancyfont_header)
+textline3 = Label(window, text="", bg="black", fg="white", font=fancyfont_main)
+textline4 = Label(window, text="", bg="black", fg="white", font=fancyfont_main)
+textline5 = Label(window, text="", bg="black", fg="white", font=fancyfont_main)
+choice1_option = Label(window, text="I", bg="gray14", fg="gold", font=fancyfont_header, width=8)
+choice2_option = Label(window, text="They", bg="gray14", fg="gold", font=fancyfont_header, width=8)
+choice3_option = Label(window, text="We", bg="gray14", fg="gold", font=fancyfont_header, width=8)
 textline1.config(text="Lex Fridman")
 textline1.grid(row=2, column=2, padx=75, pady=50, sticky=W)
 # IMAGE DISPLAY AREAS
-lex_image_display.grid(row=3, column=2, padx=75, pady=50, sticky=W)
+lex_image_display.grid(row=4, column=2, padx=75, pady=50, sticky=W)
 textline2.config(text="Guido van Rossum")
-textline2.grid(row=2, column=4, padx=450, pady=50, sticky=W)
-guido_image_display.grid(row=3, column=4, padx=450, pady=50, sticky=W)
+textline2.grid(row=2, column=3, padx=450, pady=50, sticky=W)
+textline3.grid(row=3, column=3, padx=75, pady=50, sticky=W)
+textline4.grid(row=4, column=3, padx=75, pady=50, sticky=W)
+textline5.grid(row=5, column=3, padx=75, pady=50, sticky=W)
+guido_image_display.grid(row=6, column=4, padx=450, pady=50, sticky=W)
 
 
 # THE BUTTON CLICK ACTIONS
@@ -50,7 +57,7 @@ def start_button_clicked():
     play = pygame.mixer.Sound("interview05.mp3").play()
     while play.get_busy():
         continue
-    continue_button1.grid(row=1, column=1, padx=20, pady=20)
+    continue_button1.grid(row=1, column=1, padx=50, pady=50)
 
 
 def continue_button1_clicked():
@@ -70,7 +77,7 @@ def continue_button2_clicked():
     continue_button2.destroy()
     textline1.config(text="You will have a total of eight lyric choices to make.")
     textline2.config(text="Choose one item from each group of three.")
-    continue_button3.grid(row=3, column=1, padx=20, pady=20)
+    continue_button3.grid(row=3, column=1, padx=50, pady=20)
 
 
 def continue_button3_clicked():
@@ -332,7 +339,7 @@ def choicefcw_f_button_clicked():
     textline1.config(text="")
     textline2.config(text="")
     playlist("8", "40")
-    continue_button4.grid(row=3, column=1, padx=20, pady=20)
+    continue_button4.grid(row=3, column=1, padx=50, pady=20)
 
 
 def choicefcw_c_button_clicked():
@@ -340,7 +347,7 @@ def choicefcw_c_button_clicked():
     textline1.config(text="")
     textline2.config(text="")
     playlist("8", "41")
-    continue_button4.grid(row=3, column=1, padx=20, pady=20)
+    continue_button4.grid(row=3, column=1, padx=50, pady=20)
 
 
 def choicefcw_w_button_clicked():
@@ -1326,63 +1333,63 @@ def cueit(maintrack, subtrack):
                     
                     
 #   THE BUTTON LIBRARY
-start_button = Button(window, text="Start", bg="gainsboro", fg="black", font=fancyfont, width=8,
+start_button = Button(window, text="Start", bg="gainsboro", fg="black", font=fancyfont_header, width=8,
                       command=start_button_clicked)
-continue_button1 = Button(window, text="Continue", bg="gainsboro", fg="black", font=fancyfont, width=8,
+continue_button1 = Button(window, text="Continue", bg="gainsboro", fg="black", font=fancyfont_header, width=8,
                           command=continue_button1_clicked)
-continue_button2 = Button(window, text="Continue", bg="gainsboro", fg="black", font=fancyfont, width=8,
+continue_button2 = Button(window, text="Continue", bg="gainsboro", fg="black", font=fancyfont_header, width=8,
                           command=continue_button2_clicked)
-continue_button3 = Button(window, text="Continue", bg="gainsboro", fg="black", font=fancyfont, width=8,
+continue_button3 = Button(window, text="Continue", bg="gainsboro", fg="black", font=fancyfont_header, width=8,
                           command=continue_button3_clicked)
-continue_button4 = Button(window, text="Continue", bg="gainsboro", fg="black", font=fancyfont, width=8,
+continue_button4 = Button(window, text="Continue", bg="gainsboro", fg="black", font=fancyfont_header, width=8,
                           command=continue_button4_clicked)
-choiceitw_i_button = Button(window, text="I", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choiceitw_i_button = Button(window, text="I", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choiceitw_i_button_clicked)
-choiceitw_t_button = Button(window, text="They", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choiceitw_t_button = Button(window, text="They", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choiceitw_t_button_clicked)
-choiceitw_w_button = Button(window, text="We", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choiceitw_w_button = Button(window, text="We", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choiceitw_w_button_clicked)
-choiceots_o_button = Button(window, text="Old", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choiceots_o_button = Button(window, text="Old", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choiceots_o_button_clicked)
-choiceots_t_button = Button(window, text="Tall", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choiceots_t_button = Button(window, text="Tall", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choiceots_t_button_clicked)
-choiceots_s_button = Button(window, text="Sad", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choiceots_s_button = Button(window, text="Sad", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choiceots_s_button_clicked)
-choicelwt_l_button = Button(window, text="Leave", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicelwt_l_button = Button(window, text="Leave", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicelwt_l_button_clicked)
-choicelwt_w_button = Button(window, text="Watch", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicelwt_w_button = Button(window, text="Watch", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicelwt_w_button_clicked)
-choicelwt_t_button = Button(window, text="Trust", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicelwt_t_button = Button(window, text="Trust", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicelwt_t_button_clicked)
-choicejtf_j_button = Button(window, text="Johnny", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicejtf_j_button = Button(window, text="Johnny", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicejtf_j_button_clicked)
-choicejtf_t_button = Button(window, text="Timmy", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicejtf_t_button = Button(window, text="Timmy", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicejtf_t_button_clicked)
-choicejtf_f_button = Button(window, text="Frodo", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicejtf_f_button = Button(window, text="Frodo", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicejtf_f_button_clicked)
-choicetntof_t_button = Button(window, text="Tomorrow", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicetntof_t_button = Button(window, text="Tomorrow", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                               command=choicetntof_t_button_clicked)
-choicetntof_nt_button = Button(window, text="Next Tuesday", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicetntof_nt_button = Button(window, text="Next Tuesday", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                                command=choicetntof_nt_button_clicked)
-choicetntof_of_button = Button(window, text="On Friday", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicetntof_of_button = Button(window, text="On Friday", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                                command=choicetntof_of_button_clicked)
-choicepbf_p_button = Button(window, text="Pay", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicepbf_p_button = Button(window, text="Pay", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicepbf_p_button_clicked)
-choicepbf_b_button = Button(window, text="Bell", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicepbf_b_button = Button(window, text="Bell", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicepbf_b_button_clicked)
-choicepbf_f_button = Button(window, text="Fish", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicepbf_f_button = Button(window, text="Fish", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicepbf_f_button_clicked)
-choicelsw_l_button = Button(window, text="Long", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicelsw_l_button = Button(window, text="Long", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicelsw_l_button_clicked)
-choicelsw_s_button = Button(window, text="Short", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicelsw_s_button = Button(window, text="Short", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicelsw_s_button_clicked)
-choicelsw_w_button = Button(window, text="Wild", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicelsw_w_button = Button(window, text="Wild", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicelsw_w_button_clicked)
-choicefcw_f_button = Button(window, text="Foul", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicefcw_f_button = Button(window, text="Foul", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicefcw_f_button_clicked)
-choicefcw_c_button = Button(window, text="Cold", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicefcw_c_button = Button(window, text="Cold", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicefcw_c_button_clicked)
-choicefcw_w_button = Button(window, text="Weird", bg="gainsboro", fg="black", font=fancyfont, width=12,
+choicefcw_w_button = Button(window, text="Weird", bg="gainsboro", fg="black", font=fancyfont_header, width=12,
                             command=choicefcw_w_button_clicked)
 
 # DISPLAYING THE FIRST GUI BUTTON
