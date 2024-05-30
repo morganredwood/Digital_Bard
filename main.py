@@ -313,11 +313,13 @@ def choicefcw_f_button_clicked():
     textline2.config(text="")
     playlist("40")
 
+
 def choicefcw_c_button_clicked():
     choice_goodbye("fcw")
     textline1.config(text="")
     textline2.config(text="")
     playlist("41")
+
 
 def choicefcw_w_button_clicked():
     choice_goodbye("fcw")
@@ -325,286 +327,180 @@ def choicefcw_w_button_clicked():
     textline1.config(text="")
     playlist("42")
 
+
 def continue_button4_clicked():
     continue_button4.destroy()
 
 
-def playlist(track):
-    if track == "1":
-        line1 = "I thought I heard"
-    if track == "2":
-        line1 = "They thought they heard"
-    if track == "3":
-        line1 = "We thought we heard"
-    if track == "4":
-        line 2
-        1
-        I
-        thought
-        I
-        heard
-        2
-        They
-        thought
-        they
-        heard
-        3
-        We
-        thought
-        we
-        heard
-        4
-        The
-        Old
-        5
-        The
-        Tall
-        6
-        The
-        Sad
-        7
-        Man
-        say
-        8
-        Leave
-        her
-        1
-        9
-        Watch
-        her
-        1
-        10
-        Trust
-        her
-        1
-        11
-        Johnny
-        1
-        12
-        Timmy
-        1
-        13
-        Frodo
-        14
-        Leave
-        her
-        2
-        15
-        Watch
-        her
-        2
-        16
-        Trust
-        her
-        2
-        17
-        Tomorrow, ye
-        will
-        18
-        Next
-        Tuesday, ye
-        will
-        19
-        On
-        Friday, ye
-        will
-        20
-        Get
-        your
-        pay
-        21
-        Get
-        your
-        bell
-        22
-        Get
-        your
-        fish
-        23
-        And
-        it
-        's time for us
-        24
-        To
-        leave
-        her
-        25
-        To
-        watch
-        her
-        26
-        To
-        trust
-        her
-        27
-        Oh, leave
-        her
-        28
-        Oh, watch
-        her
-        29
-        Oh, trust
-        her
-        30
-        Johnny
-        2
-        31
-        Timmy
-        2
-        32
-        Frodo
-        2
-        33
-        Leave
-        her
-        3
-        34
-        Watch
-        her
-        3
-        35
-        Trust
-        her
-        3
-        36
-        For
-        the
-        voyage is long
-        37
-        For
-        the
-        voyage is short
-        38
-        For
-        the
-        voyage is wild
-        39
-        And
-        the
-        winds
-        don
-        't blow
-        40
-        Oh, the
-        wind
-        was
-        foul, and the
-        sea
-        ran
-        high
-        41
-        Oh, the
-        wind
-        was
-        cold, and the
-        sea
-        ran
-        high
-        42
-        Oh, the
-        wind
-        was
-        weird, and the
-        sea
-        ran
-        high
-        43
-        She
-        shipped
-        it
-        green, and none
-        went
-        by
-
-
-def library(file):
-    if file == "1":
-        play1 = pygame.mixer.Sound("itih.mp3").play()
-    if file == "2":
-        play2 = pygame.mixer.Sound("ttth.mp3").play()
-    if file == "3":
-        play3 = pygame.mixer.Sound("wtwh.mp3").play()
-    if file == "4":
-        play4 = pygame.mixer.Sound("to.mp3").play()
-    if file == "5":
-        play5 = pygame.mixer.Sound("tt.mp3").play()
-    if file == "6":
-        play6 = pygame.mixer.Sound("ts.mp3").play()
-    if file == "7":
-        play7 = pygame.mixer.Sound("ms.mp3").play()
-    if file == "8":
-        play8 = pygame.mixer.Sound("lher_one.mp3").play()
-    if file == "9":
-        play9 = pygame.mixer.Sound("wher_one.mp3").play()
-    if file == "10":
-        play10 = pygame.mixer.Sound("trher_one.mp3").play()
-    if file == "11":
-        play11 = pygame.mixer.Sound("johnny_one.mp3").play()
-    if file == "12":
-        play12 = pygame.mixer.Sound("timmy_one.mp3").play()
-    if file == "13":
-        play13 = pygame.mixer.Sound("frodo_one.mp3").play()
-    if file == "14":
-        play14 = pygame.mixer.Sound("lher_two.mp3").play()
-    if file == "15":
-        play15 = pygame.mixer.Sound("wher_two.mp3").play()
-    if file == "16":
-        play16 = pygame.mixer.Sound("trher_two.mp3").play()
-    if file == "17":
-        play17 = pygame.mixer.Sound("tyw.mp3").play()
-    if file == "18":
-        play18 = pygame.mixer.Sound("ntyw.mp3").play()
-    if file == "19":
-        play19 = pygame.mixer.Sound("ofyw.mp3").play()
-    if file == "20":
-        play20 = pygame.mixer.Sound("getyp.mp3").play()
-    if file == "21":
-        play21 = pygame.mixer.Sound("getyb.mp3").play()
-    if file == "22":
-        play22 = pygame.mixer.Sound("getyf.mp3").play()
-    if file == "23":
-        play23 = pygame.mixer.Sound("aitfu.mp3").play()
-    if file == "24":
-        play24 = pygame.mixer.Sound("tlher_one.mp3").play()
-    if file == "25":
-        play25 = pygame.mixer.Sound("twher_one.mp3").play()
-    if file == "26":
-        play26 = pygame.mixer.Sound("ttrher_one.mp3").play()
-    if file == "27":
-        play27 = pygame.mixer.Sound("olher_one.mp3").play()
-    if file == "28":
-        play28 = pygame.mixer.Sound("owher_one.mp3").play()
-    if file == "29":
-        play29 = pygame.mixer.Sound("otrher_one.mp3").play()
-    if file == "30":
-        play30 = pygame.mixer.Sound("johnny_two.mp3").play()
-    if file == "31":
-        play31 = pygame.mixer.Sound("timmy_two.mp3").play()
-    if file == "32":
-        play32 = pygame.mixer.Sound("frodo_two.mp3").play()
-    if file == "33":
-        play33 = pygame.mixer.Sound("lher_three.mp3").play()
-    if file == "34":
-        play34 = pygame.mixer.Sound("wher_three.mp3").play()
-    if file == "35":
-        play35 = pygame.mixer.Sound("trher_three.mp3").play()
-    if file == "36":
-        play36 = pygame.mixer.Sound("ftvil.mp3").play()
-    if file == "37":
-        play37 = pygame.mixer.Sound("ftvis.mp3").play()
-    if file == "38":
-        play38 = pygame.mixer.Sound("ftviw.mp3").play()
-    if file == "39":
-        play39 = pygame.mixer.Sound("atwdb.mp3").play()
-    if file == "40":
-        play40 = pygame.mixer.Sound("otwwwatsrh.mp3").play()
-    if file == "41":
-        play41 = pygame.mixer.Sound("otwwcatsrh.mp3").play()
-    if file == "42":
-        play42 = pygame.mixer.Sound("otwwwatsrh.mp3").play()
-    if file == "43":
-        play43 = pygame.mixer.Sound("ssiganwb.mp3").play()
-
+def playlist(number):
+    #   Playlist 1 "I thought I heard"
+        #   Track 1 "I thought I heard"
+        #   Track 2 "They thought they heard"
+        #   Track 3 "We thought we heard"
+    #   Playlist 2 "The Old"
+        #   Track 4 "The Old"
+        #   Track 5 "The Tall"
+        #   Track 6 "The Sad"
+    #   Playlist 3 "Man say"
+        #   Track 7 "Man say"
+    #   Playlist 4 "Leave her"
+        #   Track 8 "Leave her 1"
+        #   Track 9 "Watch her 1"
+        #   Track 10 "Trust her 1"
+    #   Playlist 5 "Johnny"
+        #   Track 11 "Johnny 1"
+        #   Track 12 "Timmy 1"
+        #   Track 13 "Frodo 1"
+    #   Playlist 6 "Leave her"
+        #   Track 14 "Leave her 2"
+        #   Track 15 "Watch her 2"
+        #   Track 16 "Trust her 2"
+    #   Playlist 7 "Tomorrow, ye will"
+        #   Track 17 "Tomorrow, ye will"
+        #   Track 18 "Next Tuesday, ye will"
+        #   Track 19 "On Friday, ye will"
+    #   Playlist 8 "Get your pay"
+        #   Track 20 "Get your pay"
+        #   Track 21 "Get your bell"
+        #   Track 22 "Get your fish"
+    #   Playlist 9 "And it's time for us"
+        # Track 23 "And it's time for us"
+    #   Playlist 10 "To leave her"
+        #   Track 24 "To leave her"
+        #   Track 25 "To watch her"
+        #   Track 26 "To trust her"
+    #   Playlist 11 "Leave her"
+        #   Track 27 "Leave her 1"
+        #   Track 28 "Watch her 1"
+        #   Track 29 "Trust her 1"
+    #   Playlist 12 "Johnny"
+        #   Track 30 "Johnny 1"
+        #   Track 31 "Timmy 1"
+        #   Track 32 "Frodo 1"
+    #   Playlist 13 "Leave her"
+        #   Track 33 "Leave her 2"
+        #   Track 34 "Watch her 2"
+        #   Track 35 "Trust her 2"
+    #   Playlist 14 "Oh, leave her"
+        #   Track 36 "Oh, leave her"
+        #   Track 37 "Oh, watch her"
+        #   Track 38 "Oh, trust her"
+    #   Playlist 15 "Johnny"
+        #   Track 39 "Johnny 2"
+        #   Track 40 "Timmy 2"
+        #   Track 41 "Frodo 2"
+    #   Playlist 16 "Leave her"
+        #   Track 42 "Leave her 3"
+        #   Track 43 "Watch her 3"
+        #   Track 44 "Trust her 3"
+    #   Playlist 17 "For the voyage is long"
+        #   Track 45 "For the voyage is long"
+        #   Track 46 "For the voyage is short"
+        #   Track 47 "For the voyage is wild"
+    #   Playlist 18 "And the winds don't blow"
+        #   Track 48 "And the winds don't blow"
+    #   Playlist 19 "And it's time for us"
+        #   Track 49 "And it's time for us"
+    #   Playlist 20 "To leave her"
+        #   Track 50 "To leave her"
+        #   Track 51 "To watch her"
+        #   Track 52 "To trust her"
+    #   Playlist 21 "Oh, the wind was foul, and the sea ran high"
+        #   Track 53 "Oh, the wind was foul, and the sea ran high"
+        #   Track 54 "Oh, the wind was cold, and the sea ran high"
+        #   Track 55 "Oh, the wind was weird, and the sea ran high"
+    #   Playlist 22 "Leave her"
+        #   Track 56 "Leave her 1"
+        #   Track 57 "Watch her 1"
+        #   Track 58 "Trust her 1"
+    #   Playlist 23 "Johnny"
+        #   Track 59 "Johnny 1"
+        #   Track 60 "Timmy 1"
+        #   Track 61 "Frodo 1"
+    #   Playlist 24 "Leave her"
+        #   Track 62 "Leave her 2"
+        #   Track 63 "Watch her 2"
+        #   Track 64 "Trust her 2"
+    #   Playlist 25 "She shipped it green, and none went by"
+        #   Track 65 "She shipped it green, and none went by"
+    #   Playlist 26 "And it's time for us"
+        #   Track 66 "And it's time for us"
+    #   Playlist 27 "To leave her"
+        #   Track 67 "To leave her"
+        #   Track 68 "To watch her"
+        #   Track 69 "To trust her"
+    #   Playlist 28 "Leave her"
+        #   Track 70 "Leave her 1"
+        #   Track 71 "Watch her 1"
+        #   Track 72 "Trust her 1"
+    #   Playlist 29 "Johnny"
+        #   Track 73 "Johnny 1"
+        #   Track 74 "Timmy 1"
+        #   Track 75 "Frodo 1"
+    #   Playlist 30 "Leave her"
+        #   Track 76 "Leave her"
+        #   Track 77 "Watch her"
+        #   Track 78 "Trust her"
+    #   Playlist 31 "Oh, leave her"
+        #   Track 79 "Oh, leave her"
+        #   Track 80 "Oh, watch her"
+        #   Track 81 "Oh, trust her"
+    #   Playlist 32 "Johnny"
+        #   Track 82 "Johnny 2"
+        #   Track 83 "Timmy 2"
+        #   Track 84 "Frodo 2"
+    #   Playlist 33 "Leave her"
+        #   Track 85 "Leave her 3"
+        #   Track 86 "Watch her 3"
+        #   Track 87 "Trust her 3"
+    #   Playlist 34 "For the voyage is long"
+        #   Track 88 "For the voyage is long"
+        #   Track 89 "For the voyage is short"
+        #   Track 90 "For the voyage is wild"
+    #   Playlist 35 "And the winds don't blow"
+        #   Track 91 "And the winds don't blow'
+    #   Playlist 36 "And it's time for us"
+        #   Track 92 "And it's time for us"
+    #   Playlist 37 "To leave her"
+        #   Track 93 "To leave her"
+        #   Track 94 "To watch her"
+        #   Track 95 "To trust her"
+    #   Playlist 38 "Leave her"
+        #   Track 96 "Leave her"
+        #   Track 97 "Watch her"
+        #   Track 98 "Trust her"
+    #   Playlist 39 "Johnny"
+        #   Track 99 "Johnny 1"
+        #   Track 100 "Timmy 1"
+        #   Track 101 "Frodo 1"
+    #   Playlist 40 "Leave her"
+        #   Track 102 "Leave her 2"
+        #   Track 103 "Watch her 2"
+        #   Track 104 "Trust her 2"
+    #   Playlist 41 "Oh, leave her"
+        #   Track 105 "Oh, leave her"
+        #   Track 106 "Oh, watch her"
+        #   Track 107 "Oh, trust her"
+    #   Playlist 42 "Johnny"
+        #   Track 108 "Johnny 2"
+        #   Track 109 "Timmy 2"
+        #   Track 110 "Frodo 2"
+    #   Playlist 43 "Leave her"
+        #   Track 111 "Leave her"
+        #   Track 112 "Watch her"
+        #   Track 113 "Trust her"
+    #   Playlist 44 "For the voyage is long"
+        #   Track 114 "For the voyage is long"
+        #   Track 115 "For the voyage is short"
+        #   Track 116 "For the voyage is wild"
+    #   Playlist 45 "And the winds don't blow"
+        #   Track 117 "And the winds don't blow"
+    #   Playlist 46 "And it's time for us"
+        #   Track 118 "And it's time for us"
+    #   Playlist 47 "To leave her"
+        #   Track 119 "To leave her"
+        #   Track 120 "To watch her"
+        #   Track 121 "To trust her"
 
 #   THE BUTTON LIBRARY
 start_button = Button(window, text="Start", bg="gainsboro", fg="black", font=fancyfont, width=8,
