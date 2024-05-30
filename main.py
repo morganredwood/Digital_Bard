@@ -155,7 +155,7 @@ def choiceitw_i_button_clicked():
     choice_hello("ots")
     textline1.config(text="Group 2")
     textline2.config(text="")
-    playlist("1")
+    playlist("1", "1")
 
 
 def choiceitw_t_button_clicked():
@@ -163,345 +163,1101 @@ def choiceitw_t_button_clicked():
     choice_hello("ots")
     textline1.config(text="Group 2")
     textline2.config(text="")
-    playlist("2")
+    playlist("1","2")
 
 def choiceitw_w_button_clicked():
     choice_goodbye("itw")
     choice_hello("ots")
     textline1.config(text="Group 2")
     textline2.config(text="")
-    playlist("3")
+    playlist("1", "3")
 
 def choiceots_o_button_clicked():
     choice_goodbye("ots")
     choice_hello("lwt")
     textline1.config(text="Group 3")
     textline2.config(text="")
-    playlist("4")
+    playlist("2", "4")
 
 def choiceots_t_button_clicked():
     choice_goodbye("ots")
     choice_hello("lwt")
     textline1.config(text="Group 3")
     textline2.config(text="")
-    playlist("5")
+    playlist("2", "5")
 
 def choiceots_s_button_clicked():
     choice_goodbye("ots")
     choice_hello("lwt")
     textline1.config(text="Group 3")
     textline2.config(text="")
-    playlist("6")
+    playlist("2", "6")
 
 def choicelwt_l_button_clicked():
     choice_goodbye("lwt")
     choice_hello("jtf")
     textline1.config(text="Group 4")
     textline2.config(text="")
-    playlist("8")
-    playlist("14")
-    playlist("33")
+    playlist("3", "8")
+    playlist("3", "14")
+    playlist("3", "33")
 
 def choicelwt_w_button_clicked():
     choice_goodbye("lwt")
     choice_hello("jtf")
     textline1.config(text="Group 4")
     textline2.config(text="")
-    playlist("9")
-    playlist("15")
-    playlist("34")
+    playlist("3", "9")
+    playlist("3", "15")
+    playlist("3", "34")
 
 def choicelwt_t_button_clicked():
     choice_goodbye("lwt")
     choice_hello("jtf")
     textline1.config(text="Group 4")
     textline2.config(text="")
-    playlist("10")
-    playlist("16")
-    playlist("35")
+    playlist("3", "10")
+    playlist("3", "16")
+    playlist("3", "35")
 
 def choicejtf_j_button_clicked():
     choice_goodbye("jtf")
     choice_hello("tntof")
     textline1.config(text="Group 5")
     textline2.config(text="")
-    playlist("11")
-    playlist("30")
+    playlist("4", "11")
+    playlist("4", "30")
 
 def choicejtf_t_button_clicked():
     choice_goodbye("jtf")
     choice_hello("tntof")
     textline1.config(text="Group 5")
     textline2.config(text="")
-    playlist("12")
-    playlist("31")
+    playlist("4", "12")
+    playlist("4", "31")
 
 def choicejtf_f_button_clicked():
     choice_goodbye("jtf")
     choice_hello("tntof")
     textline1.config(text="Group 5")
     textline2.config(text="")
-    playlist("13")
-    playlist("32")
+    playlist("4", "13")
+    playlist("4", "32")
 
 def choicetntof_t_button_clicked():
     choice_goodbye("tntof")
     choice_hello("pbf")
     textline1.config(text="Group 6")
     textline2.config(text="")
-    playlist("17")
+    playlist("5", "17")
 
 def choicetntof_nt_button_clicked():
     choice_goodbye("tntof")
     choice_hello("pbf")
     textline1.config(text="Group 6")
     textline2.config(text="")
-    playlist("18")
+    playlist("5", "18")
 
 def choicetntof_of_button_clicked():
     choice_goodbye("tntof")
     choice_hello("pbf")
     textline1.config(text="Group 6")
     textline2.config(text="")
-    playlist("19")
+    playlist("5", "19")
 
 def choicepbf_p_button_clicked():
     choice_goodbye("pbf")
     choice_hello("lsw")
     textline1.config(text="Group 7")
     textline2.config(text="")
-    playlist("20")
+    playlist("6", "20")
 
 def choicepbf_b_button_clicked():
     choice_goodbye("pbf")
     choice_hello("lsw")
     textline1.config(text="Group 7")
     textline2.config(text="")
-    playlist("21")
+    playlist("6", "21")
 
 def choicepbf_f_button_clicked():
     choice_goodbye("pbf")
     choice_hello("lsw")
     textline1.config(text="Group 7")
     textline2.config(text="")
-    playlist("22")
+    playlist("6", "22")
 
 def choicelsw_l_button_clicked():
     choice_goodbye("lsw")
     choice_hello("fcw")
     textline1.config(text="Group 8")
     textline2.config(text="")
-    playlist("36")
+    playlist("7", "36")
 
 def choicelsw_s_button_clicked():
     choice_goodbye("lsw")
     choice_hello("fcw")
     textline1.config(text="Group 8")
     textline2.config(text="")
-    playlist("37")
+    playlist("7", "37")
 
 def choicelsw_w_button_clicked():
     choice_goodbye("lsw")
     choice_hello("fcw")
     textline1.config(text="Group 8")
     textline2.config(text="")
-    playlist("38")
+    playlist("7", "38")
 
 def choicefcw_f_button_clicked():
     choice_goodbye("fcw")
     textline1.config(text="")
     textline2.config(text="")
-    playlist("40")
+    playlist("8", "40")
 
 
 def choicefcw_c_button_clicked():
     choice_goodbye("fcw")
     textline1.config(text="")
     textline2.config(text="")
-    playlist("41")
+    playlist("8", "41")
 
 
 def choicefcw_w_button_clicked():
     choice_goodbye("fcw")
     textline1.config(text="")
     textline1.config(text="")
-    playlist("42")
+    playlist("8", "42")
 
 
 def continue_button4_clicked():
     continue_button4.destroy()
+    spinit("1", "")
+    spinit("2", "")
+    spinit("3", "")
+    spinit("4", "")
+    spinit("5", "")
+    spinit("6", "")
+    spinit("7", "")
+    spinit("8", "")
+    spinit("9", "")
+    spinit("10", "")
+    spinit("11", "")
+    spinit("12", "")
+    spinit("13", "")
+    spinit("14", "")
+    spinit("15", "")
+    spinit("16", "")
+    spinit("17", "")
+    spinit("18", "")
+    spinit("19", "")
+    spinit("20", "")
+    spinit("21", "")
+    spinit("22", "")
+    spinit("23", "")
+    spinit("24", "")
+    spinit("25", "")
+    spinit("26", "")
+    spinit("27", "")
+    spinit("28", "")
+    spinit("29", "")
+    spinit("30", "")
+    spinit("31", "")
+    spinit("32", "")
+    spinit("33", "")
+    spinit("34", "")
+    spinit("35", "")
+    spinit("36", "")
+    spinit("37", "")
+    spinit("38", "")
+    spinit("39", "")
+    spinit("40", "")
+    spinit("41", "")
+    spinit("42", "")
+    spinit("43", "")
+    spinit("44", "")
+    spinit("45", "")
+    spinit("46", "")
+    spinit("47", "")
 
 
-def playlist(number):
-    #   Playlist 1 "I thought I heard"
-        #   Track 1 "I thought I heard"
-        #   Track 2 "They thought they heard"
-        #   Track 3 "We thought we heard"
-    #   Playlist 2 "The Old"
-        #   Track 4 "The Old"
-        #   Track 5 "The Tall"
-        #   Track 6 "The Sad"
-    #   Playlist 3 "Man say"
-        #   Track 7 "Man say"
-    #   Playlist 4 "Leave her"
-        #   Track 8 "Leave her 1"
-        #   Track 9 "Watch her 1"
-        #   Track 10 "Trust her 1"
-    #   Playlist 5 "Johnny"
-        #   Track 11 "Johnny 1"
-        #   Track 12 "Timmy 1"
-        #   Track 13 "Frodo 1"
-    #   Playlist 6 "Leave her"
-        #   Track 14 "Leave her 2"
-        #   Track 15 "Watch her 2"
-        #   Track 16 "Trust her 2"
-    #   Playlist 7 "Tomorrow, ye will"
-        #   Track 17 "Tomorrow, ye will"
-        #   Track 18 "Next Tuesday, ye will"
-        #   Track 19 "On Friday, ye will"
-    #   Playlist 8 "Get your pay"
-        #   Track 20 "Get your pay"
-        #   Track 21 "Get your bell"
-        #   Track 22 "Get your fish"
-    #   Playlist 9 "And it's time for us"
-        # Track 23 "And it's time for us"
-    #   Playlist 10 "To leave her"
-        #   Track 24 "To leave her"
-        #   Track 25 "To watch her"
-        #   Track 26 "To trust her"
-    #   Playlist 11 "Leave her"
-        #   Track 27 "Leave her 1"
-        #   Track 28 "Watch her 1"
-        #   Track 29 "Trust her 1"
-    #   Playlist 12 "Johnny"
-        #   Track 30 "Johnny 1"
-        #   Track 31 "Timmy 1"
-        #   Track 32 "Frodo 1"
-    #   Playlist 13 "Leave her"
-        #   Track 33 "Leave her 2"
-        #   Track 34 "Watch her 2"
-        #   Track 35 "Trust her 2"
-    #   Playlist 14 "Oh, leave her"
-        #   Track 36 "Oh, leave her"
-        #   Track 37 "Oh, watch her"
-        #   Track 38 "Oh, trust her"
-    #   Playlist 15 "Johnny"
-        #   Track 39 "Johnny 2"
-        #   Track 40 "Timmy 2"
-        #   Track 41 "Frodo 2"
-    #   Playlist 16 "Leave her"
-        #   Track 42 "Leave her 3"
-        #   Track 43 "Watch her 3"
-        #   Track 44 "Trust her 3"
-    #   Playlist 17 "For the voyage is long"
-        #   Track 45 "For the voyage is long"
-        #   Track 46 "For the voyage is short"
-        #   Track 47 "For the voyage is wild"
-    #   Playlist 18 "And the winds don't blow"
-        #   Track 48 "And the winds don't blow"
-    #   Playlist 19 "And it's time for us"
-        #   Track 49 "And it's time for us"
-    #   Playlist 20 "To leave her"
-        #   Track 50 "To leave her"
-        #   Track 51 "To watch her"
-        #   Track 52 "To trust her"
-    #   Playlist 21 "Oh, the wind was foul, and the sea ran high"
-        #   Track 53 "Oh, the wind was foul, and the sea ran high"
-        #   Track 54 "Oh, the wind was cold, and the sea ran high"
-        #   Track 55 "Oh, the wind was weird, and the sea ran high"
-    #   Playlist 22 "Leave her"
-        #   Track 56 "Leave her 1"
-        #   Track 57 "Watch her 1"
-        #   Track 58 "Trust her 1"
-    #   Playlist 23 "Johnny"
-        #   Track 59 "Johnny 1"
-        #   Track 60 "Timmy 1"
-        #   Track 61 "Frodo 1"
-    #   Playlist 24 "Leave her"
-        #   Track 62 "Leave her 2"
-        #   Track 63 "Watch her 2"
-        #   Track 64 "Trust her 2"
-    #   Playlist 25 "She shipped it green, and none went by"
-        #   Track 65 "She shipped it green, and none went by"
-    #   Playlist 26 "And it's time for us"
-        #   Track 66 "And it's time for us"
-    #   Playlist 27 "To leave her"
-        #   Track 67 "To leave her"
-        #   Track 68 "To watch her"
-        #   Track 69 "To trust her"
-    #   Playlist 28 "Leave her"
-        #   Track 70 "Leave her 1"
-        #   Track 71 "Watch her 1"
-        #   Track 72 "Trust her 1"
-    #   Playlist 29 "Johnny"
-        #   Track 73 "Johnny 1"
-        #   Track 74 "Timmy 1"
-        #   Track 75 "Frodo 1"
-    #   Playlist 30 "Leave her"
-        #   Track 76 "Leave her"
-        #   Track 77 "Watch her"
-        #   Track 78 "Trust her"
-    #   Playlist 31 "Oh, leave her"
-        #   Track 79 "Oh, leave her"
-        #   Track 80 "Oh, watch her"
-        #   Track 81 "Oh, trust her"
-    #   Playlist 32 "Johnny"
-        #   Track 82 "Johnny 2"
-        #   Track 83 "Timmy 2"
-        #   Track 84 "Frodo 2"
-    #   Playlist 33 "Leave her"
-        #   Track 85 "Leave her 3"
-        #   Track 86 "Watch her 3"
-        #   Track 87 "Trust her 3"
-    #   Playlist 34 "For the voyage is long"
-        #   Track 88 "For the voyage is long"
-        #   Track 89 "For the voyage is short"
-        #   Track 90 "For the voyage is wild"
-    #   Playlist 35 "And the winds don't blow"
-        #   Track 91 "And the winds don't blow'
-    #   Playlist 36 "And it's time for us"
-        #   Track 92 "And it's time for us"
-    #   Playlist 37 "To leave her"
-        #   Track 93 "To leave her"
-        #   Track 94 "To watch her"
-        #   Track 95 "To trust her"
-    #   Playlist 38 "Leave her"
-        #   Track 96 "Leave her"
-        #   Track 97 "Watch her"
-        #   Track 98 "Trust her"
-    #   Playlist 39 "Johnny"
-        #   Track 99 "Johnny 1"
-        #   Track 100 "Timmy 1"
-        #   Track 101 "Frodo 1"
-    #   Playlist 40 "Leave her"
-        #   Track 102 "Leave her 2"
-        #   Track 103 "Watch her 2"
-        #   Track 104 "Trust her 2"
-    #   Playlist 41 "Oh, leave her"
-        #   Track 105 "Oh, leave her"
-        #   Track 106 "Oh, watch her"
-        #   Track 107 "Oh, trust her"
-    #   Playlist 42 "Johnny"
-        #   Track 108 "Johnny 2"
-        #   Track 109 "Timmy 2"
-        #   Track 110 "Frodo 2"
-    #   Playlist 43 "Leave her"
-        #   Track 111 "Leave her"
-        #   Track 112 "Watch her"
-        #   Track 113 "Trust her"
-    #   Playlist 44 "For the voyage is long"
-        #   Track 114 "For the voyage is long"
-        #   Track 115 "For the voyage is short"
-        #   Track 116 "For the voyage is wild"
-    #   Playlist 45 "And the winds don't blow"
-        #   Track 117 "And the winds don't blow"
-    #   Playlist 46 "And it's time for us"
-        #   Track 118 "And it's time for us"
-    #   Playlist 47 "To leave her"
-        #   Track 119 "To leave her"
-        #   Track 120 "To watch her"
-        #   Track 121 "To trust her"
-
+def playlist(cue, track):
+    if cue == "1":
+        if track == "1":
+            cueit("1", "1")
+        if track == "2":
+            cueit("1", "2")
+        if track == "3":
+            cueit("1", "3")
+    if cue == "2":
+        if track == "4":
+            cueit("2", "4")
+        if track == "5":
+            cueit("2", "5")
+        if track == "6":
+            cueit("2", "6")
+    if cue == "3":
+        if track == "7":
+            cueit("3", "7")
+    if cue == "4":
+        if track == "8":
+            cueit("4", "8")
+        if track == "9":
+            cueit("4", "9")
+        if track == "10":
+            cueit("4", "10")
+    if cue == "5":
+        if track == "11":
+            cueit("5", "11")
+        if track == "12":
+            cueit("5", "12")
+        if track == "13":
+            cueit("5", "13")
+    if cue == "6":
+        if track == "14":
+            cueit("6", "14")
+        if track == "15":
+            cueit("6", "15")
+        if track == "16":
+            cueit("6", "16")
+    if cue == "7":
+        if track == "17":
+            cueit("7", "17")
+        if track == "18":
+            cueit("7", "18")
+        if track == "19":
+            cueit("7", "19")
+    if cue == "8":
+        if track == "20":
+            cueit("8", "20")
+        if track == "21":
+            cueit("8", "21")
+        if track == "22":
+            cueit("8", "22")
+    if cue == "9":
+        if track == "23":
+            cueit("9", "23")
+    if cue == "10":
+        if track == "24":
+            cueit("10", "24")
+        if track == "25":
+            cueit("10", "25")
+        if track == "26":
+            cueit("10", "26")
+    if cue == "11":
+        if track == "27":
+            cueit("11", "27")
+        if track == "28":
+            cueit("11", "28")
+        if track == "29":
+            cueit("11", "29")
+    if cue == "12":
+        if track == "30":
+            cueit("12", "30")
+        if track == "31":
+            cueit("12", "31")
+        if track == "32":
+            cueit("12", "32")
+    if cue == "13":
+        if track == "33":
+            cueit("13", "33")
+        if track == "34":
+            cueit("13", "34")
+        if track == "35":
+            cueit("13", "35")
+    if cue == "14":
+        if track == "36":
+            cueit("14", "36")
+        if track == "37":
+            cueit("14", "37")
+        if track == "38":
+            cueit("14", "38")
+    if cue == "15":
+        if track == "39":
+            cueit("15", "39")
+        if track == "40":
+            cueit("15", "40")
+        if track == "41":
+            cueit("15", "41")
+    if cue == "16":
+        if track == "42":
+            cueit("16", "42")
+        if track == "43":
+            cueit("16", "43")
+        if track == "44":
+            cueit("16", "44")
+    if cue == "17":
+        if track == "45":
+            cueit("17", "45")
+        if track == "46":
+            cueit("17", "46")
+        if track == "47":
+            cueit("17", "47")
+    if cue == "18":
+        if track == "48":
+            cueit("18", "48")
+    if cue == "19":
+        if track == "49":
+            cueit("19", "49")
+    if cue == "20":
+        if track == "50":
+            cueit("20", "50")
+        if track == "51":
+            cueit("20", "51")
+        if track == "52":
+            cueit("20", "52")
+    if cue == "21":
+        if track == "53":
+            cueit("21", "53")
+        if track == "54":
+            cueit("21", "54")
+        if track == "55":
+            cueit("21", "55")
+    if cue == "22":
+        if track == "56":
+            cueit("22", "56")
+        if track == "57":
+            cueit("22", "57")
+        if track == "58":
+            cueit("22", "58")
+    if cue == "23":
+        if track == "59":
+            cueit("23", "59")
+        if track == "60":
+            cueit("23", "60")
+        if track == "61":
+            cueit("23", "61")
+    if cue == "24":
+        if track == "62":
+            cueit("24", "62")
+        if track == "63":
+            cueit("24", "63")
+        if track == "64":
+            cueit("24", "64")
+    if cue == "25":
+        if track == "65":
+            cueit("25", "65")
+    if cue == "26":
+        if track == "66":
+            cueit("26", "66")
+    if cue == "27":
+        if track == "67":
+            cueit("27", "67")
+        if track == "68":
+            cueit("27", "68")
+        if track == "69":
+            cueit("27", "69")
+    if cue == "28":
+        if track == "70":
+            cueit("28", "70")
+        if track == "71":
+            cueit("28", "71")
+        if track == "72":
+            cueit("28", "72")
+    if cue == "29":
+        if track == "73":
+            cueit("29", "73")
+        if track == "74":
+            cueit("29", "74")
+        if track == "75":
+            cueit("29", "75")
+    if cue == "30":
+        if track == "76":
+            cueit("30", "76")
+        if track == "77":
+            cueit("30", "77")
+        if track == "78":
+            cueit("30", "78")
+    if cue == "31":
+        if track == "79":
+            cueit("31", "79")
+        if track == "80":
+            cueit("31", "80")
+        if track == "81":
+            cueit("31", "81")
+    if cue == "32":
+        if track == "82":
+            cueit("32", "82")
+        if track == "83":
+            cueit("32", "83")
+        if track == "84":
+            cueit("32", "84")
+    if cue == "33":
+        if track == "85":
+            cueit("33", "85")
+        if track == "86":
+            cueit("33", "86")
+        if track == "87":
+            cueit("33", "87")
+    if cue == "34":
+        if track == "88":
+            cueit("34", "88")
+        if track == "89":
+            cueit("34", "89")
+        if track == "90":
+            cueit("34", "90")
+    if cue == "35":
+        if track == "91":
+            cueit("35", "91")
+    if cue == "36":
+        if track == "92":
+            cueit("36", "92")
+    if cue == "37":
+        if track == "93":
+            cueit("37", "93")
+        if track == "94":
+            cueit("37", "94")
+        if track == "95":
+            cueit("37", "95")
+    if cue == "38":
+        if track == "96":
+            cueit("38", "96")
+        if track == "97":
+            cueit("38", "97")
+        if track == "98":
+            cueit("38", "98")
+    if cue == "39":
+        if track == "99":
+            cueit("39", "99")
+        if track == "100":
+            cueit("39", "100")
+        if track == "101":
+            cueit("39", "101")
+    if cue == "40":
+        if track == "102":
+            cueit("40", "102")
+        if track == "103":
+            cueit("40", "103")
+        if track == "104":
+            cueit("40", "104")
+    if cue == "41":
+        if track == "105":
+            cueit("41", "105")
+        if track == "106":
+            cueit("41", "106")
+        if track == "107":
+            cueit("41", "107")
+    if cue == "42":
+        if track == "108":
+            cueit("42", "108")
+        if track == "109":
+            cueit("42", "109")
+        if track == "110":
+            cueit("42", "110")
+    if cue == "43":
+        if track == "111":
+            cueit("43", "111")
+        if track == "112":
+            cueit("43", "112")
+        if track == "113":
+            cueit("43", "113")
+    if cue == "44":
+        if track == "114":
+            cueit("44", "114")
+        if track == "115":
+            cueit("44", "115")
+        if track == "116":
+            cueit("44", "116")
+    if cue == "45":
+        if track == "117":
+            cueit("45", "117")
+    if cue == "46":
+        if track == "118":
+            cueit("46", "118")
+    if cue == "47":
+        if track == "119":
+            cueit("47", "119")
+        if track == "120":
+            cueit("47", "120")
+        if track == "121":
+            cueit("47", "121")
+            
+            
+def cueit(maintrack, subtrack):
+    if maintrack == "1":
+        if subtrack == "1":
+            spinit("1", "1")
+        if subtrack == "2":
+            spinit("1", "2")
+        if subtrack == "3":
+            spinit("1", "3")
+    if maintrack == "2":
+        if subtrack == "4":
+            spinit("2", "4")
+        if subtrack == "5":
+            spinit("2", "5")
+        if subtrack == "6":
+            spinit("2", "6")
+    if maintrack == "3":
+        if subtrack == "7":
+            spinit("3", "7")
+    if maintrack == "4":
+        if subtrack == "8":
+            spinit("4", "8")
+        if subtrack == "9":
+            spinit("4", "9")
+        if subtrack == "10":
+            spinit("4", "10")
+    if maintrack == "5":
+        if subtrack == "11":
+            spinit("5", "11")
+        if subtrack == "12":
+            spinit("5", "12")
+        if subtrack == "13":
+            spinit("5", "13")
+    if maintrack == "6":
+        if subtrack == "14":
+            spinit("6", "14")
+        if subtrack == "15":
+            spinit("6", "15")
+        if subtrack == "16":
+            spinit("6", "16")
+    if maintrack == "7":
+        if subtrack == "17":
+            spinit("7", "17")
+        if subtrack == "18":
+            spinit("7", "18")
+        if subtrack == "19":
+            spinit("7", "19")
+    if maintrack == "8":
+        if subtrack == "20":
+            spinit("8", "20")
+        if subtrack == "21":
+            spinit("8", "21")
+        if subtrack == "22":
+            spinit("8", "22")
+    if maintrack == "9":
+        if subtrack == "23":
+            spinit("9", "23")
+    if maintrack == "10":
+        if subtrack == "24":
+            spinit("10", "24")
+        if subtrack == "25":
+            spinit("10", "25")
+        if subtrack == "26":
+            spinit("10", "26")
+    if maintrack == "11":
+        if subtrack == "27":
+            spinit("11", "27")
+        if subtrack == "28":
+            spinit("11", "28")
+        if subtrack == "29":
+            spinit("11", "29")
+    if maintrack == "12":
+        if subtrack == "30":
+            spinit("12", "30")
+        if subtrack == "31":
+            spinit("12", "31")
+        if subtrack == "32":
+            spinit("12", "32")
+    if maintrack == "13":
+        if subtrack == "33":
+            spinit("13", "33")
+        if subtrack == "34":
+            spinit("13", "34")
+        if subtrack == "35":
+            spinit("13", "35")
+    if maintrack == "14":
+        if subtrack == "36":
+            spinit("14", "36")
+        if subtrack == "37":
+            spinit("14", "37")
+        if subtrack == "38":
+            spinit("14", "38")
+    if maintrack == "15":
+        if subtrack == "39":
+            spinit("15", "39")
+        if subtrack == "40":
+            spinit("15", "40")
+        if subtrack == "41":
+            spinit("15", "41")
+    if maintrack == "16":
+        if subtrack == "42":
+            spinit("16", "42")
+        if subtrack == "43":
+            spinit("16", "43")
+        if subtrack == "44":
+            spinit("16", "44")
+    if maintrack == "17":
+        if subtrack == "45":
+            spinit("17", "45")
+        if subtrack == "46":
+            spinit("17", "46")
+        if subtrack == "47":
+            spinit("17", "47")
+    if maintrack == "18":
+        if subtrack == "48":
+            spinit("18", "48")
+    if maintrack == "19":
+        if subtrack == "49":
+            spinit("19", "49")
+    if maintrack == "20":
+        if subtrack == "50":
+            spinit("20", "50")
+        if subtrack == "51":
+            spinit("20", "51")
+        if subtrack == "52":
+            spinit("20", "52")
+    if maintrack == "21":
+        if subtrack == "53":
+            spinit("21", "53")
+        if subtrack == "54":
+            spinit("21", "54")
+        if subtrack == "55":
+            spinit("21", "55")
+    if maintrack == "22":
+        if subtrack == "56":
+            spinit("22", "56")
+        if subtrack == "57":
+            spinit("22", "57")
+        if subtrack == "58":
+            spinit("22", "58")
+    if maintrack == "23":
+        if subtrack == "59":
+            spinit("23", "59")
+        if subtrack == "60":
+            spinit("23", "60")
+        if subtrack == "61":
+            spinit("23", "61")
+    if maintrack == "24":
+        if subtrack == "62":
+            spinit("24", "62")
+        if subtrack == "63":
+            spinit("24", "63")
+        if subtrack == "64":
+            spinit("24", "64")
+    if maintrack == "25":
+        if subtrack == "65":
+            spinit("25", "65")
+    if maintrack == "26":
+        if subtrack == "66":
+            spinit("26", "66")
+    if maintrack == "27":
+        if subtrack == "67":
+            spinit("27", "67")
+        if subtrack == "68":
+            spinit("27", "68")
+        if subtrack == "69":
+            spinit("27", "69")
+    if maintrack == "28":
+        if subtrack == "70":
+            spinit("28", "70")
+        if subtrack == "71":
+            spinit("28", "71")
+        if subtrack == "72":
+            spinit("28", "72")
+    if maintrack == "29":
+        if subtrack == "73":
+            spinit("29", "73")
+        if subtrack == "74":
+            spinit("29", "74")
+        if subtrack == "75":
+            spinit("29", "75")
+    if maintrack == "30":
+        if subtrack == "76":
+            spinit("30", "76")
+        if subtrack == "77":
+            spinit("30", "77")
+        if subtrack == "78":
+            spinit("30", "78")
+    if maintrack == "31":
+        if subtrack == "79":
+            spinit("31", "79")
+        if subtrack == "80":
+            spinit("31", "80")
+        if subtrack == "81":
+            spinit("31", "81")
+    if maintrack == "32":
+        if subtrack == "82":
+            spinit("32", "82")
+        if subtrack == "83":
+            spinit("32", "83")
+        if subtrack == "84":
+            spinit("32", "84")
+    if maintrack == "33":
+        if subtrack == "85":
+            spinit("33", "85")
+        if subtrack == "86":
+            spinit("33", "86")
+        if subtrack == "87":
+            spinit("33", "87")
+    if maintrack == "34":
+        if subtrack == "88":
+            spinit("34", "88")
+        if subtrack == "89":
+            spinit("34", "89")
+        if subtrack == "90":
+            spinit("34", "90")
+    if maintrack == "35":
+        if subtrack == "91":
+            spinit("35", "91")
+    if maintrack == "36":
+        if subtrack == "92":
+            spinit("36", "92")
+    if maintrack == "37":
+        if subtrack == "93":
+            spinit("37", "93")
+        if subtrack == "94":
+            spinit("37", "94")
+        if subtrack == "95":
+            spinit("37", "95")
+    if maintrack == "38":
+        if subtrack == "96":
+            spinit("38", "96")
+        if subtrack == "97":
+            spinit("38", "97")
+        if subtrack == "98":
+            spinit("38", "98")
+    if maintrack == "39":
+        if subtrack == "99":
+            spinit("39", "99")
+        if subtrack == "100":
+            spinit("39", "100")
+        if subtrack == "101":
+            spinit("39", "101")
+    if maintrack == "40":
+        if subtrack == "102":
+            spinit("40", "102")
+        if subtrack == "103":
+            spinit("40", "103")
+        if subtrack == "104":
+            spinit("40", "104")
+    if maintrack == "41":
+        if subtrack == "105":
+            spinit("41", "105")
+        if subtrack == "106":
+            spinit("41", "106")
+        if subtrack == "107":
+            spinit("41", "107")
+    if maintrack == "42":
+        if subtrack == "108":
+            spinit("42", "108")
+        if subtrack == "109":
+            spinit("42", "109")
+        if subtrack == "110":
+            spinit("42", "110")
+    if maintrack == "43":
+        if subtrack == "111":
+            spinit("43", "111")
+        if subtrack == "112":
+            spinit("43", "112")
+        if subtrack == "113":
+            spinit("43", "113")
+    if maintrack == "44":
+        if subtrack == "114":
+            spinit("44", "114")
+        if subtrack == "115":
+            spinit("44", "115")
+        if subtrack == "116":
+            spinit("44", "116")
+    if maintrack == "45":
+        if subtrack == "117":
+            spinit("45", "117")
+    if maintrack == "46":
+        if subtrack == "118":
+            spinit("46", "118")
+    if maintrack == "47":
+        if subtrack == "119":
+            spinit("47", "119")
+        if subtrack == "120":
+            spinit("47", "120")
+        if subtrack == "121":
+            spinit("47", "121")
+                    
+                    
+def spinit(cue, track):
+    if cue == "1":
+        if track == "1":
+            spinit("1", "1")
+            play = pygame.mixer.Sound("itih.mp3").play()
+        if track == "2":
+            spinit("1", "2")
+            play = pygame.mixer.Sound("ttth.mp3").play()
+        if track == "3":
+            spinit("1", "3")
+            play = pygame.mixer.Sound("wtwh.mp3").play()
+    if cue == "2":
+        if track == "4":
+            spinit("2", "4")
+            play = pygame.mixer.Sound("to.mp3").play()
+        if track == "5":
+            spinit("2", "5")
+        if track == "6":
+            spinit("2", "6")
+    if cue == "3":
+        if track == "7":
+            spinit("3", "7")
+    if cue == "4":
+        if track == "8":
+            spinit("4", "8")
+        if track == "9":
+            spinit("4", "9")
+        if track == "10":
+            spinit("4", "10")
+    if cue == "5":
+        if track == "11":
+            spinit("5", "11")
+        if track == "12":
+            spinit("5", "12")
+        if track == "13":
+            spinit("5", "13")
+    if cue == "6":
+        if track == "14":
+            spinit("6", "14")
+        if track == "15":
+            spinit("6", "15")
+        if track == "16":
+            spinit("6", "16")
+    if cue == "7":
+        if track == "17":
+            spinit("7", "17")
+        if track == "18":
+            spinit("7", "18")
+        if track == "19":
+            spinit("7", "19")
+    if cue == "8":
+        if track == "20":
+            spinit("8", "20")
+        if track == "21":
+            spinit("8", "21")
+        if track == "22":
+            spinit("8", "22")
+    if cue == "9":
+        if track == "23":
+            spinit("9", "23")
+    if cue == "10":
+        if track == "24":
+            spinit("10", "24")
+        if track == "25":
+            spinit("10", "25")
+        if track == "26":
+            spinit("10", "26")
+    if cue == "11":
+        if track == "27":
+            spinit("11", "27")
+        if track == "28":
+            spinit("11", "28")
+        if track == "29":
+            spinit("11", "29")
+    if cue == "12":
+        if track == "30":
+            spinit("12", "30")
+        if track == "31":
+            spinit("12", "31")
+        if track == "32":
+            spinit("12", "32")
+    if cue == "13":
+        if track == "33":
+            spinit("13", "33")
+        if track == "34":
+            spinit("13", "34")
+        if track == "35":
+            spinit("13", "35")
+    if cue == "14":
+        if track == "36":
+            spinit("14", "36")
+        if track == "37":
+            spinit("14", "37")
+        if track == "38":
+            spinit("14", "38")
+    if cue == "15":
+        if track == "39":
+            spinit("15", "39")
+        if track == "40":
+            spinit("15", "40")
+        if track == "41":
+            spinit("15", "41")
+    if cue == "16":
+        if track == "42":
+            spinit("16", "42")
+        if track == "43":
+            spinit("16", "43")
+        if track == "44":
+            spinit("16", "44")
+    if cue == "17":
+        if track == "45":
+            spinit("17", "45")
+        if track == "46":
+            spinit("17", "46")
+        if track == "47":
+            spinit("17", "47")
+    if cue == "18":
+        if track == "48":
+            spinit("18", "48")
+    if cue == "19":
+        if track == "49":
+            spinit("19", "49")
+    if cue == "20":
+        if track == "50":
+            spinit("20", "50")
+        if track == "51":
+            spinit("20", "51")
+        if track == "52":
+            spinit("20", "52")
+    if cue == "21":
+        if track == "53":
+            spinit("21", "53")
+        if track == "54":
+            spinit("21", "54")
+        if track == "55":
+            spinit("21", "55")
+    if cue == "22":
+        if track == "56":
+            spinit("22", "56")
+        if track == "57":
+            spinit("22", "57")
+        if track == "58":
+            spinit("22", "58")
+    if cue == "23":
+        if track == "59":
+            spinit("23", "59")
+        if track == "60":
+            spinit("23", "60")
+        if track == "61":
+            spinit("23", "61")
+    if cue == "24":
+        if track == "62":
+            spinit("24", "62")
+        if track == "63":
+            spinit("24", "63")
+        if track == "64":
+            spinit("24", "64")
+    if cue == "25":
+        if track == "65":
+            spinit("25", "65")
+    if cue == "26":
+        if track == "66":
+            spinit("26", "66")
+    if cue == "27":
+        if track == "67":
+            spinit("27", "67")
+        if track == "68":
+            spinit("27", "68")
+        if track == "69":
+            spinit("27", "69")
+    if cue == "28":
+        if track == "70":
+            spinit("28", "70")
+        if track == "71":
+            spinit("28", "71")
+        if track == "72":
+            spinit("28", "72")
+    if cue == "29":
+        if track == "73":
+            spinit("29", "73")
+        if track == "74":
+            spinit("29", "74")
+        if track == "75":
+            spinit("29", "75")
+    if cue == "30":
+        if track == "76":
+            spinit("30", "76")
+        if track == "77":
+            spinit("30", "77")
+        if track == "78":
+            spinit("30", "78")
+    if cue == "31":
+        if track == "79":
+            spinit("31", "79")
+        if track == "80":
+            spinit("31", "80")
+        if track == "81":
+            spinit("31", "81")
+    if cue == "32":
+        if track == "82":
+            spinit("32", "82")
+        if track == "83":
+            spinit("32", "83")
+        if track == "84":
+            spinit("32", "84")
+    if cue == "33":
+        if track == "85":
+            spinit("33", "85")
+        if track == "86":
+            spinit("33", "86")
+        if track == "87":
+            spinit("33", "87")
+    if cue == "34":
+        if track == "88":
+            spinit("34", "88")
+        if track == "89":
+            spinit("34", "89")
+        if track == "90":
+            spinit("34", "90")
+    if cue == "35":
+        if track == "91":
+            spinit("35", "91")
+    if cue == "36":
+        if track == "92":
+            spinit("36", "92")
+    if cue == "37":
+        if track == "93":
+            spinit("37", "93")
+        if track == "94":
+            spinit("37", "94")
+        if track == "95":
+            spinit("37", "95")
+    if cue == "38":
+        if track == "96":
+            spinit("38", "96")
+        if track == "97":
+            spinit("38", "97")
+        if track == "98":
+            spinit("38", "98")
+    if cue == "39":
+        if track == "99":
+            spinit("39", "99")
+        if track == "100":
+            spinit("39", "100")
+        if track == "101":
+            spinit("39", "101")
+    if cue == "40":
+        if track == "102":
+            spinit("40", "102")
+        if track == "103":
+            spinit("40", "103")
+        if track == "104":
+            spinit("40", "104")
+    if cue == "41":
+        if track == "105":
+            spinit("41", "105")
+        if track == "106":
+            spinit("41", "106")
+        if track == "107":
+            spinit("41", "107")
+    if cue == "42":
+        if track == "108":
+            spinit("42", "108")
+        if track == "109":
+            spinit("42", "109")
+        if track == "110":
+            spinit("42", "110")
+    if cue == "43":
+        if track == "111":
+            spinit("43", "111")
+        if track == "112":
+            spinit("43", "112")
+        if track == "113":
+            spinit("43", "113")
+    if cue == "44":
+        if track == "114":
+            spinit("44", "114")
+        if track == "115":
+            spinit("44", "115")
+        if track == "116":
+            spinit("44", "116")
+    if cue == "45":
+        if track == "117":
+            spinit("45", "117")
+    if cue == "46":
+        if track == "118":
+            spinit("46", "118")
+    if cue == "47":
+        if track == "119":
+            spinit("47", "119")
+        if track == "120":
+            spinit("47", "120")
+        if track == "121":
+            spinit("47", "121")
+            
 #   THE BUTTON LIBRARY
 start_button = Button(window, text="Start", bg="gainsboro", fg="black", font=fancyfont, width=8,
                       command=start_button_clicked)
