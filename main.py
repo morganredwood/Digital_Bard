@@ -1,64 +1,236 @@
 import pygame
 from tkinter import *
 import tkinter as tk
+import time
 pygame.init()
+pygame.mixer.music.load("Eight_Bit_Adventure.mp3")
+pygame.mixer.music.play()
 pycharm_default_font = ("JetBrains Mono", 13)
-window = tk.Tk()
-width = window.winfo_screenwidth()
-height = window.winfo_screenheight()
-window.geometry("%dx%d" % (width, height))
-window.title("Digital Bard")
-window.config(bg="black")
-label = tk.Label(window, text="", bg="black")
-label.grid(row=0, column=0)
-office_backdrop = PhotoImage(file="computer_screen.png")
-simulated_computer_frame = Label(window, image=office_backdrop, bg="black")
-simulated_computer_frame.grid(row=0, column=0)
-line1_print = Label(window, bg="pink", fg="purple", font=pycharm_default_font, text="print")
-line1_print.grid(row=1, column=1)
-line1_open_parentheses = Label(window, bg="white", font=pycharm_default_font, text="     (")
-line1_open_parentheses.grid(row=1, column=1)
-line1_text_in_quotes = Label(window, bg="white", fg="green",
-                             text="      Lex Fridman: Do you have advice for a programming beginner "
-                                  "on how to learn Python the right way?")
-line1_text_in_quotes.grid(row=1, column=2)
-line1_close_parentheses = Label(window, bg="white", text="                                          "
-                                                          "                                           "
-                                                          "                  )")
-line1_close_parentheses.grid(row=1, column=2)
-line2_print = Label(window, bg='white', fg="purple", text="print")
-line2_print.grid(row=2, column=1)
-line2_open_parentheses = Label(window, bg="white", text="     (")
-line2_open_parentheses.grid(row=2, column=2)
-line2_text_in_quotes = Label(window, bg="white", fg="green", text="Guido van Rossum: Find something "
-                                                                   "you actually want to do with it."
-                                                                   "If you say, \"I wanna learn skill X,\""
-                                                                   "that's not enough motivation.  "
-                                                                   "You need to pick something, "
-                                                                   "and it can be a crazy problem you want"
-                                                                   "to solve.  It can be completely"
-                                                                   "unrealistic, but something that"
-                                                                   "challenges you into actually learning"
-                                                                   "coding in some language.")
-line2_text_in_quotes.grid(row=2, column=1)
-line2_close_parentheses = Label(window, bg="white", text="                                              "
-                                                          "                                               "
-                                                          "                                                "
-                                                          "                                               "
-                                                          "                                             "
-                                                          "                                             "
-                                                          "                                                    "
-                                                          "     ')")
-line2_close_parentheses.grid(row=2, column=1)
-line3_terminal_output_line1 = Label(window, bg="black", text="Lex Fridman: Do you have advice for a programming"
-                                                             "beginner on how to learn Python the right way?")
-line3_terminal_output_line1.grid(row=2, column=1)
-line4_terminal_output_line2 = Label(window, bg="black", text="Guido van Rossum: Find something you ac tually"
-                                                             "want to do with it.  If you say, \"I wann learn"
-                                                             "skill X,\" that's not enough motivation."
-                                                             "You need to pick something, and it can be a crazy"
-                                                             "problem you want to solve.  It can be completely"
-                                                             "unrealistic, but something that challenges you"
-                                                             "into actually learning coding in some language.")
-line4_terminal_output_line2.grid(row=4, column=1)
-window.mainloop()
+time.sleep(5)
+
+
+def window1():
+    window = Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    messenger01 = PhotoImage(file="01.png")
+    messenger02 = PhotoImage(file="02.png")
+    messenger01_background = Label(window, image=messenger01)
+    messenger02_background = Label(window, image=messenger02)
+    messenger01_background.grid(row=1, column=1, padx=50, pady=50)
+    messenger02_background.grid(row=1, column=2, padx=50, pady=50)
+    window.after(5360, lambda: window.destroy())
+    window.mainloop()
+
+
+def window2():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    messenger03 = PhotoImage(file="03.png")
+    messenger04 = PhotoImage(file="04.png")
+    messenger03_background = Label(window, image=messenger03)
+    messenger04_background = Label(window, image=messenger04)
+    messenger03_background.grid(row=1, column=1, padx=50, pady=50)
+    messenger04_background.grid(row=1, column=2, padx=50, pady=50)
+    window.after(5360, lambda: window.destroy())
+    window.mainloop()
+
+
+def window3():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    messenger05 = PhotoImage(file="05.png")
+    messenger06 = PhotoImage(file="06.png")
+    messenger05_background = Label(window, image=messenger05)
+    messenger06_background = Label(window, image=messenger06)
+    messenger05_background.grid(row=1, column=1, padx=50, pady=50)
+    messenger06_background.grid(row=1, column=2, padx=50, pady=50)
+    window.after(5360, lambda: window.destroy())
+    window.mainloop()
+
+
+def window4():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    messenger07 = PhotoImage(file="07.png")
+    messenger08 = PhotoImage(file="08.png")
+    messenger07_background = Label(window, image=messenger07)
+    messenger08_background = Label(window, image=messenger08)
+    messenger07_background.grid(row=1, column=1, padx=50, pady=50)
+    messenger08_background.grid(row=1, column=2, padx=50, pady=50)
+    window.after(5360, lambda: window.destroy())
+    window.mainloop()
+
+
+def window5():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    messenger09 = PhotoImage(file="09.png")
+    messenger10 = PhotoImage(file="10.png")
+    messenger09_background = Label(window, image=messenger09)
+    messenger10_background = Label(window, image=messenger10)
+    messenger09_background.grid(row=1, column=1, padx=50, pady=50)
+    messenger10_background.grid(row=1, column=2, padx=50, pady=50)
+    window.after(5360, lambda: window.destroy())
+    window.mainloop()
+
+
+def window6():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    messenger11 = PhotoImage(file="11.png")
+    messenger12 = PhotoImage(file="12.png")
+    messenger11_background = Label(window, image=messenger11)
+    messenger12_background = Label(window, image=messenger12)
+    messenger11_background.grid(row=1, column=1, padx=50, pady=50)
+    messenger12_background.grid(row=1, column=2, padx=50, pady=50)
+    window.after(5360, lambda: window.destroy())
+    window.mainloop()
+
+
+def window7():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    messenger13 = PhotoImage(file="13.png")
+    messenger14 = PhotoImage(file="14.png")
+    messenger13_background = Label(window, image=messenger13)
+    messenger14_background = Label(window, image=messenger14)
+    messenger13_background.grid(row=1, column=1, padx=50, pady=50)
+    messenger14_background.grid(row=1, column=2, padx=50, pady=50)
+    window.after(5360, lambda: window.destroy())
+    window.mainloop()
+
+
+def window8():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    messenger15 = PhotoImage(file="15.png")
+    messenger16 = PhotoImage(file="16.png")
+    messenger15_background = Label(window, image=messenger15)
+    messenger16_background = Label(window, image=messenger16)
+    messenger15_background.grid(row=1, column=1, padx=50, pady=50)
+    messenger16_background.grid(row=1, column=2, padx=50, pady=50)
+    window.after(5360, lambda: window.destroy())
+    window.mainloop()
+
+
+def window9():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    wtf = PhotoImage(file="17.png")
+    wtf_background = Label(window, image=wtf)
+    wtf_background.grid(row=1, column=0, padx=50, pady=50)
+    window.after(2000, lambda: pygame.mixer.music.fadeout(3360))
+    window.after(5360, lambda: pygame.mixer.music.unload())
+    window.after(5365, lambda: window.destroy())
+    window.mainloop()
+
+
+def window10():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="white")
+    label = tk.Label(window, text="", bg="black")
+    label.grid(row=0, column=0)
+    computer_screen = PhotoImage(file="computer_screen.png")
+    computer_screen_background = Label(window, image=computer_screen)
+    computer_screen_background.grid(row=0, column=0)
+    lex = PhotoImage(file="LexFridman.png")
+    lex_background = Label(window, image=lex)
+    lex_background.grid(row=1, column=1, padx=800, pady=50)
+    lex_background.after(8080, lambda: lex_background.destroy())
+    guido = PhotoImage(file="GuidovanRossum.png")
+    guido_background = Label(window, image=guido)
+    guido_background.after(8080, lambda: guido_background.grid(row=1, column=1, padx=800, pady=50))
+    window.after(44000, lambda: pygame.mixer.music.unload())
+    window.after(44000, lambda: window.destroy())
+    window.mainloop()
+
+
+def window11():
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
+    window.geometry("%dx%d" % (width, height))
+    window.title("Digital Bard")
+    window.config(bg="black")
+    label = tk.Label(window, text="")
+    label.grid(row=0, column=0)
+    bardwithlute = PhotoImage(file="digitalbardbg.png")
+    bardwithlute_background = Label(window, image=bardwithlute)
+    bardwithlute_background.grid(row=0, column=0)
+    window.mainloop()
+
+
+window1()
+window2()
+window3()
+window4()
+window5()
+window6()
+window7()
+window8()
+window9()
+pygame.mixer.music.unload()
+pygame.mixer.music.load("Interview.mp3")
+pygame.mixer.music.play()
+window10()
+pygame.mixer.music.load("scarborough_fair.mp3")
+pygame.mixer.music.play(-1)
+window11()
