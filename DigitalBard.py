@@ -444,521 +444,459 @@ while True:
                 if choice == "7":
                     print("You have selected option seven, Early.")
                     break
-        elif choice == "8":
-            print("You have selected option eight, Lately.")
-            break
-        elif choice == "9":
-            print("You have selected option nine, Never.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "10":
-        print("Choice Three")
-        print("10    Sea")
-        print("11    News")
-        print("12    Game")
-        break
-    if choice == "11":
-        print("Choice Three")
-        print("10    Sea")
-        print("11    News")
-        print("12    Game")
-        break
-    if choice == "12":
-        print("Choice Three")
-        print("10    Sea")
-        print("11    News")
-        print("12    Game")
-        break
-    while True:
-        if choice == "10":
-            print("You have selected option ten, Sea.")
-            break
-        elif choice == "11":
-            print("You have selected option eleven, News.")
-            break
-        elif choice == "12":
-            print("You have selected option twelve, Game.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "13":
-        print("Choice Three")
-        print("13    Pillage")
-        print("14    Sweep")
-        print("15    Bake")
-        break
-    if choice == "14":
-        print("Choice Three")
-        print("13    Pillage")
-        print("14    Sweep")
-        print("15    Bake")
-        break
-    if choice == "15":
-        print("13    Pillage")
-        print("14    Sweep")
-        print("15    Bake")
-        break
-    while True:
-        if choice == "13":
-            print("You have selected option thirteen, Pillage.")
-            break
-        elif choice == "14":
-            print("You have selected option fourteen, Sweep.")
-            break
-        elif choice == "15":
-            print("You have selected option fifteen, Bake.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "1":
-        print("Choice Four")
-        print("1     Leave")
-        print("2     Watch")
-        print("3     Trust")
-        break
-    if choice == "2":
-        print("Choice Four")
-        print("1     Leave")
-        print("2     Watch")
-        print("3     Trust")
-    if choice == "3":
-        print("Choice Four")
-        print("1     Leave")
-        print("2     Watch")
-        print("3     Trust")
-        break
-    while True:
-        if choice == "1":
-            print("You have selected option one, Leave.")
-            break
-        elif choice == "2":
-            print("You have selected option two, Watch.")
-            break
-        elif choice == "3":
-            print("You have selected option three, Trust.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "4":
-        print("Choice Four")
-        print("4     Blow")
-        print("5     Sing")
-        print("6     Dance")
-        break
-    if choice == "5":
-        print("Choice Four")
-        print("4     Blow")
-        print("5     Sing")
-        print("6     Dance")
-        break
-    if choice == "6":
-        print("Choice Four")
-        print("4    Blow")
-        print("5    Sing")
-        print("6    Dance")
-        break
-    while True:
-        if choice == "4":
-            print("You have selected option four, Blow.")
-            break
-        elif choice == "5":
-            print("You have selected option five, Sing.")
-            break
-        elif choice == "6":
-            print("You have selected option six, Dance.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "7":
-        print("Choice Four")
-        print("7     Morning")
-        print("8     Party")
-        print("9     Evening")
-        break
-    if choice == "8":
-        print("Choice Four")
-        print("7     Morning")
-        print("8     Party")
-        print("9     Evening")
-        break
-    if choice == "9":
-        print("Choice Four")
-        print("7    Morning")
-        print("8    Party")
-        print("9    Evening")
-        break
-    while True:
-        if choice == "7":
-            print("You have selected option seven, Morning.")
-            break
-        elif choice == "8":
-            print("You have selected option eight, Party.")
-            break
-        elif choice == "9":
-            print("You have selected option nine, Evening.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "10":
-        print("Choice Four")
-        print("10    Me")
-        print("11    You")
-        print("12    Down")
-        break
-    if choice == "11":
-        print("Choice Four")
-        print("10    Me")
-        print("11    You")
-        print("12    Down")
-        break
-    if choice == "12":
-        print("Choice Four")
-        print("10    Me")
-        print("11    You")
-        print("12    Down")
-        break
-    while True:
-        if choice == "10":
-            print("You have selected option ten, Me.")
-            break
-        elif choice == "11":
-            print("You have selected option eleven, You.")
-            break
-        elif choice == "12":
-            print("You have selected option twelve, Down.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "13":
-        print("Choice Four")
-        print("13    Plunder")
-        print("14    Fart")
-        print("15    Paint")
-        break
-    if choice == "14":
-        print("Choice Four")
-        print("13    Plunder")
-        print("14    Fart")
-        print("15    Paint")
-        break
-    if choice == "15":
-        print("Choice Four")
-        print("13    Plunder")
-        print("14    Fart")
-        print("15    Paint")
-        break 
-    while True:
-        if choice == "13":
-            print("You have selected option thirteen, Plunder.")
-            break
-        elif choice == "14":
-            print("You have selected option fourteen, Fart.")
-            break
-        elif choice == "15":
-            print("You have selected option fifteen, Paint.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "1":
-        print("Choice Five")
-        print("1     Johnny")
-        print("2     Timmy")
-        print("3     Frodo")
-        break
-    if choice == "2":
-        print("Choice Five")
-        print("1     Johnny")
-        print("2     Timmy")
-        print("3     Frodo")
-        break
-    if choice == "3":
-        print("Choice Five")
-        print("1    Johnny")
-        print("2    Timmy")
-        print("3    Frodo")
-        break
-    while True:
-        if choice == "1":
-            print("You have selected option one, Johnny.")
-            break
-        elif choice == "2":
-            print("You have selected option two, Timmy.")
-            break
-        elif choice == "3":
-            print("You have selected option three, Frodo.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "4":
-        print("Choice Five")
-        print("4     Soon")
-        print("5     When")
-        print("6     Why")
-        break
-    if choice == "5":
-        print("Choice Five")
-        print("4     Soon")
-        print("5     When")
-        print("6     Why")
-        break
-    if choice == "6":
-        print("Choice Five")
-        print("4     Soon")
-        print("5     When")
-        print("6     Why")
-        break
-    while True:
-        if choice == "4":
-            print("You have selected option four, Soon.")
-            break
-        elif choice == "5":
-            print("You have selected option five, When.")
-            break
-        elif choice == "6":
-            print("You have selected option six, Why.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "7":
-        print("Choice Five")
-        print("7     Brig")
-        print("8     Toilets")
-        print("9     Farts")
-        break
-    if choice == "8":
-        print("Choice Five")
-        print("7     Brig")
-        print("8     Toilets")
-        print("9     Farts")
-        break
-    if choice == "9":
-        print("7     Brig")
-        print("8     Toilets")
-        print("9     Farts")
-        break
-    while True:
-        if choice == "7":
-            print("You have selected option seven, Brig.")
-            break
-        elif choice == "8":
-            print("You have selected option eight, Toilets.")
-            break
-        elif choice == "9":
-            print("You have selected option nine, Farts.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "10":
-        print("Choice Five")
-        print("10    Blow")
-        print("11    Slap")
-        print("12    Chase")
-        break
-    if choice == "11":
-        print("Choice Five")
-        print("10    Blow")
-        print("11    Slap")
-        print("12    Chase")
-        break
-    if choice == "12":
-        print("Choice Five")
-        print("10    Blow")
-        print("11    Slap")
-        print("12    Chase")
-        break
-    while True:
-        if choice == "10":
-            print("You have selected option ten, Blow.")
-            break
-        elif choice == "11":
-            print("You have selected option eleven, Slap.")
-            break
-        elif choice == "12":
-            print("You have selected option twelve, Chase.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "13":
-        print("Choice Five")
-        print("13    Rifle")
-        print("14    Vomit")
-        print("15    Books")
-        break
-    if choice == "14":
-        print("Choice Five")
-        print("13    Rifle")
-        print("14    Vomit")
-        print("15    Books")
-        break
-    if choice == "15":
-        print("Choice Five")
-        print("13    Rifle")
-        print("14    Vomit")
-        print("15    Books")
-        break
-    while True:
-        if choice == "13":
-            print("You have selected option thirteen, Riflt.")
-            break
-        elif choice == "14":
-            print("You have selected option fourteen, Vomit.")
-            break
-        elif choice == "15":
-            print("You have selected option fifteen, Books.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "1":
-        print("Choice Six")
-        print("1    Tomorrow")
-        print("2    Next Tuesday")
-        print("3    On Friday")
-        break
-    if choice == "2":
-        print("Choice Six")
-        print("1    Tomorrow")
-        print("2    Next Tuesday")
-        print("3    On Friday")
-        break
-    if choice == "3":
-        print("Choice Six")
-        print("1    Tomorrow")
-        print("2    Tuesday")
-        print("3    Friday")
-        break
-    while True:
-        if choice == "1":
-            print("You have selected option one, Tomorrow.")
-            break
-        elif choice == "2":
-            print("You have selected option two, Tuesday.")
-            break
-        elif choice == "3":
-            print("You have selected option three, Friday.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "4":
-        print("Choice Six")
-        print("4     Wellerman")
-        print("5     Butterfly")
-        print("6     Limousine")
-        break
-    if choice == "5":
-        print("Choice Six")
-        print("4     Wellerman")
-        print("5     Butterfly")
-        print("6     Limousine")
-        break
-    if choice == "6":
-        print("Choice Six")
-        print("4    Wellerman")
-        print("5    Butterfly")
-        print("6    Limousine")
-        break
-    while True:
-        if choice == "4":
-            print("You have selected option four, Wellerman.")
-            break
-        elif choice == "5":
-            print("You have selected option five, Butterfly.")
-            break
-        elif choice == "6":
-            print("You have selected option six, Limousine.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "7":
-        print("Choice Six")
-        print("7     Rises")
-        print("8     Wiggles")
-        print("9     Bubbles")
-        break
-    if choice == "8":
-        print("Choice Six")
-        print("7     Rises")
-        print("8     Wiggles")
-        print("9     Bubbles")
-        break
-    if choice == "9":
-        print("Choice Six")
-        print("7    Rises")
-        print("8    Wiggles")
-        print("9    Bubbles")
-        break
-    while True:
-        if choice == "7":
-            print("You have selected option seven, Rises.")
-            break
-        elif choice == "8":
-            print("You have selected option eight, Wiggles.")
-            break
-        elif choice == "9":
-            print("You have selected option nine, Bubbles.")
-            break
-        else:
-            print("Please choose from the provided options.")
-            continue
-while True:
-    if choice == "10":
-        print("Choice Six")
-        print("10    Attention")
-        print("11    Taxes")
+                elif choice == "8":
+                    print("You have selected option eight, Lately.")
+                    break
+                elif choice == "9":
+                    print("You have selected option nine, Never.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "10":
+                print("Choice Three")
+                print("10    Sea")
+                print("11    News")
+                print("12    Game")
+            if choice == "11":
+                print("Choice Three")
+                print("10    Sea")
+                print("11    News")
+                print("12    Game")
+            if choice == "12":
+                print("Choice Three")
+                print("10    Sea")
+                print("11    News")
+                print("12    Game")
+            while True:
+                if choice == "10":
+                    print("You have selected option ten, Sea.")
+                    break
+                elif choice == "11":
+                    print("You have selected option eleven, News.")
+                    break
+                elif choice == "12":
+                    print("You have selected option twelve, Game.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "13":
+                print("Choice Three")
+                print("13    Pillage")
+                print("14    Sweep")
+                print("15    Bake")
+            if choice == "14":
+                print("Choice Three")
+                print("13    Pillage")
+                print("14    Sweep")
+                print("15    Bake")
+            if choice == "15":
+                print("13    Pillage")
+                print("14    Sweep")
+                print("15    Bake")
+            while True:
+                if choice == "13":
+                    print("You have selected option thirteen, Pillage.")
+                    break
+                elif choice == "14":
+                    print("You have selected option fourteen, Sweep.")
+                    break
+                elif choice == "15":
+                    print("You have selected option fifteen, Bake.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "1":
+                print("Choice Four")
+                print("1     Leave")
+                print("2     Watch")
+                print("3     Trust")
+            if choice == "2":
+                print("Choice Four")
+                print("1     Leave")
+                print("2     Watch")
+                print("3     Trust")
+            if choice == "3":
+                print("Choice Four")
+                print("1     Leave")
+                print("2     Watch")
+                print("3    Trust")
+            while True:
+                if choice == "1":
+                    print("You have selected option one, Leave.")
+                    break
+                elif choice == "2":
+                    print("You have selected option two, Watch.")
+                    break
+                elif choice == "3":
+                    print("You have selected option three, Trust.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "4":
+                print("Choice Four")
+                print("4     Blow")
+                print("5     Sing")
+                print("6     Dance")
+            if choice == "5":
+                print("Choice Four")
+                print("4     Blow")
+                print("5     Sing")
+                print("6     Dance")
+            if choice == "6":
+                print("Choice Four")
+                print("4    Blow")
+                print("5    Sing")
+                print("6    Dance")
+            while True:
+                if choice == "4":
+                    print("You have selected option four, Blow.")
+                elif choice == "5":
+                    print("You have selected option five, Sing.")
+                elif choice == "6":
+                    print("You have selected option six, Dance.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "7":
+                print("Choice Four")
+                print("7     Morning")
+                print("8     Party")
+                print("9     Evening")
+            if choice == "8":
+                print("Choice Four")
+                print("7     Morning")
+                print("8     Party")
+                print("9     Evening")
+            if choice == "9":
+                print("Choice Four")
+                print("7    Morning")
+                print("8    Party")
+                print("9    Evening")
+            while True:
+                if choice == "7":
+                    print("You have selected option seven, Morning.")
+                    break
+                elif choice == "8":
+                    print("You have selected option eight, Party.")
+                    break
+                elif choice == "9":
+                    print("You have selected option nine, Evening.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "10":
+                print("Choice Four")
+                print("10    Me")
+                print("11    You")
+                print("12    Down")
+            if choice == "11":
+                print("Choice Four")
+                print("10    Me")
+                print("11    You")
+                print("12    Down")
+            if choice == "12":
+                print("Choice Four")
+                print("10    Me")
+                print("11    You")
+                print("12    Down")
+            while True:
+                if choice == "10":
+                    print("You have selected option ten, Me.")
+                    break
+                elif choice == "11":
+                    print("You have selected option eleven, You.")
+                    break
+                elif choice == "12":
+                    print("You have selected option twelve, Down.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "13":
+                print("Choice Four")
+                print("13    Plunder")
+                print("14    Fart")
+                print("15    Paint")
+            if choice == "14":
+                print("Choice Four")
+                print("13    Plunder")
+                print("14    Fart")
+                print("15    Paint")
+            if choice == "15":
+                print("Choice Four")
+                print("13    Plunder")
+                print("14    Fart")
+                print("15    Paint")
+            while True:
+                if choice == "13":
+                    print("You have selected option thirteen, Plunder.")
+                    break
+                elif choice == "14":
+                    print("You have selected option fourteen, Fart.")
+                    break
+                elif choice == "15":
+                    print("You have selected option fifteen, Paint.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "1":
+                print("Choice Five")
+                print("1     Johnny")
+                print("2     Timmy")
+                print("3     Frodo")
+            if choice == "2":
+                print("Choice Five")
+                print("1     Johnny")
+                print("2     Timmy")
+                print("3     Frodo")
+            if choice == "3":
+                print("Choice Five")
+                print("1    Johnny")
+                print("2    Timmy")
+                print("3    Frodo")
+            while True:
+                if choice == "1":
+                    print("You have selected option one, Johnny.")
+                    break
+                elif choice == "2":
+                    print("You have selected option two, Timmy.")
+                    break
+                elif choice == "3":
+                    print("You have selected option three, Frodo.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "4":
+                print("Choice Five")
+                print("4     Soon")
+                print("5     When")
+                print("6     Why")
+            if choice == "5":
+                print("Choice Five")
+                print("4     Soon")
+                print("5     When")
+                print("6     Why")
+            if choice == "6":
+                print("Choice Five")
+                print("4     Soon")
+                print("5     When")
+                print("6     Why")
+            while True:
+                if choice == "4":
+                    print("You have selected option four, Soon.")
+                    break
+                elif choice == "5":
+                    print("You have selected option five, When.")
+                    break
+                elif choice == "6":
+                    print("You have selected option six, Why.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "7":
+                print("Choice Five")
+                print("7     Brig")
+                print("8     Toilets")
+                print("9     Farts")
+            if choice == "8":
+                print("Choice Five")
+                print("7     Brig")
+                print("8     Toilets")
+                print("9     Farts")
+            if choice == "9":
+                print("7     Brig")
+                print("8     Toilets")
+                print("9     Farts")
+            while True:
+                if choice == "7":
+                    print("You have selected option seven, Brig.")
+                    break
+                elif choice == "8":
+                    print("You have selected option eight, Toilets.")
+                    break
+                elif choice == "9":
+                    print("You have selected option nine, Farts.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            while True:
+                if choice == "10":
+                    print("Choice Five")
+                    print("10    Blow")
+                    print("11    Slap")
+                    print("12    Chase")
+                if choice == "11":
+                    print("Choice Five")
+                    print("10    Blow")
+                    print("11    Slap")
+                    print("12    Chase")
+                if choice == "12":
+                    print("Choice Five")
+                    print("10    Blow")
+                    print("11    Slap")
+                    print("12    Chase")
+            while True:
+                if choice == "10":
+                    print("You have selected option ten, Blow.")
+                    break
+                elif choice == "11":
+                    print("You have selected option eleven, Slap.")
+                    break
+                elif choice == "12":
+                    print("You have selected option twelve, Chase.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "13":
+                print("Choice Five")
+                print("13    Rifle")
+                print("14    Vomit")
+                print("15    Books")
+            if choice == "14":
+                print("Choice Five")
+                print("13    Rifle")
+                print("14    Vomit")
+                print("15    Books")
+            if choice == "15":
+                print("Choice Five")
+                print("13    Rifle")
+                print("14    Vomit")
+                print("15    Books")
+            while True:
+                if choice == "13":
+                    print("You have selected option thirteen, Riflt.")
+                    break
+                elif choice == "14":
+                    print("You have selected option fourteen, Vomit.")
+                    break
+                elif choice == "15":
+                    print("You have selected option fifteen, Books.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "1":
+                print("Choice Six")
+                print("1    Tomorrow")
+                print("2    Next Tuesday")
+                print("3    On Friday")
+            if choice == "2":
+                print("Choice Six")
+                print("1    Tomorrow")
+                print("2    Next Tuesday")
+                print("3    On Friday")
+            if choice == "3":
+                print("Choice Six")
+                print("1    Tomorrow")
+                print("2    Tuesday")
+                print("3    Friday")
+            while True:
+                if choice == "1":
+                    print("You have selected option one, Tomorrow.")
+                    break
+                elif choice == "2":
+                    print("You have selected option two, Tuesday.")
+                    break
+                elif choice == "3":
+                    print("You have selected option three, Friday.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "4":
+                print("Choice Six")
+                print("4     Wellerman")
+                print("5     Butterfly")
+                print("6     Limousine")
+            if choice == "5":
+                print("Choice Six")
+                print("4     Wellerman")
+                print("5     Butterfly")
+                print("6     Limousine")
+            if choice == "6":
+                print("Choice Six")
+                print("4    Wellerman")
+                print("5    Butterfly")
+                print("6    Limousine")
+            while True:
+                if choice == "4":
+                    print("You have selected option four, Wellerman.")
+                    break
+                elif choice == "5":
+                    print("You have selected option five, Butterfly.")
+                    break
+                elif choice == "6":
+                    print("You have selected option six, Limousine.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "7":
+                print("Choice Six")
+                print("7     Rises")
+                print("8     Wiggles")
+                print("9     Bubbles")
+            if choice == "8":
+                print("Choice Six")
+                print("7     Rises")
+                print("8     Wiggles")
+                print("9     Bubbles")
+            if choice == "9":
+                print("Choice Six")
+                print("7    Rises")
+                print("    Wiggles")
+                print("9    Bubbles")
+            while True:
+                if choice == "7":
+                    print("You have selected option seven, Rises.")
+                    break
+                elif choice == "8":
+                    print("You have selected option eight, Wiggles.")
+                    break
+                elif choice == "9":
+                    print("You have selected option nine, Bubbles.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
+            if choice == "10":
+                print("Choice Six")
+                print("10    Attention")
+                print("11    Taxes")
+                print("12    Biscuit")
+            if choice == "11":
+                print("Choice Six")
+                print("10    Attention")
+                print("11    Taxes")
         print("12    Biscuit")
-        break
-    if choice == "11":
-        print("Choice Six")
-        print("10    Attention")
-        print("11    Taxes")
-        print("12    Biscuit")
-        break
+                    break
     if choice == "12":
         print("Choice Six")
         print("10    Attention")
         print("11    Taxes")
         print("12    Biscuit")
-        break
+                    break
     while True:
         if choice == "10":
             print("You have selected option ten, Attention.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Taxes.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Biscuit.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -968,29 +906,29 @@ while True:
         print("13    Loot")
         print("14    Hoot")
         print("15    Toot")
-        break
+                    break
     if choice == "14":
         print("Choice Six")
         print("13    Loot")
         print("14    Hoot")
         print("15    Toot")
-        break
+                    break
     if choice == "15":
         print("Choice Six")
         print("13    Loot")
         print("14    Hoot")
         print("15    Toot")
-        break
+                    break
     while True:
         if choice == "13":
             print("You have selected option thirteen, Loot.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Hoot.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Toot.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1000,30 +938,30 @@ while True:
         print("1     Pay")
         print("2     Bell")
         print("3    Fish")
-        break
+                    break
     if choice == "2":
         print("Choice Seven")
         print("1     Pay")
         print("2     Bell")
         print("3     Fish")
-        break
+                    break
     if choice == "3":
         print("Choice Seven")
         print("1    Pay")
         print("2    Bell")
         print("3    Fish")
-        break
+                    break
     while True:
         if choice == "1":
             print("You have selected option one, Pay.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Bell.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Fish.")
             print
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1033,29 +971,29 @@ while True:
         print("4     Come")
         print("5     Go")
         print("6     Leave")
-        break
+                    break
     if choice == "5":
         print("Choice Seven")
         print("4     Come")
         print("5     Go")
         print("6     Leave")
-        break
+                    break
     if choice == "6":
         print("Choice Seven")
         print("4     Come")
         print("5     Go")
         print("6     Leave")
-        break
+                    break
     while True:
         if choice == "4":
             print("You have selected option four, Come.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Go.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Leave.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1065,29 +1003,29 @@ while True:
         print("7     Clown")
         print("8     Dunce")
         print("9     Crackers")
-        break
+                    break
     if choice == "8":
         print("Choice Seven")
         print("7     Clown")
         print("8     Dunce")
         print("9     Crackers")
-        break
+                    break
     if choice == "9":
         print("Choice Seven")
         print("7    Clown")
         print("8    Dunce")
         print("9    Crackers")
-        break
+                    break
     while True:
         if choice == "7":
             print("You have selected option seven, Clown.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Dunce.")
-            break
+                        break
         elif choice == "9":
             print("You ahve selecte option nine, Crackers.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1097,29 +1035,29 @@ while True:
         print("10    Blow")
         print("11    Finish")
         print("12    Take")
-        break
+                    break
     if choice == "11":
         print("Choice Seven")
         print("10    Blow")
         print("11    Finish")
         print("12    Take")
-        break
+                    break
     if choice == "12":
         print("Choice Seven")
         print("10    Blow")
         print("11    Finish")
         print("12    Take")
-        break
+                    break
     while True:
         if choice == "10":
             print("You have selected option ten, Blow.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Finish.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Take.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1129,29 +1067,29 @@ while True:
         print("13    Drink")
         print("14    Eat")
         print("15    Shop")
-        break
+                    break
     if choice == "14":
         print("Choice Seven")
         print("13    Drink")
         print("14    Eat")
         print("15    Shop")
-        break
+                    break
     if choice == "15":
         print("Choice Seven")
         print("13    Drink")
         print("14    Eat")
         print("15    Shop")
-        break
+                    break
     while True:
         if choice == "13":
             print("You have selected option thirteen, Drink.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Eat.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Shop.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1161,29 +1099,29 @@ while True:
         print("1     Long")
         print("2     Short")
         print("3     Wild")
-        break
+                    break
     if choice == "2":
         print("Choice Eight")
         print("1     Long")
         print("2     Short")
         print("3     Wild")
-        break
+                    break
     if choice == "3":
         print("Choice Eight")
         print("1    Long")
         print("2    Short")
         print("3    Wild")
-        break
+                    break
     while True:
         if choice == "1":
             print("You have selected option one, Long.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Short.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Wild.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1193,29 +1131,29 @@ while True:
         print("4     Sugar")
         print("5     Twizzlers")
         print("6     Pizza")
-        break
+                    break
     if choice == "5":
         print("Choice Eight")
         print("4     Sugar")
         print("5     Twizzlers")
         print("6     Pizza")
-        break
+                    break
     if choice == "6":
         print("Choice Eight")
         print("4    Sugar")
         print("5    Twizzlers")
         print("6    Pizza")
-        break
+                    break
     while True:
         if choice == "4":
             print("You have selected option four, Sugar.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Twizzlers.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Pizza.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1225,29 +1163,29 @@ while True:
         print("7     Wash")
         print("8     Drink")
         print("9     Smell")
-        break
+                    break
     if choice == "8":
         print("Choice Eight")
         print("7     Wash")
         print("8     Drink")
         print("9     Smell")
-        break
+                    break
     if choice == "9":
         print("Choice Eight")
         print("7     Wash")
         print("8     Drink")
         print("9     Smell")
-        break
+                    break
     while True:
         if choice == "7":
             print("You have selected option seven, Wash.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Drink.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Smell.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1257,29 +1195,29 @@ while True:
         print("10    Deep")
         print("11    Business")
         print("12    Lazy")
-        break
+                    break
     if choice == "11":
         print("Choice Eight")
         print("10    Deep")
         print("11    Business")
         print("12    Lazy")
-        break
+                    break
     if choice == "12":
         print("Choice Eight")
         print("10    Deep")
         print("11    Business")
         print("12    Lazy")
-        break
+                    break
     while True:
         if choice == "10":
             print("You have selected option ten, Deep.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Business.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Lazy.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1289,29 +1227,29 @@ while True:
         print("13    Hearties")
         print("14    Homies")
         print("15    Peeps")
-        break
+                    break
     if choice == "14":
         print("Choice Eight")
         print("13    Hearties")
         print("14    Homies")
         print("15    Peeps")
-        break
+                    break
     if choice == "15":
         print("Choice Eight")
         print("13    Hearties")
         print("14    Homies")
         print("15    Peeps")
-        break
+                    break
     while True:
         if choice == "13":
             print("You have selected option thirteen, Hearties.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Homies.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Peeps.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1321,29 +1259,29 @@ while True:
         print("1     Wind")
         print("2     Food")
         print("3     Smell")
-        break
+                    break
     if choice == "2":
         print("Choice Nine")
         print("1     Wind")
         print("2     Food")
         print("3     Smell")
-        break
+                    break
     if choice == "3":
         print("Choice Nine")
         print("1    Wind")
         print("2    Food")
         print("3    Smell")
-        break
+                    break
     while True:
         if choice == "1":
             print("You have selected option one, Wind.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Food.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Smell.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1353,29 +1291,29 @@ while True:
         print("4     Tea")
         print("5     T-shirts")
         print("6     Shoes")
-        break
+                    break
     if choice == "5":
         print("Choice Nine")
         print("4     Tea")
         print("5     T-shirts")
         print("6     Shoes")
-        break
+                    break
     if choice == "6":
         print("Choice Nine")
         print("4    Tea")
         print("5    T-shirts")
         print("6    Shoes")
-        break
+                    break
     while True:
         if choice == "4":
             print("You have selected option four, Tea.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, T-shirts.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Shoes.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1385,29 +1323,29 @@ while True:
         print("7     Polish")
         print("8     Wipe")
         print("9     Clean")
-        break
+                    break
     if choice == "8":
         print("Choice Nine")
         print("7     Polish")
         print("8     Wipe")
         print("9     Clean")
-        break
+                    break
     if choice == "9":
         print("Choice Nine")
         print("7    Polish")
         print("8    Wipe")
         print("9    Clean")
-        break
+                    break
     while True:
         if choice == "7":
             print("You have selected option seven, Polish.")
-            break
+                        break
         elif choice == "8":
             print("you have selected option eight, Wipe.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Clean.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1417,29 +1355,29 @@ while True:
         print("10    Sailor")
         print("11    Pickle")
         print("12    Fart")
-        break
+                    break
     if choice == "11":
         print("Choice Nine")
         print("10    Sailor")
         print("11    Pickle")
         print("12    Fart")
-        break
+                    break
     if choice == "12":
         print("Choice Nine")
         print("10    Sailor")
         print("11    Pickle")
         print("12    Fart")
-        break
+                    break
     while True:
         if choice == "10":
             print("You have selected option ten, Sailor.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Pickle.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Fart.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1449,29 +1387,29 @@ while True:
         print("13    Yo")
         print("14    Go")
         print("15    No")
-        break
+                    break
     if choice == "14":
         print("Choice Nine")
         print("13    Yo")
         print("14    Go")
         print("15    No")
-        break
+                    break
     if choice == "15":
         print("Choice Nine")
         print("13    Yo")
         print("14    Go")
         print("15    No")
-        break
+                    break
     while True:
         if choice == "13":
             print("You have selected option thirteen, Yo.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Go.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, No.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1481,29 +1419,29 @@ while True:
         print("1     Foul")
         print("2     Cold")
         print("3     Weird")
-        break
+                    break
     if choice == "2":
         print("Choice Ten")
         print("1     Foul")
         print("2     Cold")
         print("3     Weird")
-        break
+                    break
     if choice == "3":
         print("Choice Ten")
         print("1    Foul")
         print("2    Cold")
         print("3    Weird")
-        break
+                    break
     while True:
         if choice == "1":
             print("You have selected option one, Foul.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Cold.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Weird.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1526,13 +1464,13 @@ while True:
     while True:
         if choice == "4":
             print("You have selected option four, Rum.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Coke.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Prune Juice.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1555,13 +1493,13 @@ while True:
         while True:
             if choice == "7":
                 print("You have selected option seven, Standing.")
-                break
+                            break
             elif choice == "8":
                 print("You have selected option eight, Vomit.")
-                break
+                            break
             elif choice == "9":
                 print("You have selected option nine, Laundry.")
-                break
+                            break
             else:
                 print("Please choose from the provided options.")
                 continue
@@ -1583,13 +1521,13 @@ while True:
         while True:
             if choice == "10":
                 print("You have selected option ten, Hong Kong.")
-                break
+                            break
             elif choice == "11":
                 print("You have selected option eleven, The Bronx.")
-                break
+                            break
             elif choice == "12":
                 print("You have selected option twelve, L.A.")
-                break
+                            break
             else:
                 print("Please choose from the provided options.")
                 continue
@@ -1608,17 +1546,17 @@ while True:
         print("13    Kidnap")
         print("14    Play")
         print("15    Buy")
-        break
+                    break
         while True:
             if choice == "13":
                 print("You have selected option thirteen, Kidnap.")
-                break
+                            break
             elif choice == "14":
                 print("You have selected option fourteen, Play.")
-                break
+                            break
             elif choice == "15":
                 print("You have selected option fifteen, Buy.")
-                break
+                            break
             else:
                 print("Please choose from the provided options.")
                 continue
@@ -1640,13 +1578,13 @@ while True:
         while True:
             if choice == "1":
                 print("You have selected option one, None.")
-                break
+                            break
             elif choice == "2":
                 print("You have selected option two, All.")
-                break
+                            break
             elif choice == "3":
                 print("You have selected option three, Some.")
-                break
+                            break
             else:
                 print("Please choose from the provided options.")
                 continue
@@ -1668,13 +1606,13 @@ while True:
         while True:
             if choice == "4":
                 print("You have selected option four, Tonguing.")
-                break
+                            break
             elif choice == "5":
                 print("You have selected option five, Singing.")
-                break
+                            break
             elif choice == "6":
                 print("You have selected option six, Mopping.")
-                break
+                            break
             else:
                 print("Please choose from the provided options.")
                 continue
@@ -1696,13 +1634,13 @@ while True:
         while True:
             if choice == "7":
                 print("You have selected option seven, Leave.")
-                break
+                            break
             elif choice == "8":
                 print("You have selected option eight, Breakfast.")
-                break
+                            break
             elif choice == "9":
                 print("You have selected option nine, Pots.")
-                break
+                            break
             else:
                 print("Please choose from the provided options.")
                 continue
@@ -1724,13 +1662,13 @@ while True:
         while True:
             if choice == "10":
                 print("you have selected option ten, Drink.")
-                break
+                            break
             elif choice == "11":
                 print("You have selected option eleven, Cow.")
-                break
+                            break
             elif choice == "12":
                 print("You have selected option twelve, Toilet.")
-                break
+                            break
             else:
                 print("Please choose from the provided options.")
                 continue
@@ -1744,23 +1682,23 @@ while True:
         print("13    Hoot")
         print("14    Crap")
         print("15    Boot")
-        break
+                    break
     if choice == "15":
         print("Choice Eleven")
         print("13    Hoot")
         print("14    Crap")
         print("15    Boot")
-        break
+                    break
     while True:
         if choice == "13":
             print("You have selected option thirteen, Hoot.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Crap.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Boot.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1786,49 +1724,49 @@ while True:
         choice = input(print("Type the number of your choice and press Enter:  "))
         if choice == "1":
             print("You have selected option one, Bags.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Drugs.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Snacks.")
-            break
+                        break
         elif choice == "4":
             print("You have selected option four, Give.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Sell.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Rent.")
-            break
+                        break
         elif choice == "7":
             print("You have selected option seven, Are.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Why.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Were.")
-            break
+                        break
         elif choice == "10":
             print("You have selected option ten, Dublin.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Mexico.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Houston.")
-            break
+                        break
         elif choice == "13":
             print("You have selected option thirteen, Wide.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Cold.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Fine.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1854,49 +1792,49 @@ while True:
         choice = input(print("Type the number of your choice and press Enter:  "))
         if choice == "1":
             print("You have selected option one, Go.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Stay.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Fight.")
-            break
+                        break
         elif choice == "4":
             print("You have selected option four, Me.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Her.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Them.")
-            break
+                        break
         elif choice == "7":
             print("You have selected option seven, Going.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Dance.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Fly.")
-            break
+                        break
         elif choice == "10":
             print("You have selected otpion ten, Sweet.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Weird.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Old.")
-            break
+                        break
         elif choice == "13":
             print("You have selected option thirteen, Swim.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Buy.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Want.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -1922,49 +1860,49 @@ while True:
         choice = input(print("Type the number of your choice and press Enter:  "))
         if choice == "1":
             print("You have selected option one, Door.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Store.")
-            break   
+                        break   
         elif choice == "3":
             print("You have selected option three, Car.")
-            break
+                        break
         elif choice == "4":
             print("You have selected option four, Home.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Job.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Zone.")
-            break
+                        break
         elif choice == "7":
             print("You have selected option seven, Scarborough.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Grocery.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Comic.")
-            break
+                        break
         elif choice == "10":
             print("You have selected option ten, Push.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Knapsack.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Camaro.")
-            break
+                        break
         elif choice == "13":
             print("You have selected option thirteen, Wing.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Ticket.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Bird.")
-            break
+                        break
         else:
             print("Please choose from the available options.")
             continue
@@ -1990,49 +1928,49 @@ while True:
         choice = input(print("Type the number of your choice and press Enter:  "))
         if choice == "1":
             print("You have selected option one, Hate.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Love.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Want.")
-            break
+                        break
         elif choice == "4":
             print("You have selected option four, Buffalo.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Carrot.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Stanley.")
-            break
+                        break
         elif choice == "7":
             print("You have selected option seven, Parsley.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Basil.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Chicken.")
-            break
+                        break
         elif choice == "10":
             print("You have selected option ten, Push.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Sue.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Shake.")
-            break
+                        break
         elif choice == "13":
             print("You have selected option thirteen, Build.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Buy.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Sell.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -2058,49 +1996,49 @@ while True:
         choice = input(print("Type the number of your choice and press Enter:  "))
         if choice == "1":
             print("You have selected option one, Goodbye.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Hello.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Fart.")
-            break
+                        break
         elif choice == "4":
             print("You have selected option four, Roam.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Sing.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Jump.")
-            break
+                        break
         elif choice == "7":
             print("You have selected option seven, Sage.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Cheese.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Salt.")
-            break
+                        break
         elif choice == "10":
             print("You have selected option ten, Wheelbarrow.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Knapsack.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Camaro.")
-            break
+                        break
         elif choice == "13":
             print("You have selected option thirteen, Me.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Her.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Him.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -2126,49 +2064,49 @@ while True:
         choice = input(print("Type the number of your choice and press Enter:  "))
         if choice == "1":
             print("You have selected option one, Break.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Leave.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Dance.")
-            break
+                        break
         elif choice == "4":
             print("You have selected option four, Deer.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Skunk.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Mouse.")
-            break
+                        break
         elif choice == "7":
             print("You have selected option seven, Rosemary.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Snickers.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Mojitos.")
-            break
+                        break
         elif choice == "10":
             print("You have selected option ten, Street.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Car.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Store.")
-            break
+                        break
         elif choice == "13":
             print("You have selected option thirteen, Boat.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Mouse.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Car.")
-            break
+                        break
     break
 while True:
     print("Choice Seven")
@@ -2191,49 +2129,49 @@ while True:
         choice = input(print("Type the number of your choice and press Enter:  "))
         if choice == "1":
             print("You have selected option one, Morning.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Warm.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Storm.")
-            break
+                        break
         elif choice == "4":
             print("You have selected option four, Antelope.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Ant.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Bear.")
-            break
+                        break
         elif choice == "7":
             print("You have selected option seven, Thyme.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Crime.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Milk.")
-            break
+                        break
         elif choice == "10":
             print("You have selected option ten, Broad.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Closed.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Old.")
-            break
+                        break
         elif choice == "13":
             print("You have selected option thirteen, Carry.")
-            break
+                        break
         elif choice == "14":
             print("You have selected option fourteen, Ferry.")
-            break
+                        break
         elif choice == "15":
             print("You have selected option fifteen, Can't.")
-            break
+                        break
         else:
             print("Please choose from the provided options.")
             continue
@@ -2259,40 +2197,40 @@ while True:
         choice = input(print("Type the number of your choice and press Enter:  "))
         if choice == "1":
             print("You have selected option one, Wait.")
-            break
+                        break
         elif choice == "2":
             print("You have selected option two, Leave.")
-            break
+                        break
         elif choice == "3":
             print("You have selected option three, Burn.")
-            break
+                        break
         elif choice == "4":
             print("You have selected option four, Seldom.")
-            break
+                        break
         elif choice == "5":
             print("You have selected option five, Sometimes.")
-            break
+                        break
         elif choice == "6":
             print("You have selected option six, Daily.")
-            break
+                        break
         elif choice == "7":
             print("You have selected option seven, Thyme.")
-            break
+                        break
         elif choice == "8":
             print("You have selected option eight, Crime.")
-            break
+                        break
         elif choice == "9":
             print("You have selected option nine, Milk.")
-            break
+                        break
         elif choice == "10":
             print("You have selected option ten, Narrow.")
-            break
+                        break
         elif choice == "11":
             print("You have selected option eleven, Nasty.")
-            break
+                        break
         elif choice == "12":
             print("You have selected option twelve, Slippery.")
-            break
+                        break
         elif choice == "13":
             print("You have selected option thirteen, Two.")
             break
