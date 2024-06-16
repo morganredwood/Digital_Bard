@@ -16,94 +16,115 @@ print("First, let's choose a performer for your poem.  I'll let each one of our 
 sleep(3)
 print("Let's hear from Aloysius first.")
 sleep(3)
-while True:
-    while True:
-        while True:
-            while True:
-                while True:
-                    while True:
-                        while True:
-                            while True:
-                                while True:
-                                    while True:
-                                        print("Hi, I'm Aloysius, otherwise known as Narrator One.")
-                                        sleep(3)
-                                        print("If you must cross a course cross cow across a crowded cow crossing, "
-                                            "cross the cross coarse cow across the crowded cow crossing carefully.")
-                                        sleep(3)
-                                        print("How much wood would a woodchuck chuck if a woodchuck could chuck wood?  " 
-                                            "He would chuck, he would, as much as he could, and chuck as much wood as "
-                                            "a woodchuck would if a woodchuck could chuck wood.")
-                                        sleep(3)
-                                        break
-                                    print("Narrator Two here.  My name is Raistlin.")
-                                    sleep(3)
-                                    print("You know New York.  You need New York.  You know you need unique New York.")
-                                    sleep(3)
-                                    print("A skunk sat on a stump and thunk the stump stunk, but the stump thunk the skunk stunk.")
-                                    sleep(3)
-                                    break
-                                print("This is Reginald, Narrator Three.")
-                                sleep(3)
-                                print("The great Greek grape growers grow great Greek grapes.")
-                                sleep(3)
-                                print("Rubber baby buggy bumpers.")
-                                sleep(3)
-                                break 
-                            print("My name is Yaxamie, and I'm Narrator Four.")
-                            sleep(3)
-                            print("I slit the sheet.  The sheet I slit, and on the slitted sheet I sit.")
-                            sleep(3)
-                            print("Six sick hicks nick six slick bricks with picks and sticks.")
-                            sleep(3)
-                            break
-                        print("I'm Narrator Five, Tasslehoff.")
-                        sleep(3)
-                        print("The sixth sick sheikh's sixth sheep's sick.")
-                        sleep(3)
-                        print("Linda Lou Lambert loves lemon lollipop lip gloss.")
-                        sleep(3)
-                        break
-                    print("Thadian here, your Narrator Six.")
-                    sleep(3)
-                    print("Which wrist watches are Swiss wrist watches?")
-                    sleep(3)
-                    print("Rory the warrior and Roger the worrier were reared wrongly in a rural brewery.")
-                    sleep(3)
-                    break
-                print("This is Morgan, Narrator Seven.")
-                sleep(3)
-                print("One One was a race horse.  Two Two was one too.  One One won one race.  Two Two won one too.")
-                sleep(3)
-                print("A synonym for cinnamon is a cinnamon synonym.")
-                sleep(3)
-                print("Betty bought butter, but the butter was bitter, so Betty bought better butter "
-                    "to make the bitter butter better.")
-                sleep(3)
-                break
-            print("I'm Patrick, Narrator Eight.")
-            sleep(3)
-            print("I thought a thought, but the thought I thought wasn't the thought I thought I thought.  "
-                "If the thought I thought had been the thought I thought, I wouldn't have thought I thought.")
-            sleep(3)
-            print("Susie works in a shoeshine shop.  where she shines, she sits, and where she sits, she shines.")
-            sleep(3)
-            break
+
+
+def aloysius():
+    print("Hi, I'm Aloysius, otherwise known as Narrator One.")
+    sleep(3)
+    print("If you must cross a course cross cow across a crowded cow crossing, "
+        "cross the cross coarse cow across the crowded cow crossing carefully.")
+    sleep(3)
+    print("How much wood would a woodchuck chuck if a woodchuck could chuck wood?  "
+        "He would chuck, he would, as much as he could, and chuck as much wood "
+        "as a woodchuck would if a woodchuck could chuck wood.")
+    sleep(3)
+
+
+def raistlin():
+    print("Narrator Two here.  My name is Raistlin.")
+    sleep(3)
+    print("You know New York.  You need New York.  You know you need unique New York.")
+    sleep(3)
+    print("A skunk sat on a stump and thunk the stump stunk, but the stump thunk the skunk stunk.")
+    sleep(3)
+
+
+def reginald():
+    print("This is Reginald, Narrator Three.")
+    sleep(3)
+    print("The great Greek grape growers grow great Greek grapes.")
+    sleep(3)
+    print("Rubber baby buggy bumpers.")
+    sleep(3)
+
+
+def yaxamie():
+    print("My name is Yaxamie, and I'm Narrator Four.")
+    sleep(3)
+    print("I slit the sheet.  The sheet I slit, and on the slitted sheet I sit.")
+    sleep(3)
+    print("Six sick hicks nick six slick bricks with picks and sticks.")
+    sleep(3)
+
+
+def tasslehoff():
+    print("I'm Narrator Five, Tasslehoff.")
+    sleep(3)
+    print("The sixth sick sheikh's sixth sheep's sick.")
+    sleep(3)
+    print("Linda Lou Lambert loves lemon lollipop lip gloss.")
+    sleep(3)
+
+
+def thadian():
+    print("Thadian here, your Narrator Six.")
+    sleep(3)
+    print("Which wrist watches are Swiss wrist watches?")
+    sleep(3)
+    print("Rory the warrior and Roger the worrier were reared wrongly in a rural brewery.")
+    sleep(3)
+
+
+def morgan():
+    print("This is Morgan, Narrator Seven.")
+    sleep(3)
+    print("One One was a race horse.  Two Two was one too.  One One won one race.  Two Two won one too.")
+    sleep(3)
+    print("A synonym for cinnamon is a cinnamon synonym.")
+    sleep(3)
+    print("Betty bought butter, but the butter was bitter, so Betty bought better butter "
+          "to make the bitter butter better.")
+    sleep(3)
+
+
+def patrick():
+    print("I'm Patrick, Narrator Eight.")
+    sleep(3)
+    print("I thought a thought, but the thought I thought wasn't the thought I thought I thought.  "
+                          "If the thought I thought had been the thought I thought, I wouldn't have thought I thought.")
+    sleep(3)
+    print("Susie works in a shoeshine shop.  where she shines, she sits, and where she sits, she shines.")
+    sleep(3)
+    
+    
+def vincent():
         print("Last but not least, I'm Narrator Nine, Vincent.  Nice to meet you, adventurer.")
         sleep(3)
         print("Brisk, brave brigadiers brandished broad, bright blades, blunderbusses, and bludgeons, "
-            "balancing them badly.")
+              "balancing them badly.")
         sleep(3)
         print("Lesser leather never weathered wetter weather better.")
         sleep(3)
         print("Fresh French fried fly fritters.")
         sleep(3)
-        break
-    print("1    Aloysius")  
+        
+        
+#   Main Branch Decision Loop 1:  Choose a narrator for your finished poem.
+while True:
+    aloysius()
+    raistlin()
+    reginald()
+    yaxamie()
+    tasslehoff()
+    thadian()
+    morgan()
+    patrick()
+    vincent()
+    print("1    Aloysius") 
     print("2    Raistlin")
     print("3    Reginald")
     print("4    Yaxamie")
-    print("5    Tasslehoff")
+    print("5    Tasslehoff")    
     print("6    Thadian")
     print("7    Morgan")
     print("8    Patrick")
@@ -118,8 +139,8 @@ while True:
     print("17   Repeat Morgan")
     print("18   Repeat Patrick")
     print("19   Repeat Vincent")
-    choice = input(print("Type the number of your choice and press Enter:"))
     while True:
+        choice = input(print("Type the number of your choice and press Enter:"))
         if choice == "1":
             print("You have selected Narrator One, Aloysius.")
             print("Hip, hip, hooray!")
@@ -155,40 +176,56 @@ while True:
             break
         elif choice == "9":
             print("You have selected Narrator Nine, Vincent.")
-            print("I am not Vincent van Gogh.  I am just a tribute.")
+            print("I am not the greatest painter in the world, Vincent van Gogh.  I am just a tribute.")
             break    
         elif choice == "10":
-            break
-        elif choice == "11":
-            break
-        elif choice == "12":
-            break
-        elif choice == "13":
-            break
-        elif choice == "14":
-            break
-        elif choice == "15":
-            break
-        elif choice == "16":
-            break
-        elif choice == "17":
-            break
-        elif choice == "18":
-            break
-        elif choice == "19":
-            break
-        elif choice == "19":
-            break
-        else:
-            print("Please select from the provided options.")
+            aloysius()
+            raistlin()
+            reginald()
+            yaxamie()
+            tasslehoff()
+            thadian()
+            morgan()
+            patrick()
+            vincent()
             continue
-    continue   
+        elif choice == "11":
+            aloysius()
+            continue
+        elif choice == "12":
+            raistlin()
+            continue
+        elif choice == "13":
+            reginald()
+            continue
+        elif choice == "14":
+            yaxamie()
+            continue
+        elif choice == "15":
+            tasslehoff()
+            continue
+        elif choice == "16":
+            thadian()
+            continue
+        elif choice == "17":
+            morgan()
+            continue
+        elif choice == "18":
+            patrick()
+            continue
+        elif choice == "19":
+            vincent()
+            continue                                                                                    
+        else:
+            print("Please select from the provided options.")   
+            continue
     break
-print("Let's now go to the choice of genre paths.  Here are your four options:")
-print("1    sea shanties and work songs")
-print("2    folk songs")
-print("3    total chaos")
+#   Main Branch Decision Loop 2:  Choose a genre path for your finished poem.
 while True:
+    print("Let's now go to the choice of genre paths.  Here are your three options:")
+    print("1    sea shanties and work songs")
+    print("2    folk songs")
+    print("3    total chaos")
     choice = input(print("Type the number of your choice and press Enter:  "))
     while True:
         if choice == "1":
@@ -203,7 +240,7 @@ while True:
         else:
             print("Please selected from the provided options.")
             continue
-# Path One: sea shanties and work songs.
+    #   Nested Decision Loop 2.1:  If you choose sea shanties and work songs.
     while True:
         if choice == "1":
             print("Choice One")
@@ -222,56 +259,56 @@ while True:
             print("13    Pirate")
             print("14    Teacher")
             print("15    Lawyer")
-        while True:
-            choice = input(print("Type the number of your choice and press Enter:  "))
-            if choice == "1":
-                print("You have selected option one, I.")
-                break
-            elif choice == "2":
-                print("You have selected option two, They.")
-                break
-            elif choice == "3":
-                print("You have selected option three, We.")
-                break
-            elif choice == "4":
-                print("You have selected option four, Once.")
-                break
-            elif choice == "5":
-                print("You have selected option five, Twice.")
-                break
-            elif choice == "6":
-                print("You have selected option six, Thrice.")
-                break
-            elif choice == "7":
-                print("You have selected option seven, Drunken.")
-                break
-            elif choice == "8":
-                print("You have selected option eight, Farting.")
-                break
-            elif choice == "9":
-                print("You have selected option nine, Stupid.")
-                break
-            elif choice == "10":
-                print("You have selected option ten, Young.")
-                break
-            elif choice == "11":
-                print("You have selected option eleven, Old.")
-                break
-            elif choice == "12":
-                print("You have selected option twelve, Fat.")
-                break
-            elif choice == "13":
-                print("You have selected option thirteen, Pirate.")
-                break
-            elif choice == "14":
-                print("You have selected option fourteen, Teacher.")
-                break
-            elif choice == "15":
-                print("You have selected option fifteen, Lawyer.")
-                break
-            else:
-                print("Please choose from the provided options.")
-                continue
+            while True:
+                choice = input(print("Type the number of your choice and press Enter:  "))
+                if choice == "1":
+                    print("You have selected option one, I.")
+                    break
+                elif choice == "2":
+                    print("You have selected option two, They.")
+                    break
+                elif choice == "3":
+                    print("You have selected option three, We.")
+                    break
+                elif choice == "4":
+                    print("You have selected option four, Once.")
+                    break
+                elif choice == "5":
+                    print("You have selected option five, Twice.")
+                    break
+                elif choice == "6":
+                    print("You have selected option six, Thrice.")
+                    break
+                elif choice == "7":
+                    print("You have selected option seven, Drunken.")
+                    break
+                elif choice == "8":
+                    print("You have selected option eight, Farting.")
+                    break
+                elif choice == "9":
+                    print("You have selected option nine, Stupid.")
+                    break
+                elif choice == "10":
+                    print("You have selected option ten, Young.")
+                    break
+                elif choice == "11":
+                    print("You have selected option eleven, Old.")
+                    break
+                elif choice == "12":
+                    print("You have selected option twelve, Fat.")
+                    break
+                elif choice == "13":
+                    print("You have selected option thirteen, Pirate.")
+                    break
+                elif choice == "14":
+                    print("You have selected option fourteen, Teacher.")
+                    break
+                elif choice == "15":
+                    print("You have selected option fifteen, Lawyer.")
+                    break
+                else:
+                    print("Please choose from the provided options.")
+                    continue
         while True:
             if choice == "1":
                 print("Choice Two")
@@ -1647,9 +1684,8 @@ while True:
                 else:
                     print("Please choose from the provided options.")
                     continue
-            break
-        break
-    break
+
+#   Nested Decision Loop 2.2:  If you choose folk songs.
 # Path Two:  folk songs
     while True:
         print("Choice One")
@@ -2394,6 +2430,7 @@ while True:
         else:
             print("Please choose from the provided options.")
             continue
+#   Nested Decision loop 2.3:  If you choose total chaos.
 # Part 3:  total chaos
     while True:
         print("Choice One")
@@ -3635,3 +3672,4 @@ while True:
                 print("Please choose from the provided options.")
                 continue
         break
+#   Main Branch Decision Loop 3: See/Hear your poem.
