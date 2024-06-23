@@ -257,12 +257,15 @@ while True:
                         #   Choice One
                         if choice == "1":
                             print("You have selected option one, I.")
+                            track1("I thought I heard") 
                             break
                         if choice == "2":
                             print("You have selected option two, They.")
+                            track1("They thought they heard")
                             break
                         if choice == "3":
                             print("You have selected option three, We.")
+                            track1("We thought we heard")
                             break
                     print("Choice Two")
                     print("1    Old")
@@ -276,12 +279,15 @@ while True:
                         #   Choice Two
                         if choice == "1":
                             print("You have selected option one, Old.")
+                            track2("The Old")
                             break
                         elif choice == "2":
                             print("You have selected option two, Tall.")
+                            track2("The Tall")
                             break
                         elif choice == "3":
                             print("You have selected option three, Sad.")
+                            track2("The Sad")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -298,12 +304,15 @@ while True:
                         #   Choice Three
                         if choice == "1":
                             print("You have selected option one, Say.")
+                            track3("Man say")
                             break
                         elif choice == "2":
                             print("You have selected option two, Yell.")
+                            track3("Man yell")
                             break
                         elif choice == "3":
                             print("You have selected option three, Wish.")
+                            track3("Man wish")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -320,12 +329,45 @@ while True:
                         #   Choice Four
                         if choice == "1":
                             print("You have selected option one, Leave.")
+                            track4("Leave her,")
+                            track6("leave her.")
+                            track9("And it's time for us to leave her.")
+                            track12("Leave her,")
+                            track14("leave her.")
+                            track16("And it's time for us to leave her.")
+                            track17("Leave her,")
+                            track19("leave her.")
+                            track20("Oh, leave her,")
+                            track22("leave her.")
+                            track24("And it's time for us to leave her.")
                             break
                         elif choice == "2":
                             print("You have selected option two, Watch.")
+                            track4("Watch her,")
+                            track6("watch her.")
+                            track9("And it's time for us to watch her.")
+                            track12("Watch her,")
+                            track14("leave her.")
+                            track16("And it's time for us to watch her.")
+                            track17("Watch her,")
+                            track19("watch her.")
+                            track20("Oh, watch her,")
+                            track22("watch her.")
+                            track24("And it's time for us to watch her.")
                             break
                         elif choice == "3":
                             print("You have selected option three, Trust.")
+                            track4("Trust her,")
+                            track6("trust her.")
+                            track9("And it's time for us to trust her.")      
+                            track12("Trust her,")     
+                            track14("trust her.")        
+                            track16("And it's time for us to trust her.")  
+                            track17("Trust her.")
+                            track19("trust her.")
+                            track20("Oh, trust her,")
+                            track22("trust her.")
+                            track24("And it's time for us to trust her.")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -342,12 +384,24 @@ while True:
                         #   Choice Five
                         if choice == "1":
                             print("You have selected option one, Johnny.")
+                            track5("Johnny,")
+                            track13("Johnny,")
+                            track18("Johnny,")
+                            track21("Johnny,")
                             break
                         elif choice == "2":
                             print("You have selected option two, Timmy.")
+                            track5("Timmy,")
+                            track13("Timmy,")
+                            track18("Timmy,")
+                            track21("Timmy,")
                             break
                         elif choice == "3":
                             print("You have selected option three, Frodo.")
+                            track5("Frodo,")
+                            track13("Frodo,")
+                            track18("Frodo,")
+                            track21("Timmy,")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -364,12 +418,15 @@ while True:
                         #   Choice Six
                         if choice == "1":
                             print("You have selected option one, Tomorrow.")
+                            track7("Tomorrow, ye will")
                             break
                         elif choice == "2":
                             print("You have selected option two, Tuesday.")
+                            track7("Next Tuesday, ye will")
                             break
                         elif choice == "3":
                             print("You have selected option three, Friday.")
+                            track7("On Friday, ye will")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -386,12 +443,15 @@ while True:
                         #   Choice Seven
                         if choice == "1":
                             print("You have selected option one, Pay.")
+                            track8("get your pay.")
                             break
                         elif choice == "2":
                             print("You have selected option two, Bell.")
+                            track8("get your bell.")
                             break
                         elif choice == "3":
                             print("You have selected option three, Fish.")
+                            track8("get your fish.")
                             break
                     else:
                         print("Please choose from the provided options.")
@@ -408,12 +468,15 @@ while True:
                         #   Choice Eight
                         if choice == "1":
                             print("You have selected option one, Long.")
+                            track23("For the voyage is long, and the winds don't blow.")
                             break
                         elif choice == "2":
                             print("You have selected option two, Short.")
+                            track23("For the voyage is short, and the winds don't blow.")
                             break
                         elif choice == "3":
                             print("You have selected option three, Wild.")
+                            track23("For the voyage is wild, and the winds don't blow.")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -430,12 +493,15 @@ while True:
                         #   Choice Nine
                         if choice == "1":
                             print("You have selected option one, Wind.")
+                            track10("Oh, the wind")
                             break   
                         elif choice == "2":
                             print("You have selected option two, Food.")
+                            track10("Oh, the food")
                             break
                         elif choice == "3":
                             print("You have selected option three, Smell.")
+                            track10("Oh, the smell")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -452,12 +518,15 @@ while True:
                         #   Choice Ten
                         if choice == "1":
                             print("You have selected option one, Foul.")
+                            track11("was foul, and the sea ran high.")
                             break
                         elif choice == "2":
                             print("You have selected option two, Cold.")
+                            track11("was cold, and the sea ran high.")
                             break
                         elif choice == "3":
                             print("You have selected option three, Weird.")
+                            track11("was weird, and the sea ran high.")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -473,12 +542,15 @@ while True:
                         #   Choice Ten
                         if choice == "1":
                             print("You have selected option one, None.")
+                            track15("She shipped it green, and none went by.")
                             break
                         elif choice == "2":
                             print("You have selected option two, All.")
+                            track15("She shipped it green, and all went by.")
                             break
                         elif choice == "3":
                             print("You have selected option three, Some.")
+                            track15("She shipped it green, and some went by.")
                             break
                         else:
                             print("Please choose from the provided options.")
@@ -493,12 +565,15 @@ while True:
                     #   Choice One
                         if choice == "4":
                             print("You have selected option four, Once.")
+                            track1("There once was a ship that put to sea.")
                             break
                         if choice == "5":
                             print("You have selected option five, Twice.")
+                            track1("There twice was a ship that put to sea.")
                             break
                         if choice == "6":
                             print("You have selected option six, Thrice.")
+                            track1("There thrice was a ship that put to sea.")
                             break
                     print("Choice Two")
                     print("1    Billy")
@@ -511,12 +586,15 @@ while True:
                         #   Choice Two
                         if choice == "1":
                             print("You have selected option one, Billy.")
+                            track2("The name of the ship was the Billy of Tea.")
                             break
                         if choice == "2":
                             print("You have selected option two, Enterprise.")
+                            track2("The name of the ship was the Enterprise D.")
                             break
                         if choice == "3":
                             print("You have selected option three, Carpenter.")
+                            track2("The name of the ship was the Carpenter Bee.")
                             break
                     print("Choice Three")
                     print("1    Up")
@@ -529,12 +607,15 @@ while True:
                         #   Choice Three
                         if choice == "1":
                             print("You have selected option one, Up.")
+                            track3("The winds blew up.  Her bow dipped down.")
                             break
                         if choice == "2":
                             print("You have selected option two, Down.")
+                            track3("The winds blew down.  Her bow dipped down.")
                             break
                         if choice == "3":
                             print("You have selected option three, In.")  
+                            track3("The winds blew in.  The bow dipped down.")
                             break
                     print("Choice Four")
                     print("1    Blow")
@@ -547,12 +628,15 @@ while True:
                         #   Choice Four
                         if choice == "1":
                             print("You have selected option one, Blow.")
+                            track4("Oh, blow, my bully boys, blow.")
                             break
                         if choice == "2":
                             print("You have selected option two, Sing.")
+                            track4("Oh, sing, my bully boys, sing.")
                             break
                         if choice == "3":
                             print("You have selected option three, Dance.")
+                            track4("Oh, dance, my bully boys, dance.")
                             break
                     print("Choice Five")
                     print("1    Soon")
@@ -565,12 +649,15 @@ while True:
                         #   Choice Five
                         if choice == "1":
                             print("You have selected option one, Soon.")
+                            track5("Soon may")
                             break
                         if choice == "2":
                             print("You have selected option two, When.")
+                            track5("When may")
                             break
                         if choice == "3":
                             print("You have selected option three, Why.")
+                            track5("Why may")
                             break
                     print("Choice Six")
                     print("1    Wellerman")
@@ -583,12 +670,15 @@ while True:
                         #   Choice Six
                         if choice == "1":
                             print("You have selected option one, Wellerman.")
+                            track6("the Wellerman")
                             break
                         if choice == "2":
                             print("You have selected option two, Butterfly.")
+                            track6("the Butterfly")
                             break
                         if choice == "3":
                             print("You have seelcted option three, Limousine.")
+                            track6("the Limousine")
                             break
                     print("Choice Seven")
                     print("1    Come")
@@ -601,12 +691,15 @@ while True:
                         #   Choice Seven
                         if choice == "1":
                             print("You have selected option one, Come.")
+                            track7("come")
                             break
                         if choice == "2":
                             print("You have selected option two, Go.")
+                            track7("go")
                             break
                         if choice == "3":
                             print("You have selected option three, Leave.")
+                            track7("leave")
                             break
                     print("Choice Eight")
                     print("1    Sugar")
@@ -619,12 +712,15 @@ while True:
                     #   Choice Eight
                         if choice == "1":
                             print("You have selected option one, Sugar.")
+                            track8("to bring us sugar")
                             break
                         if choice == "2":
                             print("You have selected option two, Twizzlers.")
+                            track8("to bring us Twizzlers")
                             break
                         if choice == "3":
                             print("You have selected option three, Pizza.")
+                            track8("to bring us pizza")
                             break
                     print("Choice Nine")
                     print("1    Tea")
@@ -636,7 +732,8 @@ while True:
                     while True:
                     #   Choice Nine
                         if choice == "1":
-                            print("You have selected option one, Tea.")  
+                            print("You have selected option one, Tea.")
+                            track9
                             break
                         if choice == "2":
                             print("You have selected option two, T-shirts.")
@@ -2164,7 +2261,7 @@ while True:
                 print("4    Once        19  Give")
                 print("5    Twice       20  Sell")
                 print("6    Thrice      21  Rent")
-                print("7    Drunken     21  Rent")
+                print("7    Drunken     21  Are")
                 print("8    Farting     23  Why")
                 print("9    Stupid      24  Were")
                 print("10   Young       25  Dublin")
@@ -2496,7 +2593,7 @@ while True:
                 print("9    Evening     24  Chicken")
                 print("10   Me          25  Her")
                 print("11   You         26  His")
-                print("12   Down        27  My")
+                print("12   Them        27  My")
                 print("13   Plunder     28  Build")
                 print("14   Fart        29  Buy")
                 print("15   Faint       30  Sell")
@@ -3375,363 +3472,4 @@ while True:
         break
 #   Main Branch Loop:  Listening to your finished poem.
 while True:
-    #   Leave Her, Johnny
-        #   I/They/We thought I/They/We heard
-            #   I thought I heard the Old Man say, "Leave her, Johnny."
-            #   They thought they heard the Old Man say, "Leave her, Johnny."
-            #   We thought we heard the Old Man say, "Leave her, Johnny."
-        #   The Old/Tall/Sad Man say/yell/wish
-            #   I thought I heard the Old Man say, "Leave her, Johnny."
-            #   I thought I heard the Tall Man say, "Leave her, Johnny."
-            #   I thought I heard the Sad Man say, "Leave her, Johnny."
-            #   I thought I heard the Old Man yell, "Leave her, Johnny."
-            #   I thought I heard the Old Man wish, "Leave her, Johnny."
-        #   Leave/Watch/Trust her, Johnny/Timmy/Frodo, Leave/Watch/Trust her
-            #   Leave her.
-            #   Watch her.
-            #   Trust her.
-            #   Leave her, Johnny.
-            #   Leave her, Timmy.
-            #   Leave her, Frodo.
-        #   Tomorrow/Next Tuesday/On Friday, ye will get your pay/bell/fish
-            #   Tomorrow, ye will get your pay.
-            #   Next Tuesday, ye will get your pay.
-            #   On Friday, ye will get your pay.
-            #   Tomorrow, ye will get your bell.
-            #   Tomorrow, ye will get your fish.
-        #   And it's time for us to leave/watch/trust her
-            #   And it's time for us to leave her.
-            #   And it's time for us to watch her.
-            #   And it's time for us to trust her.
-        #   Oh, the wind/food/smell was foul/cold/weird, and the sea ran high
-            #   Oh, the wind was foul.
-            #   Oh, the food was foul.
-            #   Oh, the smell was foul.
-            #   Oh, the wind was cold, and the sea ran high.
-            #   Oh, the wind was weird, and the sea ran high.
-        #   She shipped it green, and none/all/some went by
-            #   She shipped it green, and none went by.
-            #   She shipped it green, and all went by.
-            #   She shipped it green, and some went by.
-        #   Oh, leave/watch/trust her, Johnny/Timmy/Frodo, leave/watch/trust her
-            #   Oh, leave her, Johnny, leave her.
-            #   Oh, watch her, Johnny, watch her.
-            #   Oh, trust her, Johnny, trust her.
-            #   Oh, leave her, Timmy.
-            #   Oh, leave her, Frodo.
-        #   For the voyage is long/short/wild, and the winds don't blow
-            #   For the voyage is long, and the winds don't blow.
-            #   For the voyage is short, adn the winds don't blow.
-            #   For the voyage is wild, adn the winds don't blow.
-    #   Wellerman
-        #   There once/twice/thrice was a ship that put to sea
-            #   There once was a ship that put to sea.
-            #   There twice was a ship that put to sea.
-            #   There thrice was a ship that put to sea.
-        #   The name of the ship was the Billy of Tea/Enterprise D/Carpenter Bee
-            #   The name of the ship was the Billy of Tea.
-            #   The name of the ship was the Enterprise D.
-            #   The name of the ship was the Carpenter Bee.
-        #   The winds blew up/down/in, her bow dipped down
-            #   The winds blew up.
-            #   The winds blew down.
-            #   The winds blew in.
-            #   Her bow dipped down.
-        #   Oh, blow/sing/dance, my bully boys, blow/sing/dance
-            #   Oh, blow, my bully boys, blow.
-            #   Oh, sing, my bully boys, sing.
-            #   Oh, dance, my bully boys, dance.
-        #   Soon/When/Why may the Wellerman/Butterfly/Limousine come/go/leave
-            #   Soon may the Wellerman come to bring us sugar and tea and rum.
-            #   When may the Wellerman come to bring us sugar and tea and rum?
-            #   Why may the Wellerman come to bring us sugar and tea and rum?
-            #   Soon may the Wellerman go.
-            #   Soon may the Wellerman leave.
-            #   Soon may the Butterfly come.
-            #   Soon may the Limousine come.
-        #   To bring us sugar/Twizzlers/pizza and tea/T-shirts/shoes and rum/Coke/prune juice
-            #   Soon may the Wellerman come to bring us sugar and tea and rum.
-            #   Soon may the Wellerman come to bring us Twizzlers and tea and rum.
-            #   Soon may the Wellerman come to bring us pizza and tea and rum.
-            #   Soon may the Wellerman come to bring us sugar and T-shirts and Coke.
-            #   Soon may the Wellerman come to bring us sugar and shoes and prune juice.
-        #   One day when the tonguing/singing/mopping is done
-            #   One day when the tonguing is done, we'll take our leave and go.
-            #   One day when the singing is done, we'll take our leave and go.
-            #   One day when the mopping is done, we'll take our leave and go.
-    #   Drunken Sailor
-        #   What do you do with a drunken/farting/stupid sailor/bouncer/painter
-            #   What do you do with a drunken sailor early in the morning?
-            #   What do you do with a drunken bouncer early in the morning?
-            #   What do you do with a drunken painter early in the morning?
-            #   What do you do with a farting sailor early in the morning?
-            #   What do you do with a farting bouncer early in the morning?
-            #   What do you do with a farting painter early in the morning?
-            #   What do you do with a stupid sailor early in the morning?
-            #   What do you do with a stupid bouncer early in the morning?
-            #   What do you do with a stupid painter early in the morning?
-        #   Early/Lately/Never in the morning/at the party/in the evening
-            #   What do you do with a drunken sailor lately in the morning?
-            #   What do you do with a drunken sailor lately at the party?
-            #   What do you do with a drunken sailor lately in the evening?
-            #   What do you do with a drunken sailor never in the morning?            
-        #   Put him in the brig/Make him clean the toilets/Make him smell your farts until he's sober
-            #   Put him in the brig until he's sober.
-            #   Make him clean the toilets until he's sober.
-            #   Make him smell your farts until he's sober.
-            #   Make him wear a clown suit until he's sober.
-            #   Make him wear a dunce cap until he's sober.
-            #   Make him just eat crackers until he's sober.
-        #   Wey, hey, and up she rises/wiggles/bubbles.
-            #   Wey, hey, and up she rises.
-            #   Wey, hey, and up she wiggles.
-            #   Wey, hey, and up she bubbles.
-        #   Make him wash your clothes/drink just prune juice/smell your farts until he's sober
-            #   Make him wash your clothes until he's sober.
-            #   Make him drink just prune juice until he's sober.
-            #   Make him smell your farts until he's sober.
-        #   Make him polish silver/Make him wipe your boogers/Make him clean the toilets until he's standing/until he vomits/and do the laundry
-            #   Make him polish silver until he's sober.
-            #   Make him wipe your boogers until he's sober.
-            #   Make him clean the toilets until he's sober.
-            #   Make him clean the toilets until he's standing.
-            #   Make him clean the toilets until he vomits.
-            #   Make him clean the toilets and do the laundry.
-        #   Make him leave a message/cook your breakfast once he is sober/scrub the pots until he's sober
-            #   Make him leave a message until he's sober.
-            #   Make him cook your breakfast once he is sober.
-            #   Make him scrub the pots until he's sober.
-    #   Blow the Man Down
-        #   Come all you young/old/fat fellows/chickens/farters who follow the sea/news/game
-            #   Come all you young fellows who follow the sea.
-            #   Come all you old fellows who follow the sea.
-            #   Come all you fat fellows who follow the sea.
-            #   Come all you young farters who follow the sea.
-            #   Come all you young chickens who follow the news.
-            #   Come all you young fellows who follow the game.
-        #   To me/you/them way, hey, blow/slap/chase the man down
-            #   To me, way, hey, blow the man down.
-            #   To you, way, hey, blow the man down.
-            #   To them way, hey, blow the man down.
-            #   Slap the man down.
-            #   Chase the man down.
-        #   And pray pay attention/pay your taxes/have a biscuit and listen to me
-            #   And pray pay attention and listen to me.
-            #   And pray pay your taxes and listen to me.
-            #   And pray have a biscuit and listen to me.
-        #   Gimme some time to blow the man down/finish this round/take the mail down
-            #   Give me some time to blow the man down.
-            #   Give me some time to finish this round.
-            #   Give me some time to take the mail down.
-        #   I'm a deep water/business class/lazy old sailor/pickle/fart just in from Hong Kong/the Bronx/L.A.
-            #   I'm a deep water sailor just in from Hong Kong.
-            #   I'm a business class sailor just in from Hong Kong.
-            #   I'm a lazy old sailor just in from Hong Kong.
-            #   I'm a deep water sailor just in from the Bronx.
-            #   I'm a deep water silor just in from L.A.
-            #   I'm a deep water pickle just in from Hong Kong.
-            #   I'm a deep water fart just in from Hong Kong.
-        #   If you buy me a drink/cow/toilet, then I'll sing you a song
-            #   If you buy me a drink, then I'll sing you a song.
-            #   If you buy me a cow, then I'll sing you a song.
-            #   If you buy me a toilet, then I'll sing you a song.
-    #   Yo Ho (A Pirate's Life for Me)
-        #   Yo ho, yo ho, a pirate's/teacher's/lawyer's life for me/her/them
-            #   Yo ho, yo ho, a pirate's life for me.
-            #   Yo ho, yo ho, a teacher's life for me.
-            #   Yo ho, yo ho, a lawyer's life for me.
-            #   Yo ho, yo ho, a pirate's life for her.
-            #   Yo ho, yo ho, a pirate's life for them.
-        #   We pillage/sweep/bake, we plunder/fart/faint, we rifle/vomit/read books and loot/hoot/toot
-            #   We pillage, we plunder, we rifle and loot.
-            #   We sweep.
-            #   We bake.
-            #   We plunder.
-            #   We fart.
-            #   We faint.
-            #   We rifle and loot.
-            #   We vomit and loot.
-            #   We read books and loot.
-            #   We rifle and hoot.
-            #   We rifle and toot.
-        #   Drink up/Eat up/Shop more, me hearties/me homies/me peeps, yo ho/and go/oh no
-            #   Drink up, me hearties, yo ho.
-            #   Eat up, me hearties, yo ho.
-            #   Shop more, me hearties, yo ho.
-            #   Drink up, me homies, yo ho.
-            #   Drink up, me peeps, yo ho.
-            #   Drink up, me hearties, and go.
-            #   Drink up, me hearties, oh no.
-        #   We kidnap/play games/buy stuff and ravage and don't give a hoot/crap/boot
-            #   We kidnap and ravage and don't give a hoot.
-            #   We play games and ravage and don't give a hoot.
-            #   We buy stuff and ravage and don't give a hoot.
-            #   We kidnap and ravage and don't give a crap.
-            #   We kidnap and ravage and don't give a boot.
-    #   Leaving on a Jet Plane
-        #   All my bags/drugs/snacks are packed
-            #   All my bags are packed.
-            #   All my drugs are packed.
-            #   All my snacks are packed.
-        #   I'm ready to go/stay/fight
-            #   I'm ready to go.
-            #   I'm ready to stay.
-            #   I'm ready to fight.
-        #   I'm standing here outside your door/store/car
-            #   I'm standing here outside your door.
-            #   I'm standing here outside your store.
-            #   I'm standing here outside your car.
-        #   I hate/love/want to wake you up to say goodbye/hello/I farted
-            #   I hate to wake you up to say goodbye.
-            #   I love to wake you up to say goodbye.
-            #   I want to wake you up to say goodbye.
-            #   I hate to wake you up to say hello.
-            #   I hate to wake you up to say I farted.
-        #   But the dawn is breaking/leaving/dancing
-            #   But the dawn is breaking.
-            #   But the dawn is leaving.
-            #   But the dawn is dancing.
-        #   It's early morn/early warm/gonna storm
-            #   It's early morn.
-            #   It's early warm.
-            #   It's gonna storm.
-        #   The taxi's waiting/leaving/burning
-            #   The taxi's waiting.
-            #   The taxi's leaving.
-            #   The taxi's burning.
-        #   He's blowing his horn
-            #   He's blowing his horn.
-        #   Already, I'm so lonesome/sleepy/angry I could die/fly/sue
-            #   Already, I'm so lonesome I could die.
-            #   Already, I'm so sleepy I could die.
-            #   Already, I'm so angry I could die.
-            #   Already, I'm so lonesome I could fly.
-            #   Already, I'm so lonesome I could sue.
-        #   So kiss me and smile for me
-            #   So kiss me and smile for me.
-        #   Tell me that you'll wait for me
-            #   Tell me that you'll wait for me.
-        #   Hold me like you'll never let me go/belch/fart
-            #   Hold me like you'll never let me go.
-            #   Hold me like you'll never let me belch.
-            #   Hold me like you'll never let me fart.
-        #   'Cause I'm leaving on a jet plane
-            #   'Cause I'm leaving on a jet plane.
-        #   Don't know when I'll be back again
-            #   Don't know when I'll be back again.
-        #   Oh, babe, I hate to go
-            #   Oh, babe, I hate to go.
-    #   Home on the Range
-        #   Oh, give/sell/rent me/her/them a home/job/zone where the buffalo/carrot cakes/Stanley cups roam/sing/jump
-            #   Oh, give me a home where the buffalo roam.
-            #   Oh, sell me a home where the buffalo roam.
-            #   Oh, rent me a home where the buffalo roam.
-            #   Oh, give me a job where the buffalo roam.
-            #   Oh, give me a zone where the buffalo roam.
-            #   Oh, give me a home where the carrot cakes roam.
-            #   Oh, give me a home where the Stanley cups roam.
-            #   Oh, give me a home where the buffalo sing.
-            #   Oh, give mea  home where the buffalo jump.
-        #   Where the deer/skunk/mouse and the antelope/ant sometimes/bear sometimes play
-            #   Oh, give me a home where the deer and the antelope play.
-            #   Oh, give me a home where the skunk and the antelope play.
-            #   Oh, give me a home where the mouse and teh antelope play.
-            #   Oh, give me a home where the deer and the ant sometimes play.
-            #   Oh, give me a home where the deer and teh bear sometimes play.
-        #   Where seldom/sometimes/daily is heard a discouraging word/an encouraging word/a ridiculous word
-            #   Oh, give me a home where seldom is heard a discouraging word.
-            #   Oh, give me a home where sometimes is heard a discouraging word.
-            #   Oh, give me a home where daily is heard a discouraging word.
-            #   Oh, give me a home where seldom is heard an encouraging word.
-            #   Oh, give me a home where seldom is heard a ridiculous word.
-        #   And the skies/beers/eyes are not cloudy all day
-            #   And the skies are not cloudy all day.
-            #   And the beers are not cloudy all day.
-            #   And the eyes are not cloudy all day.
-        #   Home, home on the range
-            # Home, home on the range where the deer and the antelope play.
-        #   And the skies are not cloudy/stormy/rainy all day
-            #   And the skies are not cloudy all day.
-            #   And the skies are not stormy all day.
-            #   And the skies aer not rainy all day.
-    #   Scarborough Fair
-        #   Are/Why/Were you going/dancing/flying to Scarborough Fair/the grocery store/the comic book store
-            #   Are you going to Scarborough Fair?
-            #   Why are you going to Scarborough Fair?
-            #   Were you going to Scarborough Fair?
-            #   Are you flying to Scarborough Fair?
-            #   Are you dancing to Scarborough Fair?
-            #   Are you going to the grocery store?
-            #   Are you going to the comic book store? 
-        #   Parsley/Basil/Chicken, sage/cheese/salt, rosemary/a Snickers/mojitos, and thyme/crime/milk
-            #   Parsley, sage, rosemary, and thyme.
-            #   Basil, sage, rosemary, and thyme.
-            #   Chicken, sage, rosemary, and thyme.
-            #   Parsley, sage, rosemary, and thyme.
-            #   Parsley, cheese, a Snickers, and crime.
-            #   Basil, salt, mojitos, and crime.
-            #   Parsley, sage, rosemary, and milk.
-        #   Remember me/him/her/forget me/him/her/trash talk me/him/her to one who lives there/here/near
-            #   Remember me to one who lives there.
-            #   Remember him to one who lives there.
-            #   Remember her to one who lives there.
-            #   Forget me to one who lives there.
-            #   Trash talk me to one who lives there.
-            #   Remember me to one who lives there.
-            #   Remember me to one who lives here.
-            #   Remember me to one who lives near.
-        #   For she once was a true love/a llama/a hater of mine
-            #   For she once was a true love of mine.
-            #   For she once was a hater of mine.
-            #   For she once was a llama of mine.
-    #   Cockles and Mussels
-        #   In Dublin's fair city/Mexico City/Houston's fair city
-            #   In Dublin's fair city, where the girls are so pretty.
-            #   In Mexico city, where the girls are so pretty.
-            #   In Houston's fair city, where the girls are so pretty.
-        #   I once met a girl named sweet/weird/old Molly Malone
-            #   I once met a girl named Sweet Molly Malone.
-            #   I once met a girl named Weird Molly Malone.
-            #   I once met a girl named Old Molly Malone.
-        #   As she pushed/sued/shook her/his/my wheelbarrow/old knapsack/Camaro
-            #   As she pushed her wheelbarrow.
-            #   As she sued her wheelbarrow.
-            #   As she shook her wheelbarrow.
-            #   As she pushed her old knapsack.
-            #   As she pushed her Camaro.
-        #   Through streets/cars/stores broad/closed/old and narrow/nasty/slippery
-            #   As she pushed her wheelbarrow through streets broad and narrow.
-            #   As she pushed her wheelbarrow through streets broad and nasty.
-            #   As she pushed her wheelbarrow through streets broad and slippery.
-            #   As she pushed her wheelbarrow through cars broad and narrow.
-            #   As she pushed her wheelbarrow through stores broad and narrow.
-            #   As she pushed her wheelbarrow through streets closed and slippery.
-            #   As she pushed her wheelbarrow through streets old and nasty.
-        #   Crying, "Cockles/Cookies/Pencils and mussels/taters/French fries, alive, alive, oh!"/I've got the best, oh!"/Just pay what you owe!"
-            #   Crying, "Cockles and mussels, alive, alive, oh!"
-            #   Crying, "Cookies and taters, I've got the best, oh!"
-            #   Crying, "Pencils and French fries, just pay what you owe!"  
-    #   The Water Is Wide
-        #   Oh, the water is wide/cold/fine
-            #   Oh, the water is wide.
-            #   Oh, the water is cold.
-            #   Oh, the water is fine.
-        #   I can't swim o'er/buy more/want more
-            #   I can't swim o'er.
-            #   I can't buy more.
-            #   I can't want more.
-        #   And neither have I wings/a ticket/birds to fly
-            #   And neither have I wings to fly.
-            #   And neither have I a ticket to fly.
-            #   And neither have I some birds to fly.
-        #   Give/Buy/Sell me/her/him a boat/mouse/car that will carry two/three/four/ferry two/three/four/can't carry two/three/four
-            #   Give me a boat that will carry two.
-            #   Buy her a mouse that will ferry three.
-            #   Sell him a car that will carry four.
-            #   Give me a mouse that will carry two.
-            #   Give me a car that can't carry two.
-        #   A boat shall row/tow/leave my love/bro/cat and I/You/Her
-            #   A boat shall row my love and I.
-            #   A boat shall tow my bro and you.
-            #   A boat shall leave my cat and her.
-            
+    
